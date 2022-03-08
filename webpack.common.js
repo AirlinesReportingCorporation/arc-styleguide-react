@@ -9,7 +9,7 @@ const extractSass = new MiniCssExtractPlugin({
 
 module.exports = {
   entry: {
-    custom: "./src/index.jsx",
+    "arc-styleguide-react": "./src/index.jsx",
   },
   output: {
     filename: "[name].min.js",
