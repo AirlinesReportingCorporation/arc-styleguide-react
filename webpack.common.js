@@ -1,59 +1,55 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const webpack = require("webpack");
-const NodePolyfillPlugin = require("node-polyfill-webpack-plugin")
-
+const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
 
 const extractSass = new MiniCssExtractPlugin({
-    filename: "[name].min.css",
-    chunkFilename: "[id].css"
+  filename: "[name].min.css",
+  chunkFilename: "[id].css",
 });
 
 module.exports = {
-    entry: {
-        "arc-styleguide-react": "./src/index.jsx",
-    },
-    output: {
-        filename: "[name].min.js",
-        path: path.resolve(__dirname, "dist")
-    },
-    target: ['web', 'es5'],
-    module: {
-        rules: [
-            {
-                test: /\.(js|jsx)$/,
-                exclude: /node_modules/,
-                use: {
-                  loader: "babel-loader",
-                  options: {
-                    presets: ["@babel/preset-env", "@babel/preset-react"]
-                  }
-                }
-              },
-              {
-                test: /\.(sa|sc|c)ss$/,
-                use: [
-                  MiniCssExtractPlugin.loader,
-                  "css-loader",
-                  "sass-loader"
-                ]
-              },
-        ]
-    },
-    resolve: {
-        alias: {
-            vue: "vue/dist/vue.js"
+  entry: {
+    "arc-styleguide-react": "./src/index.jsx",
+    "arc-styleguide-react-1": "./src/app-page1.jsx",
+  },
+  output: {
+    filename: "[name].min.js",
+    path: path.resolve(__dirname, "dist"),
+  },
+  target: ["web", "es5"],
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env", "@babel/preset-react"],
+          },
         },
-        extensions: ["*", ".js", ".jsx"]
+      },
+      {
+        test: /\.(sa|sc|c)ss$/,
+        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+      },
+    ],
+  },
+  resolve: {
+    alias: {
+      vue: "vue/dist/vue.js",
     },
-    plugins: [
-        new webpack.ProvidePlugin({
-          $: "jquery",
-          jQuery: "jquery",
-          "window.jQuery": "jquery"
-        }),
-        new webpack.HotModuleReplacementPlugin(),
-        extractSass,
-        new NodePolyfillPlugin()
-      ],
+    extensions: ["*", ".js", ".jsx"],
+  },
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery",
+    }),
+    new webpack.HotModuleReplacementPlugin(),
+    extractSass,
+    new NodePolyfillPlugin(),
+  ],
 };
