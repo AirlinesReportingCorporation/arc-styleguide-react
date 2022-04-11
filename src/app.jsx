@@ -11,11 +11,11 @@ class App extends Component {
   render() {
     return (
       <div style={{ width: "100%" }}>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              Start Here
-            </div>
+        <div class="flex_container">
+          <div class="flex_side_sticky">
+            
+          </div>
+          <div class="flex_right_content">
           </div>
         </div>
       </div>
