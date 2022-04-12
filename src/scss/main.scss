@@ -1,30 +1,64 @@
 app {
-    font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+  font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
 }
 .flex_container {
-    display: flex;
-    max-width: 1449px;
-    width: 100%;
-    margin: auto;
+  display: flex;
+  max-width: 1449px;
+  width: 100%;
+  margin: auto;
 }
 
 .top_nav {
-    height: 110px;
-    width: 1449px;
-    background-color: #1A9CB1;
-    margin: auto;
+  height: 110px;
+  width: 1449px;
+  background-color: #1a9cb1;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.icon-arc-logo {
+  font-size: 60px;
+  color: white;
+  margin-left: 26px;
+
+}
+
+.styles-top-menu {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    margin-right: 189px;
+    justify-content: space-evenly;
+    width: 33%;
+    align-content: center;
+
+    ul {
+        margin: 0;
+        color: #FFFFFF;
+        font-family: "Source Sans Pro";
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 25px;
+    }
 }
 
 .flex_side_sticky {
-    width: 278px;
-    border: 1px solid gray;
-    background: lightblue;
+  width: 278px;
+  border: 1px solid gray;
+  background: lightblue;
+}
+
+.nav-menu {
+    margin-left: 24px;
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
 }
 
 .style-main-item {
-    height: 27px;
-  width: 182px;
-  color: #2A2B2C;
+  color: #2a2b2c;
   font-family: "Source Sans Pro";
   font-size: 21px;
   font-weight: 600;
@@ -33,9 +67,9 @@ app {
 }
 
 .style-sub-item {
-    height: 20px;
+  height: 20px;
   width: 71px;
-  color: #6D6E71;
+  color: #6d6e71;
   font-family: "Source Sans Pro";
   font-size: 16px;
   letter-spacing: 0;
@@ -43,6 +77,6 @@ app {
 }
 
 .flex_right_content {
-    flex: 1;
-    background: lightgreen;
+  flex: 1;
+  background: lightgreen;
 }
