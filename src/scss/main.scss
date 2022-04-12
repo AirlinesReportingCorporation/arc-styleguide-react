@@ -5,11 +5,14 @@ app {
     display: flex;
     max-width: 1449px;
     width: 100%;
+    margin: auto;
 }
 
 .top_nav {
     height: 110px;
     width: 1449px;
+    background-color: #1A9CB1;
+    margin: auto;
 }
 
 .flex_side_sticky {
@@ -42,5 +45,4 @@ app {
 .flex_right_content {
     flex: 1;
     background: lightgreen;
-
 }
