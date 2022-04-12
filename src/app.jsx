@@ -95,6 +95,7 @@ class App extends Component {
              </div>
           </div>
           <div class="flex_right_content">
+          {this.getComponent()}
           </div>
         </div>
       </div>
