@@ -1,11 +1,46 @@
 app {
     font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
 }
+.flex_container {
+    display: flex;
+    max-width: 1449px;
+    width: 100%;
+}
+
+.top_nav {
+    height: 110px;
+    width: 1449px;
+}
 
 .flex_side_sticky {
     width: 278px;
+    border: 1px solid gray;
+    background: lightblue;
+}
+
+.style-main-item {
+    height: 27px;
+  width: 182px;
+  color: #2A2B2C;
+  font-family: "Source Sans Pro";
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.style-sub-item {
+    height: 20px;
+  width: 71px;
+  color: #6D6E71;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
 }
 
 .flex_right_content {
     flex: 1;
+    background: lightgreen;
+
 }
