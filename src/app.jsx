@@ -1,21 +1,25 @@
 import React, { Component } from "react";
 
-
+import Landing from "./app-page1";
+import Page from "./app-page2";
 
 class App extends Component {
   constructor() {
     super();
+    this.state = {
+      currentComponent : '',
+    }
     
   }
 
   getComponent(){
     let component;
     switch (this.state.currentComponent){
-        case 'compA' :
-            component = <CompA/>;
+        case 'Landing' :
+            component = <Landing/>;
             break;
-        case 'compB' :
-            component = <CompB/>;
+        case 'Page' :
+            component = <Page/>;
             break;
         case 'compC' :
             component = <CompC/>;
@@ -34,19 +38,19 @@ class App extends Component {
         <div className="top_nav">
             <div className="icon-arc-logo"></div>
             <div className="styles-top-menu">
-              <ul>Brand Overview</ul>
+              <ul onClick={this.setState({currentComponent: 'Landing'})}>Brand Overview</ul>
               <ul>Style Guide</ul>
               <ul>Media Kit</ul>
             </div>
           </div>
-        <div class="flex_container">
-          <div class="flex_side_sticky">
+        <div className="flex_container">
+          <div className="flex_side_sticky">
              <div className="navbar">
                <div className="nav-menu">
                  <ul className="nav-menu-items style-main-item">
                    Our Brand
                  </ul>
-                 <ul className="nav-menu-items style-main-item">
+                 <ul onClick={this.setState({currentComponent: 'Page'})} className="nav-menu-items style-main-item">
                    Using Our Brand
                  </ul>
                  <ul className="nav-menu-items style-sub-item">
@@ -94,7 +98,7 @@ class App extends Component {
                </div>
              </div>
           </div>
-          <div class="flex_right_content">
+          <div className="flex_right_content">
           {this.getComponent()}
           </div>
         </div>
