@@ -2,6 +2,7 @@
     border: 1px solid grey;
     max-width: 400px;
     width: 100%;
+    margin: auto;
 }
 
 .term-usage-copy {
@@ -9,11 +10,26 @@
 }
 
 .incorrect-bar, .correct-bar {
+    margin: auto;
     max-width: 400px;
     width: 100%;
     min-height: 12.35px;
-    margin-top: 20px;
+    margin-top: 20px !important;
 
+}
+
+.bottom-area {
+    margin: auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+.term-type {
+    margin: auto;
+}
+
+.term-explaination {
+    margin: auto;
 }
 
 .incorrect-bar {
