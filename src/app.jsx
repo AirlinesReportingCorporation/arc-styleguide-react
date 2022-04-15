@@ -85,6 +85,10 @@ class App extends Component {
               </div>
             </div>
           </div>
+          <TermsUsage
+            incorrectCopy="This is wrong"
+            correctCopy="This is right"
+          />
         </div>
       </Layout>
     );

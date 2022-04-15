@@ -1,0 +1,25 @@
+.incorrect, .correct {
+    border: 1px solid grey;
+    max-width: 400px;
+    width: 100%;
+}
+
+.term-usage-copy {
+    margin-left: 58px;
+}
+
+.incorrect-bar, .correct-bar {
+    max-width: 400px;
+    width: 100%;
+    min-height: 12.35px;
+    margin-top: 20px;
+
+}
+
+.incorrect-bar {
+    background-color: #E90C0C;
+}
+
+.correct-bar {
+    background-color: #8AC926;
+}
