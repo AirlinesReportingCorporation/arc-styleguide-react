@@ -11,15 +11,14 @@ class Page extends Component {
 
   render() {
     return (
-      <div style={{ width: "100%" }}>
-        <div className="container">
-        <img src="https://www2.arccorp.com/globalassets/styleguide/images/masthead.png" alt="" />
-          <div className="row">
-            <div className="col-lg-12">App page2</div>
-            Page 2 Testing
-          </div>
-        </div>
+      <Layout active="our-brand">
+      <div>
+        <TermsUsage
+          incorrectCopy="This is wrong"
+          correctCopy="This is right"
+        />
       </div>
+    </Layout>
     );
   }
 }
