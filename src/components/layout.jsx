@@ -10,7 +10,7 @@ class Layout extends Component {
 
   render() {
     return (
-      <div style={{ width: "100%" }}>
+      <div className="styleguide-page" style={{ width: "100%" }}>
         <TopNav active={this.props.active} />
 
         <div className="flex_container">
