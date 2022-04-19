@@ -1,10 +1,8 @@
 @import "./partials/boxarrow";
 @import "./partials/termusage";
-<<<<<<< HEAD
+
 @import "./partials/buttonbox";
-=======
 @import "./partials/docs";
->>>>>>> update with page doc styles
 
 app {
   font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
@@ -32,36 +30,36 @@ app {
 }
 
 .styles-top-menu {
-    flex-direction: row;
-    display: flex;
-    margin-left: auto;
-    margin-right: 189px;
-    justify-content: space-evenly;
-    width: 33%;
-    align-content: center;
+  flex-direction: row;
+  display: flex;
+  margin-left: auto;
+  margin-right: 189px;
+  justify-content: space-evenly;
+  width: 33%;
+  align-content: center;
 
-    ul {
-        margin: 0;
-        color: #FFFFFF;
-        font-family: "Source Sans Pro";
-        font-size: 18px;
-        font-weight: 600;
-        letter-spacing: 0;
-        line-height: 25px;
-    }
+  ul {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
 }
 
 .flex_side_sticky {
   width: 278px;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   background: #fff;
 }
 
 .nav-menu {
-    margin-left: 24px;
-    margin-top: 38px;
-    display: flex;
-    flex-direction: column;
+  margin-left: 24px;
+  margin-top: 38px;
+  display: flex;
+  flex-direction: column;
 }
 
 .style-main-item {
@@ -87,24 +85,24 @@ app {
 }
 
 .masthead-landing {
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    margin-bottom: 48px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  margin-bottom: 48px;
 }
 
-.style-guide-h2{
+.style-guide-h2 {
   margin-top: 60px;
   margin-bottom: 30px;
 }
 
-.content-area{
-    justify-content: center;
-    max-width: 890px;
-    width: 100%;
-    margin: auto;
+.content-area {
+  justify-content: center;
+  max-width: 890px;
+  width: 100%;
+  margin: auto;
 }
 
 .explore-styleguide-row {
