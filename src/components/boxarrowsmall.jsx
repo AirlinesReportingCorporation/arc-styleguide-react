@@ -9,7 +9,7 @@ class BoxArrowSmall extends Component {
   render() {
     return (
       <div className={this.props.className ? this.props.className : "box-arrow-small"}>
-        <div>{this.props.copy}</div>
+        <div>{this.props.copy}</div> <i class="fa fa-arrow-right style-guide-arrow" aria-hidden="true"></i>
       </div>
     );
   }

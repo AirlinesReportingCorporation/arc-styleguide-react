@@ -72,23 +72,19 @@ class App extends Component {
             <h2>Explore Our Style Guide</h2>
             <div className="row">
               <div className="col-4">
-                <BoxArrow copy="Using the ARC Brand" />
+                <BoxArrow copy="Using the ARC Brand" image="https://www2.arccorp.com/globalassets/covid19/ARC.png"/>
               </div>
               <div className="col-4">
               <BoxArrow copy="ARC's Visual Identity"/>
               </div>
               <div className="col-4">
-              <BoxArrow/>
+              <BoxArrow copy="Writing Style Guide & Best Practices"/>
               </div>
               <div className="col-4">
-              <BoxArrow/>
+              <BoxArrow copy="Web Style Guide"/>
               </div>
             </div>
           </div>
-          <TermsUsage
-            incorrectCopy="This is wrong"
-            correctCopy="This is right"
-          />
         </div>
       </Layout>
     );
