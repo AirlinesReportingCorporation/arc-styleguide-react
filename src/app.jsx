@@ -15,25 +15,6 @@ class App extends Component {
     };
   }
 
-  getComponent() {
-    let component;
-    switch (this.state.currentComponent) {
-      case "Landing":
-        component = <Landing />;
-        break;
-      case "Page":
-        component = <Page />;
-        break;
-      case "compC":
-        component = <CompC />;
-        break;
-      case "compD":
-        component = <CompD />;
-        break;
-    }
-    return component;
-  }
-
   render() {
     return (
       <Layout active="our-brand">
@@ -69,7 +50,7 @@ class App extends Component {
                 <BoxArrowSmall copy="Presentation" />
               </div>
             </div>
-            <h2>Explore Our Style Guide</h2>
+            <h2 className="style-guide-h2">Explore Our Style Guide</h2>
             <div className="row no-gutters explore-styleguide-row">
               <div className="col-4">
                 <BoxArrow copy="Using the ARC Brand" image="https://www2.arccorp.com/globalassets/covid19/ARC.png"/>

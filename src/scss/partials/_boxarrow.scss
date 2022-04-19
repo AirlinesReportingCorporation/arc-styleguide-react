@@ -22,6 +22,12 @@
   font-family: Source Sans Pro Semibold;
 }
 
+.box-arrow-title{
+  text-align: left;
+  max-width: 170px;
+  line-height: 28px;
+}
+
 .style-guide-arrow {
   margin-right: 27px;
   margin-left: auto;
@@ -36,4 +42,13 @@
 .image-center {
   width: 100%;
   margin: auto;
+
+  img {
+    width: 200px;
+  }
+}
+
+.box-arrow {
+  bottom: 16px;
+  
 }

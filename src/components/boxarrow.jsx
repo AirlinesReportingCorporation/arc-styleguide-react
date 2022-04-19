@@ -11,7 +11,7 @@ class BoxArrow extends Component {
         className={this.props.className ? this.props.className : "box-arrow"}
       >
         <div className="box-arrow-inner">
-          <div style={{ textAlign: "left" }}>{this.props.copy}</div>
+          <div className="box-arrow-title">{this.props.copy}</div>
           <div className="image-center">
             <img src={this.props.image} alt="" className="BoxArrowImg" />
           </div>

@@ -18,13 +18,12 @@ app {
   margin: auto;
   display: flex;
   align-items: center;
-}
 
-.icon-arc-logo {
-  font-size: 60px;
-  color: white;
-  margin-left: 26px;
-
+  .icon-arc-logo {
+    font-size: 60px;
+    color: white;
+    margin-left: 26px;
+  }
 }
 
 .styles-top-menu {
@@ -91,6 +90,10 @@ app {
     margin-bottom: 48px;
 }
 
+.style-guide-h2{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
 
 .content-area{
     justify-content: center;
