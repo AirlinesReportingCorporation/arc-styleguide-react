@@ -11,7 +11,7 @@ const extractSass = new MiniCssExtractPlugin({
 module.exports = {
   entry: {
     "arc-styleguide-react": "./src/index.jsx",
-    "arc-styleguide-react-1": "./src/app-page1.jsx",
+    "arc-styleguide-react-1": "./src/writing-style-guide.jsx",
   },
   output: {
     filename: "[name].min.js",

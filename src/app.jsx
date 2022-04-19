@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import Landing from "./app-page1";
-import Page from "./app-page2";
 import BoxArrow from "./components/boxarrow";
 import BoxArrowSmall from "./components/boxarrowsmall";
 import ButtonBox from "./components/buttonBox";
