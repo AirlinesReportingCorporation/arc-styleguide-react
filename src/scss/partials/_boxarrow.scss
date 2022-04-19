@@ -2,13 +2,13 @@
   border: 1px solid grey;
   font-size: 24px;
   line-height: 49px;
-  padding-left: 38px;
+  padding-left: 23px;
   align-items: center;
-  display: flex;
   font-family: Source Sans Pro Semibold;
-  margin: 13px 6px;
-  max-height: 289px;
-  height: 100%;
+  margin-right: 12px;
+  margin-bottom: 26px;
+  min-width: 289px;
+  min-height: 289px;
 }
 
 .box-arrow-small {
@@ -25,4 +25,15 @@
 .style-guide-arrow {
   margin-right: 27px;
   margin-left: auto;
+}
+
+.box-arrow-image {
+  max-width: 217px;
+  width: 100%;
+  margin: 44px 36px 30px 36px;
+}
+
+.image-center {
+  width: 100%;
+  margin: auto;
 }

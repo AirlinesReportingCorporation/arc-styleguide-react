@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-
 class BoxArrow extends Component {
   constructor(props) {
     super(props);
@@ -8,10 +7,18 @@ class BoxArrow extends Component {
 
   render() {
     return (
-      <div className={this.props.className ? this.props.className : "box-arrow"}>
-        <div>{this.props.copy}</div>
-        <img src={this.props.image} alt="" className="BoxArrowImg" />
-        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      <div
+        className={this.props.className ? this.props.className : "box-arrow"}
+      >
+        <div className="box-arrow-inner">
+          <div style={{ textAlign: "left" }}>{this.props.copy}</div>
+          <div className="image-center">
+            <img src={this.props.image} alt="" className="BoxArrowImg" />
+          </div>
+          <div className="arrow">
+          <i class="fa fa-arrow-right style-guide-arrow" aria-hidden="true"></i>
+          </div>
+        </div>
       </div>
     );
   }

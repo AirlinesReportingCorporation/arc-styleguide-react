@@ -70,7 +70,7 @@ class App extends Component {
               </div>
             </div>
             <h2>Explore Our Style Guide</h2>
-            <div className="row">
+            <div className="row no-gutters explore-styleguide-row">
               <div className="col-4">
                 <BoxArrow copy="Using the ARC Brand" image="https://www2.arccorp.com/globalassets/covid19/ARC.png"/>
               </div>
