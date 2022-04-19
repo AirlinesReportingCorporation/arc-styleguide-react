@@ -1,0 +1,62 @@
+.styleguide-doc-page {
+  width: 890px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.styleguide-doc-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  .styleguide-doc-inner {
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &.border-bottom {
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  h1 {
+    font-family: SourceSansPro-Semibold, SourceSansPro-Regular, Arial, Helvetica,
+      sans-serif;
+    color: #2a2b2c;
+    font-size: 66px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: SourceSansPro-Semibold, SourceSansPro-Regular, Arial, Helvetica,
+      sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #2a2b2c;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-family: SourceSansPro-Semibold, SourceSansPro-Regular, Arial, Helvetica,
+      sans-serif;
+    font-size: 28px;
+    color: #2a2b2c;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 22px;
+    color: #6D6E71;
+    margin-bottom: 30px;
+  }
+
+  p {
+    color: #6D6E71;
+    &.styleguide-doc-subtitle {
+      font-size: 24px;
+      line-height: 28px;
+      color: #868b8c;
+    }
+  }
+}
