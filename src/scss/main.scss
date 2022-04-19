@@ -1,6 +1,10 @@
 @import "./partials/boxarrow";
 @import "./partials/termusage";
+<<<<<<< HEAD
 @import "./partials/buttonbox";
+=======
+@import "./partials/docs";
+>>>>>>> update with page doc styles
 
 app {
   font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
@@ -79,7 +83,7 @@ app {
 
 .flex_right_content {
   flex: 1;
-  background: lightgreen;
+  //background: lightgreen;
 }
 
 .masthead-landing {
