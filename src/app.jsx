@@ -9,9 +9,6 @@ import TermsUsage from "./components/termusage";
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      currentComponent: "",
-    };
   }
 
   render() {
