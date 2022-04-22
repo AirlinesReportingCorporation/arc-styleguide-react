@@ -8,11 +8,11 @@ class TermDef extends Component {
 
   render() {
     return (
-      <div className="row">
+      <div className="row term-def">
         <div className="col-3">
-          <h3>{this.props.term}</h3>
+          <h3 className="term-item">{this.props.term}</h3>
         </div>
-        <div className="col-9">
+        <div className="col-9 term-definition">
            {this.props.definition}
         </div>
       </div>

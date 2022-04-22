@@ -226,7 +226,7 @@ class ARCBrand extends Component {
               term="Vision"
               definition={
                 <div>
-                  <p style={{ color: "#189BB0", fontSize: "30px" }}>
+                  <p className="term-def-large">
                     To strengthen economies and enrich lives through the growth
                     of global air travel.
                   </p>{" "}
@@ -241,7 +241,7 @@ class ARCBrand extends Component {
               term="Tagline"
               definition={
                 <div>
-                  <p style={{ color: "#189BB0", fontSize: "30px" }}>
+                  <p className="term-def-large">
                     Accelerate the growth of global air travel.
                   </p>
                   <p>
@@ -254,7 +254,7 @@ class ARCBrand extends Component {
               term="Tagline"
               definition={
                 <div>
-                  <p style={{ color: "#189BB0", fontSize: "30px" }}>
+                  <p className="term-def-large">
                     The Intelligence Behind Air Travel
                   </p>
                   <p>
@@ -303,7 +303,7 @@ class ARCBrand extends Component {
             <TermDef
               term=""
               definition={
-                <p style={{ color: "#189BB0", fontSize: "36px" }}>
+                <p style={{ color: "#189BB0", fontSize: "36px", fontFamily: "Source Sans Pro Semibold", textAlign: "center" }}>
                   The ARC Voice is confident, inspiring, intelligent and
                   researched.
                 </p>
