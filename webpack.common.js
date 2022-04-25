@@ -13,6 +13,7 @@ module.exports = {
     "arc-styleguide-react": "./src/index.jsx",
     "arc-styleguide-react-1": "./src/writing-style-guide.jsx",
     "arc-styleguide-react-2": "./src/our-brand.jsx",
+    "arc-styleguide-react-3": "./src/visual-identity.jsx"
   },
   output: {
     filename: "[name].min.js",
