@@ -5,6 +5,9 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Layout from "./components/layout";
 import TermDef from "./components/termdefinition";
+import BoxArrow from "./components/boxarrow";
+import TermsUsage from "./components/termusage";
+import ColorBox from "./components/colorbox";
 
 class Visual extends Component {
   constructor() {
@@ -48,6 +51,71 @@ class Visual extends Component {
               </div>
             </div>
             <TermDef />
+            <TermDef />
+            <div className="row">
+              <div className="col-lg-6">
+                {/* <Box /> */}
+              </div>
+              <div className="col-lg-6">
+                {/* <Box /> */}
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-3">
+                {/* <Box /> */}
+              </div>
+              <div className="col-lg-3">
+                {/* <Box /> */}
+              </div>
+              <div className="col-lg-3">
+                {/* <Box /> */}
+              </div>
+              <div className="col-lg-3">
+                {/* <Box /> */}
+              </div>
+            </div>
+            <div className="row">
+                <h2></h2>
+                <div></div>
+                <button className="ctaBtn">Download</button>
+            </div>
+            <div className="row">
+                <h2></h2>
+                <p></p>
+                <div className="typography-block">Typogaphy box here</div>
+            </div>
+            <div className="row">
+                <h3></h3>
+                <p>
+                </p>
+            </div>
+            <TermsUsage incorrectCopy="" incorrectInfo="" correctCopy="" correctInfo=""/>
+            <TermsUsage incorrectCopy="" incorrectInfo="" correctCopy="" correctInfo=""/>
+            <TermsUsage incorrectCopy="" incorrectInfo="" correctCopy="" correctInfo=""/>
+            <TermsUsage incorrectCopy="" incorrectInfo="" correctCopy="" correctInfo=""/>
+            <TermsUsage incorrectCopy="" incorrectInfo="" correctCopy="" correctInfo=""/>
+            <TermsUsage incorrectCopy="" incorrectInfo="" correctCopy="" correctInfo=""/>
+            <div className="row">
+                <h2></h2>
+                <p></p>
+            </div>
+            <h3></h3>
+            <div className="row">
+                <ColorBox name="ARC Teal" pms="229C (7421U)" cmyk="55, 98, 47, 54" rgb="07, 28, 58" hex="#189BB0"/>
+                <ColorBox pms="" cmyk="" rgb="" hex=""/>
+                <ColorBox pms="" cmyk="" rgb="" hex=""/>
+                <ColorBox pms="" cmyk="" rgb="" hex=""/>
+            </div>
+            <h3></h3>
+            <div className="row">
+                {/* <AccordianColor /> */}
+            </div>
+            <h3></h3>
+            <div className="row">
+                {/* <AccordianColor /> */}
+            </div>
+            <h3></h3>
+            <p></p>
           </div>
         </div>
       </Layout>
