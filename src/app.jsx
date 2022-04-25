@@ -48,20 +48,19 @@ class App extends Component {
             </div>
             <h2 className="style-guide-h2">Explore Our Style Guide</h2>
             <div className="row no-gutters explore-styleguide-row">
-              <div className="col-4">
+              <div className="col-lg-4">
                 <BoxArrow copy="Using the ARC Brand" image="https://www2.arccorp.com/globalassets/covid19/ARC.png"/>
               </div>
-              <div className="col-4">
+              <div className="col-lg-4">
               <BoxArrow copy="ARC's Visual Identity"/>
               </div>
-              <div className="col-4">
+              <div className="col-lg-4">
               <BoxArrow copy="Writing Style Guide & Best Practices"/>
               </div>
-              <div className="col-4">
+              <div className="col-lg-4">
               <BoxArrow copy="Web Style Guide"/>
               </div>
             </div>
-            <ButtonBox button="Click me"/>
           </div>
         </div>
       </Layout>
