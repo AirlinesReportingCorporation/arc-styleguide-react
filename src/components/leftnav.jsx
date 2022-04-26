@@ -11,29 +11,39 @@ class LeftNav extends Component {
       <div className="flex_side_sticky">
         <div className="navbar">
           <div className="nav-menu">
-            <ul className="nav-menu-items style-main-item">Our Brand</ul>
-            <ul
-              className="nav-menu-items style-main-item"
-            >
-              Using Our Brand
+            <ul className="nav-menu-items style-main-item">
+              <a href="/our-brand.html">Our Brand</a>
             </ul>
-            <ul className="nav-menu-items style-sub-item">Brand Language</ul>
-            <ul className="nav-menu-items style-sub-item">Brand Voice</ul>
-            <ul className="nav-menu-items style-main-item">Visual Identity</ul>
+            <ul className="nav-menu-items style-main-item">
+              <a href="/our-brand.html">Using Our Brand</a>
+            </ul>
+            <ul className="nav-menu-items style-sub-item">
+              <a href="/our-brand.html">Using Our Brand</a>
+            </ul>
+            <ul className="nav-menu-items style-sub-item">
+              <a href="/our-brand.html">Brand Voice</a>
+            </ul>
+            <ul className="nav-menu-items style-main-item">
+              <a href="/visual-identity.html">Visual Identity</a>
+            </ul>
             <ul className="nav-menu-items style-sub-item">Logo</ul>
             <ul className="nav-menu-items style-sub-item">Typography</ul>
             <ul className="nav-menu-items style-sub-item">Color Palette</ul>
             <ul className="nav-menu-items style-main-item">
-              Writing Style Guide & Best Practices
+              <a href="/writing-style-guide.html">
+                Writing Style Guide & Best Practices
+              </a>
             </ul>
             <ul className="nav-menu-items style-sub-item">
-              Frequently Used Terms
+              <a href="/writing-style-guide.html">Frequently Used Terms</a>
             </ul>
             <ul className="nav-menu-items style-sub-item">
-              Formatting Dates, Times, & Numbers
+              <a href="/writing-style-guide.html">
+                Formatting Dates, Times, & Numbers
+              </a>
             </ul>
             <ul className="nav-menu-items style-sub-item">
-              Grammar & Punctuating
+              <a href="/writing-style-guide.html">Grammar & Punctuating</a>
             </ul>
             <ul className="nav-menu-items style-main-item">Web Style Guide</ul>
             <ul className="nav-menu-items style-sub-item">Typography</ul>

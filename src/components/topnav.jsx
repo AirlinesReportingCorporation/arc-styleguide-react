@@ -9,7 +9,7 @@ class TopNav extends Component {
   render() {
     return (
       <div className="top_nav">
-        <div className="icon-arc-logo"></div>
+        <a href="/" className="icon-arc-logo"></a>
         <div className="styles-top-menu">
           <ul className={this.props.active == "our-brand" ? "active" : ""}>
             Brand Overview

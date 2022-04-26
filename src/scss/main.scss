@@ -44,9 +44,8 @@
     ul {
       margin: 0;
       color: #ffffff;
-      font-family: "Source Sans Pro";
+      font-family: SourceSansPro-Bold, Arial, Helvetica, sans-serif;
       font-size: 18px;
-      font-weight: 600;
       letter-spacing: 0;
       line-height: 25px;
     }
@@ -65,21 +64,29 @@
     flex-direction: column;
   }
 
-  .style-main-item {
+  .style-main-item,
+  .style-main-item a {
     color: #2a2b2c;
-    font-family: "Source Sans Pro";
+    font-family: SourceSansPro-Bold, Arial, Helvetica, sans-serif;
     font-size: 21px;
-    font-weight: 600;
     letter-spacing: 0;
     line-height: 30px;
   }
 
-  .style-sub-item {
+  .style-sub-item,
+  .style-sub-item a {
     color: #6d6e71;
-    font-family: "Source Sans Pro";
+    font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 22px;
+  }
+
+  .style-main-item a,
+  .style-sub-item a {
+    &:hover {
+      color: #189bb0;
+    }
   }
 
   .flex_right_content {
