@@ -7,7 +7,7 @@ class ColorBox extends Component {
 
   render() {
     return (
-      <div className="ColorBox" style={{backgroundColor:this.props.hex, fontFamily:"Source Sans Pro Semibold", color:"white"}}>
+      <div className="ColorBox col-lg-6" style={{backgroundColor:this.props.hex, fontFamily:"Source Sans Pro Semibold", color:"white"}}>
           <div>{this.props.name}</div>
           <div>
               <div>PMS:{this.props.pms}</div>

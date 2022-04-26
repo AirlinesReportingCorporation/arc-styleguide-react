@@ -266,7 +266,7 @@ class Visual extends Component {
                   </p>
                 </div>
               }
-              incorrectInfo=""
+              incorrectInfo="Do not set text paragraphs too wide or too narrow."
               correctCopy={
                 <div>
                   <p>
@@ -283,13 +283,18 @@ class Visual extends Component {
                   </p>
                 </div>
               }
-              correctInfo=""
+              correctInfo="Keep paragraph width consistent and give paragraphs a comfortable amount of space on either side without making the paragraph too narrow."
             />
             <div className="row">
-              <h2></h2>
-              <p></p>
+              <h2>Color Palette</h2>
+              <p>
+                Our brand palette serves to underscore our brand history and
+                unique voice. Grounded in strategy and insights, our palette
+                communicates a sense of authority, intelligence, legacy,
+                decisiveness and confidence.
+              </p>
             </div>
-            <h3></h3>
+            <h3>Primary Colors</h3>
             <div className="row">
               <ColorBox
                 name="ARC Teal"
@@ -298,16 +303,60 @@ class Visual extends Component {
                 rgb="07, 28, 58"
                 hex="#189BB0"
               />
-              <ColorBox pms="" cmyk="" rgb="" hex="" />
-              <ColorBox pms="" cmyk="" rgb="" hex="" />
-              <ColorBox pms="" cmyk="" rgb="" hex="" />
+              <ColorBox
+                name="Tarmac"
+                pms="419C (6U)"
+                cmyk="72, 65, 62, 65"
+                rgb="42, 43, 44"
+                hex="#2A2B2C"
+              />
+              <ColorBox
+                name="Altitude Grey"
+                pms="376C (375U)"
+                cmyk="83, 50, 41, 14"
+                rgb="49, 102, 119"
+                hex="#316677"
+              />
+              <ColorBox
+                name="Flare"
+                pms="227C (220U)"
+                cmyk="38, 98, 31, 7"
+                rgb="161, 18, 100"
+                hex="#AB035C"
+              />
             </div>
-            <h3></h3>
+            <h3>Secondary Colors</h3>
             <div className="row">{/* <AccordianColor /> */}</div>
-            <h3></h3>
+            <h3>Tertiary Colors</h3>
             <div className="row">{/* <AccordianColor /> */}</div>
-            <h3></h3>
-            <p></p>
+            <h3>Usage Proportions</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              posuere lacus in lacus accumsan, at tincidunt metus efficitur.
+              Vivamus fermentum ante a urna vehicula molestie.{" "}
+            </p>
+            <h3>Primary Colors</h3>
+            {/* Primary color block here */}
+            <h3>Secondary Colors</h3>
+            {/* Secondary color block here */}
+            <h3>Tertiary Colors</h3>
+            {/* Tertiary Colors here */}
+            <h3>Color Guidance</h3>
+            <p>
+              Our brand palette serves to underscore our brand history and
+              unique voice. Grounded in strategy and insights, our palette
+              communicates a sense of authority, intelligence, legacy,
+              decisiveness and confidence.
+            </p>
+            <TermsUsage
+              incorrectCopy={"Image here"}
+              incorrectInfo="Incorrect use of brand colors. Tertiary colors should be used in small amounts as a contrast color. In addition, the background color does not offer enough contrast for the copy."
+              correctCopy={"Image here"}
+              correctInfo="Correct use of brand colors. Primary colors should be used as main color in collateral. This background color also offers sufficient contrast for the copy."
+            />
+            <h3>Animated GIF</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lacus in lacus accumsan, at tincidunt metus efficitur. Vivamus fermentum ante a urna vehicula molestie.</p>
+            {/* Animated gif section */}
           </div>
         </div>
       </Layout>
