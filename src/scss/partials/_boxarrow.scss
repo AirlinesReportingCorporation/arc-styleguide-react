@@ -1,17 +1,19 @@
-.box-arrow {
+a.styleguide-box-arrow {
+  color: #2a2b2c;
+  display: block;
   border: 1px solid grey;
   font-size: 24px;
   line-height: 49px;
-  padding-left: 23px;
+  padding: 20px;
   align-items: center;
   font-family: Source Sans Pro Semibold;
   margin-right: 12px;
   margin-bottom: 26px;
-  min-width: 289px;
-  min-height: 289px;
 }
 
-.box-arrow-small {
+a.styleguide-box-arrow-small {
+  color: #2a2b2c;
+  display: block;
   border: 1px solid grey;
   font-size: 24px;
   line-height: 49px;
@@ -22,10 +24,10 @@
   font-family: Source Sans Pro Semibold;
 }
 
-.box-arrow-title{
+.styleguide-box-arrow-title{
   text-align: left;
-  max-width: 170px;
   line-height: 28px;
+  max-width: 216px;
 }
 
 .style-guide-arrow {
@@ -33,7 +35,7 @@
   margin-left: auto;
 }
 
-.box-arrow-image {
+.styleguide-box-arrow-image {
   max-width: 217px;
   width: 100%;
   margin: 44px 36px 30px 36px;
@@ -42,13 +44,15 @@
 .image-center {
   width: 100%;
   margin: auto;
+  text-align: center;
+  padding: 10px;
 
   img {
-    width: 200px;
+    width: 150px;
   }
 }
 
-.box-arrow {
+.styleguide-box-arrow {
   bottom: 16px;
   
 }

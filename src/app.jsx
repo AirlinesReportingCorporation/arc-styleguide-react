@@ -47,18 +47,38 @@ class App extends Component {
               </div>
             </div>
             <h2 className="style-guide-h2">Explore Our Style Guide</h2>
-            <div className="row no-gutters explore-styleguide-row">
-              <div className="col-lg-4">
-                <BoxArrow copy="Using the ARC Brand" image="https://www2.arccorp.com/globalassets/covid19/ARC.png"/>
-              </div>
-              <div className="col-lg-4">
-              <BoxArrow copy="ARC's Visual Identity"/>
-              </div>
-              <div className="col-lg-4">
-              <BoxArrow copy="Writing Style Guide & Best Practices"/>
-              </div>
-              <div className="col-lg-4">
-              <BoxArrow copy="Web Style Guide"/>
+            <div className="explore-styleguide-row">
+              <div className="row no-gutters ">
+                <div className="col-lg-4">
+                  <BoxArrow
+                    link="/our-brand.html"
+                    copy="Using the ARC Brand"
+                    titleWidth="170px"
+                    image="https://www2.arccorp.com/globalassets/styleguide/styleguide-using-brand.png?1"
+                  />
+                </div>
+                <div className="col-lg-4">
+                  <BoxArrow
+                    link="/visual-identity.html"
+                    copy="ARC's Visual Identity"
+                    titleWidth="150px"
+                    image="https://www2.arccorp.com/globalassets/styleguide/styleguide-visual-identity.png"
+                  />
+                </div>
+                <div className="col-lg-4">
+                  <BoxArrow
+                    link="/writing-style-guide.html"
+                    copy="Writing Style Guide & Best Practices"
+                    image="https://www2.arccorp.com/globalassets/styleguide/styleguide-writing.png/"
+                  />
+                </div>
+                <div className="col-lg-4">
+                  <BoxArrow
+                    link="/web-style-guide.html"
+                    copy="Web Style Guide"
+                    image="https://www2.arccorp.com/globalassets/styleguide/styleguide-web.png"
+                  />
+                </div>
               </div>
             </div>
           </div>
