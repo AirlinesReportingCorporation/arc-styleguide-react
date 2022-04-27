@@ -1,0 +1,21 @@
+.styleguide-bottom-page-nav {
+  .row {
+    max-width: 100%;
+  }
+}
+
+a.styleguide-nav-bottom {
+  font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+  display: block;
+  padding: 20px;
+  background: #189bb0;
+  color: #ffffff;
+  width: 100%;
+}
+
+.styleguide-nav-bottom-inner {
+  max-width: 250px;
+  margin: 0 auto;
+  font-size: 28px;
+  line-height: 40px;
+}

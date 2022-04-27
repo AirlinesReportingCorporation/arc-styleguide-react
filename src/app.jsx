@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import BoxArrow from "./components/boxarrow";
 import BoxArrowSmall from "./components/boxarrowsmall";
-import ButtonBox from "./components/buttonBox";
+import BottomPageNav from "./components/BottomPageNav";
 
 import Layout from "./components/layout";
 import TermsUsage from "./components/termusage";
@@ -82,6 +82,11 @@ class App extends Component {
               </div>
             </div>
           </div>
+
+          <BottomPageNav
+            nextLink="visual-identity.html"
+            nextName="Visual Identity"
+          />
         </div>
       </Layout>
     );
