@@ -30,7 +30,7 @@ class App extends Component {
               </p>
             </div>
             <h2>Frequently requested assets</h2>
-            <div className="row" style={{ paddingBottom: "10px" }}>
+            <div className="row">
               <div className="col-lg-6">
                 <BoxArrowSmall copy="Arc Logos" />
               </div>
