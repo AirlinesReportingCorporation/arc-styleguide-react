@@ -37,7 +37,7 @@ class Visual extends Component {
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
-                <h2>Logo</h2>
+                <h2 id="logo">Logo</h2>
                 <p>
                   Our brand identity is a visual symbol of who we are. It
                   encapsulates our legacy, reinforces our mission and drives
@@ -99,7 +99,7 @@ class Visual extends Component {
             </div>
             <button className="ctaBtn">Download</button>
             <div className="row">
-              <h2>Typography</h2>
+              <h2 id="typography">Typography</h2>
               <p>
                 Just as important as iconography and use of color, is the use of
                 unique typography to attach a deeper meaning to your writing and
@@ -286,7 +286,7 @@ class Visual extends Component {
               correctInfo="Keep paragraph width consistent and give paragraphs a comfortable amount of space on either side without making the paragraph too narrow."
             />
             <div className="row">
-              <h2>Color Palette</h2>
+              <h2 id="colorPalette">Color Palette</h2>
               <p>
                 Our brand palette serves to underscore our brand history and
                 unique voice. Grounded in strategy and insights, our palette

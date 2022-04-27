@@ -39,7 +39,7 @@ class Landing extends Component {
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
-                <h2>Frequently Used Terms</h2>
+                <h2 id="frequent">Frequently Used Terms</h2>
                 <h3>Abbreviations and Acronyms</h3>
                 <p>
                   For most abbreviations or acronyms, define the full name on

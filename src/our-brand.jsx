@@ -112,7 +112,7 @@ class ARCBrand extends Component {
                 </p>
               }
             />
-            <h2>ARC Brand Language</h2>
+            <h2 id="language">ARC Brand Language</h2>
             <h3>The Masterbrand Framework</h3>
             <p>
               ARC’s masterbrand-led framework highlights four core components:
@@ -266,44 +266,42 @@ class ARCBrand extends Component {
                 </div>
               }
             />
-            <TermDef
-              term="Voice"
-              definition={
-                <div>
-                  <p>
-                    In order to ensure that both internal and external
-                    stakeholders are certain of who ARC is, it is important to
-                    operate with a clear, resounding voice. This requires having
-                    a consistent tone when communicating.
-                  </p>
-                  <p>
-                    The ARC voice is confident, inspiring, intelligent and
-                    researched. ARC empowers the global air travel community,
-                    striving to always be transparent, trustworthy and
-                    approachable.
-                  </p>
-                  <p>
-                    Because ARC is an objective, trusted voice at the center of
-                    the industry, our voice walks a fine line between authority
-                    and approachability. It’s professional, but not overly
-                    formal. It’s accessible, but not overly casual. We take care
-                    to maintain a voice that reflects our role as a trusted
-                    leader that consults closely with customers to meet their
-                    needs.
-                  </p>
-                  <p>
-                    ARC connects the global air travel community to solve
-                    problems and discover new opportunities. ARC inspires its
-                    customers to build relationships and solutions that move our
-                    industry forward.
-                  </p>
-                </div>
-              }
-            />
+            <h2 id="voice">Brand Voice</h2>
+            <p>
+              In order to ensure that both internal and external stakeholders
+              are certain of who ARC is, it is important to operate with a
+              clear, resounding voice. This requires having a consistent tone
+              when communicating.
+            </p>
+            <p>
+              The ARC voice is confident, inspiring, intelligent and researched.
+              ARC empowers the global air travel community, striving to always
+              be transparent, trustworthy and approachable.
+            </p>
+            <p>
+              Because ARC is an objective, trusted voice at the center of the
+              industry, our voice walks a fine line between authority and
+              approachability. It’s professional, but not overly formal. It’s
+              accessible, but not overly casual. We take care to maintain a
+              voice that reflects our role as a trusted leader that consults
+              closely with customers to meet their needs.
+            </p>
+            <p>
+              ARC connects the global air travel community to solve problems and
+              discover new opportunities. ARC inspires its customers to build
+              relationships and solutions that move our industry forward.
+            </p>
             <TermDef
               term=""
               definition={
-                <p style={{ color: "#189BB0", fontSize: "36px", fontFamily: "Source Sans Pro Semibold", textAlign: "center" }}>
+                <p
+                  style={{
+                    color: "#189BB0",
+                    fontSize: "36px",
+                    fontFamily: "Source Sans Pro Semibold",
+                    textAlign: "center",
+                  }}
+                >
                   The ARC Voice is confident, inspiring, intelligent and
                   researched.
                 </p>
@@ -315,10 +313,22 @@ class ARCBrand extends Component {
                 <ul>
                   <li>Seeks truth</li>
                   <li>Sees the world objectively</li>
-                  <li>Possesses unique information and is willing to share it freely</li>
-                  <li>Provides course-correcting solutions based on objective analysis of actions and choices</li>
-                  <li>Transparent, trustworthy, willing to be accessible, approachable</li>
-                  <li>Listens and observes closely to gain insights and improve relationships</li>
+                  <li>
+                    Possesses unique information and is willing to share it
+                    freely
+                  </li>
+                  <li>
+                    Provides course-correcting solutions based on objective
+                    analysis of actions and choices
+                  </li>
+                  <li>
+                    Transparent, trustworthy, willing to be accessible,
+                    approachable
+                  </li>
+                  <li>
+                    Listens and observes closely to gain insights and improve
+                    relationships
+                  </li>
                   <li>Examples: CNN, Oprah, The Wall Street Journal</li>
                 </ul>
               }
