@@ -224,8 +224,8 @@ class Landing extends Component {
             </p>
             <div className="row">
               <div className="col-lg-6">
-                <div>
-                  <ul>
+                <div className="inner-document-names">
+                  <ul className="inner-document-list">
                     <li>
                       For more information, view the ARC holiday calendar.
                     </li>
@@ -239,8 +239,8 @@ class Landing extends Component {
                 <h3>Lowercase</h3>
               </div>
               <div className="col-lg-6">
-                <div>
-                  <ul>
+                <div className="inner-document-names">
+                  <ul className="inner-document-list">
                     <li>
                       Please review changes to the Agent Reporting Agreement
                       (ARA).
@@ -256,7 +256,7 @@ class Landing extends Component {
                     </li>
                   </ul>
                 </div>
-                <h3>Uppercase</h3>
+                <h3 className="inner-document-casing">Uppercase</h3>
               </div>
             </div>
             <h3>One Way</h3>
@@ -624,7 +624,7 @@ class Landing extends Component {
           <h3>Hyphens</h3>
           <p>Use hyphens to join two words or create compound modifiers. Do not add spaces before or after a hyphen. Do not hyphenate adverbs ending in "-ly."</p>
           <TermsUsage incorrectCopy={<ul><li>Friendship is a two way street.</li><li>Expedia is a well known online travel agency</li></ul>} correctCopy={<ul><li>Friendship is a two-way street.</li><li>Expedia is a well-known online travel agency</li></ul>}/>
-          </div>
+          
           <h3>Prefixes</h3>
           <p>Generally, do not hyphenate when using a prefix with a word starting with a consonant. Use a hyphen if the word that follows is capitalized.</p>
           <h3>Dashes</h3>
@@ -636,6 +636,7 @@ class Landing extends Component {
           <h3>Verb Tense and Person</h3>
           <p>Use active verbs rather than passive wherever possible. Avoid first-person verbs in external ARC communications such as articles, notifications, blog posts, etc., unless the communication is from an individual (e.g., an article or column from a subject matter expert on LinkedIn).</p>
           <TermsUsage incorrectCopy={<ul><li>The brand and style guide was used by the entire company.</li><li>We implemented enhancements to Memo Manager.</li></ul>} correctCopy={<ul><li>The entire company used the brand and style guide.</li><li>ARC implemented enhancements to Memo Manager.</li></ul>}/>
+        </div>
         </div>
       </Layout>
     );

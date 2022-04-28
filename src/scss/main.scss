@@ -116,6 +116,24 @@
     width: 100%;
     margin: 0 auto 60px;
   }
+  // Writing style guide
+  .inner-document-names {
+    margin-top: 30px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 360px;
+    min-width: 400px;
+    width: 100%;
+  }
+  .inner-document-list {
+    max-width: 290px;
+    width: 100%;
+  }
+  .inner-document-casing {
+    margin-bottom: 60px;
+  }
 }
 
 @import "./partials/responsive";

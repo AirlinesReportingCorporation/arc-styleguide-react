@@ -1,17 +1,24 @@
 .incorrect, .correct {
+    padding-top: 30px;
     border: 1px solid grey;
-    max-width: 400px;
+    min-height: 360px;
+    min-width: 400px;
     width: 100%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .term-usage-copy {
-    margin-left: 58px;
+    margin: auto;
+    max-width: 290px;
+    width: 100%;
 }
 
 .incorrect-bar, .correct-bar {
     margin: auto;
-    max-width: 400px;
+    min-width: 400px;
     width: 100%;
     min-height: 12.35px;
     margin-top: 20px !important;
@@ -20,7 +27,7 @@
 
 .bottom-area {
     margin: auto;
-    max-width: 400px;
+    min-width: 400px;
     width: 100%;
 }
 
@@ -29,6 +36,7 @@
 }
 
 .term-explaination {
+
     margin: auto;
 }
 
@@ -38,4 +46,8 @@
 
 .correct-bar {
     background-color: #8AC926;
+}
+.term-usage-block {
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
