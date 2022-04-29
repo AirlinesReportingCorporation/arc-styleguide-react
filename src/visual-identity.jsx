@@ -7,7 +7,8 @@ import Layout from "./components/layout";
 import TermDef from "./components/termdefinition";
 import BoxArrow from "./components/boxarrow";
 import TermsUsage from "./components/termusage";
-import ColorBox from "./components/colorbox";
+import ColorBox from "./components/ColorBox";
+import ColorAccordion from "./components/ColorAccordion";
 
 class Visual extends Component {
   constructor() {
@@ -302,6 +303,7 @@ class Visual extends Component {
                 cmyk="55, 98, 47, 54"
                 rgb="07, 28, 58"
                 hex="#189BB0"
+                col="col-lg-6"
               />
               <ColorBox
                 name="Tarmac"
@@ -309,6 +311,7 @@ class Visual extends Component {
                 cmyk="72, 65, 62, 65"
                 rgb="42, 43, 44"
                 hex="#2A2B2C"
+                col="col-lg-6"
               />
               <ColorBox
                 name="Altitude Grey"
@@ -316,6 +319,7 @@ class Visual extends Component {
                 cmyk="83, 50, 41, 14"
                 rgb="49, 102, 119"
                 hex="#316677"
+                col="col-lg-6"
               />
               <ColorBox
                 name="Flare"
@@ -323,6 +327,7 @@ class Visual extends Component {
                 cmyk="38, 98, 31, 7"
                 rgb="161, 18, 100"
                 hex="#AB035C"
+                col="col-lg-6"
               />
             </div>
             <h3>Secondary Colors</h3>
@@ -336,7 +341,7 @@ class Visual extends Component {
               Vivamus fermentum ante a urna vehicula molestie.{" "}
             </p>
             <h3>Primary Colors</h3>
-            {/* Primary color block here */}
+            <ColorAccordion />
             <h3>Secondary Colors</h3>
             {/* Secondary color block here */}
             <h3>Tertiary Colors</h3>
@@ -355,7 +360,11 @@ class Visual extends Component {
               correctInfo="Correct use of brand colors. Primary colors should be used as main color in collateral. This background color also offers sufficient contrast for the copy."
             />
             <h3>Animated GIF</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lacus in lacus accumsan, at tincidunt metus efficitur. Vivamus fermentum ante a urna vehicula molestie.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              posuere lacus in lacus accumsan, at tincidunt metus efficitur.
+              Vivamus fermentum ante a urna vehicula molestie.
+            </p>
             {/* Animated gif section */}
           </div>
         </div>
