@@ -84,43 +84,140 @@ class Visual extends Component {
               }
             />
             <div className="row">
-              <div className="col-lg-6">{/* <Box /> */}</div>
-              <div className="col-lg-6">{/* <Box /> */}</div>
+              <div className="col-lg-6">
+                <div className="logo-box lg">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-teal.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="logo-box lg">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/ARC-Logo-l-teal-Tag.png"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
             <div className="row">
-              <div className="col-lg-3">{/* <Box /> */}</div>
-              <div className="col-lg-3">{/* <Box /> */}</div>
-              <div className="col-lg-3">{/* <Box /> */}</div>
-              <div className="col-lg-3">{/* <Box /> */}</div>
+              <div className="col-lg-3 col-md-6">
+                <div className="logo-box sm">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-teal.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="logo-box sm">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-black.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="logo-box sm">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-gray.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="logo-box sm gray">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-white.png"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
+            <div className="row">
+              <div className="col-lg-3 col-md-6">
+                <div className="logo-box sm">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-teal-tag.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="logo-box sm">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-black-tag.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="logo-box sm">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-gray-tag.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="logo-box sm gray">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-white-tag.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="styleguide-doc-section">
+          <div className="styleguide-doc-inner">
             <h2>Logo Suite</h2>
             <div>
               Download our logo suite containing different sizes, colors and
               file types.
             </div>
-            <button className="ctaBtn">Download</button>
+            <button
+              href="https://www2.arccorp.com/globalassets/styleguide/arc-logo-suite.zip"
+              className="ctaBtn"
+            >
+              Download
+            </button>
+          </div>
+        </div>
+        <div className="styleguide-doc-section">
+          <div className="styleguide-doc-inner">
             <div className="row">
-              <h2 id="typography">Typography</h2>
-              <p>
-                Just as important as iconography and use of color, is the use of
-                unique typography to attach a deeper meaning to your writing and
-                accentuate our storytelling. Our marketing materials pair the
-                modern and clean design of Source Sans with the friendly Roboto
-                Slab, a combination that reflects ARC’s authority and
-                approachability. The standardized fonts Arial Black and Palatino
-                provide easy-to-use alternatives for our general tools and
-                day-to-day communications.
-              </p>
-              <div className="typography-block">Typogaphy box here</div>
+              <div className="col-lg-12">
+                <h2 id="typography">Typography</h2>
+                <p>
+                  Just as important as iconography and use of color, is the use
+                  of unique typography to attach a deeper meaning to your
+                  writing and accentuate our storytelling. Our marketing
+                  materials pair the modern and clean design of Source Sans with
+                  the friendly Roboto Slab, a combination that reflects ARC’s
+                  authority and approachability. The standardized fonts Arial
+                  Black and Palatino provide easy-to-use alternatives for our
+                  general tools and day-to-day communications.
+                </p>
+                <div className="typography-block">Typogaphy box here</div>
+              </div>
             </div>
+          </div>
+        </div>
+        <div className="styleguide-doc-section">
+          <div className="styleguide-doc-inner">
             <div className="row">
-              <h3>Typography Usage</h3>
-              <p>
-                Our brand palette serves to underscore our brand history and
-                unique voice. Grounded in strategy and insights, our palette
-                communicates a sense of authority, intelligence, legacy,
-                decisiveness and confidence.
-              </p>
+              <div className="col-lg-12">
+                <h3>Typography Usage</h3>
+                <p>
+                  Our brand palette serves to underscore our brand history and
+                  unique voice. Grounded in strategy and insights, our palette
+                  communicates a sense of authority, intelligence, legacy,
+                  decisiveness and confidence.
+                </p>
+              </div>
             </div>
             <TermsUsage
               incorrectCopy={
@@ -286,6 +383,10 @@ class Visual extends Component {
               }
               correctInfo="Keep paragraph width consistent and give paragraphs a comfortable amount of space on either side without making the paragraph too narrow."
             />
+          </div>
+        </div>
+        <div className="styleguide-doc-section">
+          <div className="styleguide-doc-inner">
             <div className="row">
               <h2 id="colorPalette">Color Palette</h2>
               <p>
@@ -295,7 +396,11 @@ class Visual extends Component {
                 decisiveness and confidence.
               </p>
             </div>
-            <h3>Primary Colors</h3>
+            <div className="row">
+              <div className="col-lg-12">
+                <h3>Primary Colors</h3>
+              </div>
+            </div>
             <div className="row">
               <ColorBox
                 name="ARC Teal"
@@ -330,35 +435,45 @@ class Visual extends Component {
                 col="col-lg-6"
               />
             </div>
-            <h3>Secondary Colors</h3>
-            <div className="row">{/* <AccordianColor /> */}</div>
-            <h3>Tertiary Colors</h3>
-            <div className="row">{/* <AccordianColor /> */}</div>
-            <h3>Usage Proportions</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              posuere lacus in lacus accumsan, at tincidunt metus efficitur.
-              Vivamus fermentum ante a urna vehicula molestie.{" "}
-            </p>
-            <h3>Primary Colors</h3>
-            <ColorAccordion />
-            <h3>Secondary Colors</h3>
-            {/* Secondary color block here */}
-            <h3>Tertiary Colors</h3>
-            {/* Tertiary Colors here */}
-            <h3>Color Guidance</h3>
-            <p>
-              Our brand palette serves to underscore our brand history and
-              unique voice. Grounded in strategy and insights, our palette
-              communicates a sense of authority, intelligence, legacy,
-              decisiveness and confidence.
-            </p>
+            <div className="row">
+              <div className="col-lg-12">
+                <h3>Secondary Colors</h3>
+                <div className="row">{/* <AccordianColor /> */}</div>
+                <h3>Tertiary Colors</h3>
+                <div className="row">{/* <AccordianColor /> */}</div>
+                <h3>Usage Proportions</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam posuere lacus in lacus accumsan, at tincidunt metus
+                  efficitur. Vivamus fermentum ante a urna vehicula molestie.{" "}
+                </p>
+                <h3>Primary Colors</h3>
+                <ColorAccordion />
+                <h3>Secondary Colors</h3>
+                {/* Secondary color block here */}
+                <h3>Tertiary Colors</h3>
+                {/* Tertiary Colors here */}
+                <h3>Color Guidance</h3>
+                <p>
+                  Our brand palette serves to underscore our brand history and
+                  unique voice. Grounded in strategy and insights, our palette
+                  communicates a sense of authority, intelligence, legacy,
+                  decisiveness and confidence.
+                </p>
+              </div>
+            </div>
+
             <TermsUsage
               incorrectCopy={"Image here"}
               incorrectInfo="Incorrect use of brand colors. Tertiary colors should be used in small amounts as a contrast color. In addition, the background color does not offer enough contrast for the copy."
               correctCopy={"Image here"}
               correctInfo="Correct use of brand colors. Primary colors should be used as main color in collateral. This background color also offers sufficient contrast for the copy."
             />
+          </div>
+        </div>
+
+        <div className="styleguide-doc-section">
+          <div className="styleguide-doc-inner">
             <h3>Animated GIF</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam

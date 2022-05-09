@@ -5,6 +5,8 @@
 
 @import "./partials/buttonbox";
 @import "./partials/docs";
+@import "./partials/logo";
+@import "./partials/colorbox";
 
 #app {
   font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
@@ -35,10 +37,12 @@
 
   .styles-top-menu {
     flex-direction: row;
+    align-items: center;
     display: flex;
     margin-left: auto;
     margin-right: 189px;
     justify-content: space-evenly;
+    height: 100%;
     width: 33%;
     align-content: center;
 
@@ -92,6 +96,8 @@
 
   .flex_right_content {
     flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
     //background: lightgreen;
   }
 

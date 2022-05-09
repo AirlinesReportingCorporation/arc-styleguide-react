@@ -36,10 +36,13 @@ class ARCBrand extends Component {
                   and industry partners to produce compelling, effective
                   experiences for a variety of audiences.
                 </p>
-                <button className="ctaBtn">ARC Flight Map</button>
+                <button href="https://www2.arccorp.com/globalassets/styleguide/arc-flight-map_a-guide-to-working-with-our-brand.pdf" className="ctaBtn">ARC Flight Map</button>
               </div>
             </div>
-            <hr />
+          </div>
+        </div>
+        <div className="styleguide-doc-section ">
+          <div className="styleguide-doc-inner">
             <div className="row">
               <h3>About ARC</h3>
               <p>

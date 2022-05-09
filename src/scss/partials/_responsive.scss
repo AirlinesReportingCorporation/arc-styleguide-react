@@ -1,31 +1,37 @@
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { 
-    .styleguide-page .top_nav .icon-arc-logo {
-        font-size: 30px;
-    }
+@media (max-width: 575.98px) {
+  .styleguide-page .top_nav .icon-arc-logo {
+    font-size: 30px;
+  }
 
-    .flex_side_sticky {
-        display: none;
-    }
+  .flex_side_sticky {
+    display: none;
+  }
 
-    .styleguide-page .styles-top-menu {
-        margin: auto;
-        width: 56%;
-    }
- }
+  .styleguide-page .styles-top-menu {
+    display: none;
+  }
+}
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { 
-
- }
+@media (max-width: 767.98px) {
+}
 
 // Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
+  .logo-box {
+    &.sm {
+      height: auto;
+      padding: 30px;
+    }
 
- }
+    &.lg {
+      height: auto;
+      padding: 15px;
+    }
+  }
+}
 
 // Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { 
-  
- }
-
+@media (max-width: 1199.98px) {
+}

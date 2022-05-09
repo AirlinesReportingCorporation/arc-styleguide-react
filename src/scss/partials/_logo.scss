@@ -1,0 +1,30 @@
+.logo-box {
+  border: 1px solid #979797;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  &.sm {
+    height: 210px;
+    //width: 210px;
+    img {
+      max-width: 192px;
+      width: 100%;
+    }
+  }
+
+  &.lg {
+    height: 415px;
+    //width: 415px;
+    img {
+      max-width: 295px;
+      width: 100%;
+    }
+  }
+
+  &.gray {
+    background: #d8d8d8;
+  }
+}

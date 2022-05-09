@@ -1,0 +1,20 @@
+.ColorBox {
+  padding: 40px 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+
+  strong {
+    font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
+  }
+}
+
+.ColorBox-name {
+  font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  margin-bottom: 270px;
+}
+
+.ColorBox-props {
+  font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
