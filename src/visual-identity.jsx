@@ -23,7 +23,7 @@ class Visual extends Component {
             <div className="row">
               <div className="col-12">
                 <h1>Visual Identity</h1>
-                <p class="styleguide-doc-subtitle">
+                <p className="styleguide-doc-subtitle">
                   Our mission is to advance and unify the global air travel
                   community by delivering trusted solutions, proven expertise
                   and flexible technology. Our brand identity is a reflection of
@@ -388,13 +388,15 @@ class Visual extends Component {
         <div className="styleguide-doc-section">
           <div className="styleguide-doc-inner">
             <div className="row">
-              <h2 id="colorPalette">Color Palette</h2>
-              <p>
-                Our brand palette serves to underscore our brand history and
-                unique voice. Grounded in strategy and insights, our palette
-                communicates a sense of authority, intelligence, legacy,
-                decisiveness and confidence.
-              </p>
+              <div className="col-lg-12">
+                <h2 id="colorPalette">Color Palette</h2>
+                <p>
+                  Our brand palette serves to underscore our brand history and
+                  unique voice. Grounded in strategy and insights, our palette
+                  communicates a sense of authority, intelligence, legacy,
+                  decisiveness and confidence.
+                </p>
+              </div>
             </div>
             <div className="row">
               <div className="col-lg-12">
@@ -420,10 +422,11 @@ class Visual extends Component {
               />
               <ColorBox
                 name="Altitude Grey"
-                pms="376C (375U)"
-                cmyk="83, 50, 41, 14"
-                rgb="49, 102, 119"
-                hex="#316677"
+                pms="Cool Gray 2C
+                (Cool Gray 2U)"
+                cmyk="16, 12, 13, 0"
+                rgb="212, 212, 212"
+                hex="#D4D4D4"
                 col="col-lg-6"
               />
               <ColorBox
@@ -438,9 +441,57 @@ class Visual extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <h3>Secondary Colors</h3>
-                <div className="row">{/* <AccordianColor /> */}</div>
+                <ColorAccordion
+                  colors={[
+                    {
+                      name: "Concourse",
+                      pms: "3155C (3155U)",
+                      cmyk: "83, 50, 41, 14",
+                      rgb: "49, 102, 119",
+                      hex: "#316677",
+                    },
+                    {
+                      name: "Flap 3",
+                      pms: "7501C (7501U)",
+                      cmyk: "24, 25, 45, 0",
+                      rgb: "198, 181, 147",
+                      hex: "#C6B593",
+                    },
+                    {
+                      name: "Fuselage",
+                      pms: "Coll Gray 10C (426U)",
+                      cmyk: "0, 0, 0, 70",
+                      rgb: "109, 110, 113",
+                      hex: "#6D6E71",
+                    },
+                  ]}
+                />
                 <h3>Tertiary Colors</h3>
-                <div className="row">{/* <AccordianColor /> */}</div>
+                <ColorAccordion
+                  colors={[
+                    {
+                      name: "Night Shade",
+                      pms: "5265C (2768U)",
+                      cmyk: "82, 79, 42, 36",
+                      rgb: "56, 53, 82",
+                      hex: "#383552",
+                    },
+                    {
+                      name: "Signal Orange",
+                      pms: "000C (000U)",
+                      cmyk: "0, 62, 100, 0",
+                      rgb: "247, 127, 0",
+                      hex: "#F77F00",
+                    },
+                    {
+                      name: "Airfield",
+                      pms: "000C (000U)",
+                      cmyk: "51, 0, 100, 0",
+                      rgb: "138, 201, 38",
+                      hex: "#8AC926",
+                    },
+                  ]}
+                />
                 <h3>Usage Proportions</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -448,7 +499,7 @@ class Visual extends Component {
                   efficitur. Vivamus fermentum ante a urna vehicula molestie.{" "}
                 </p>
                 <h3>Primary Colors</h3>
-                <ColorAccordion />
+
                 <h3>Secondary Colors</h3>
                 {/* Secondary color block here */}
                 <h3>Tertiary Colors</h3>

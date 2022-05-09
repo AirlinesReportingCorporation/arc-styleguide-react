@@ -6,6 +6,23 @@
   strong {
     font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
   }
+
+  &.sm {
+    height: 354px;
+    padding: 23px 30px;
+    display: flex;
+    flex-direction: column;
+
+    .ColorBox-name {
+      margin-bottom: 160px;
+    }
+
+    .ColorBox-props {
+      margin-top: auto;
+    }
+
+    
+  }
 }
 
 .ColorBox-name {

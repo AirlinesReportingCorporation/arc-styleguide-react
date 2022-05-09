@@ -142,4 +142,14 @@
   }
 }
 
+.colorAccordion {
+  .transitionRow {
+    transition: all 0.3s ease-out;
+  }
+
+  &.hover .col-lg-3 .ColorBox-props {
+    font-size: 16px;
+  }
+}
+
 @import "./partials/responsive";
