@@ -11,6 +11,11 @@ a.styleguide-nav-bottom {
   background: #189bb0;
   color: #ffffff;
   width: 100%;
+
+  &:hover {
+    color: #ffffff;
+    opacity: 0.9;
+  }
 }
 
 .styleguide-nav-bottom-inner {

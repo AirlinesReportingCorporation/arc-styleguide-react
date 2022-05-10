@@ -5,6 +5,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Layout from "./components/layout";
 import TermDef from "./components/termdefinition";
+import BottomPageNav from "./components/BottomPageNav";
 
 class ARCBrand extends Component {
   constructor() {
@@ -36,7 +37,12 @@ class ARCBrand extends Component {
                   and industry partners to produce compelling, effective
                   experiences for a variety of audiences.
                 </p>
-                <button href="https://www2.arccorp.com/globalassets/styleguide/arc-flight-map_a-guide-to-working-with-our-brand.pdf" className="ctaBtn">ARC Flight Map</button>
+                <button
+                  href="https://www2.arccorp.com/globalassets/styleguide/arc-flight-map_a-guide-to-working-with-our-brand.pdf"
+                  className="ctaBtn"
+                >
+                  ARC Flight Map
+                </button>
               </div>
             </div>
           </div>
@@ -351,7 +357,14 @@ class ARCBrand extends Component {
               }
             />
           </div>
+          
         </div>
+        <BottomPageNav
+            prevLink="our-brand.html"
+            prevName="Our Brand"
+            nextLink="visual-identity.html"
+            nextName="Visual Identity"
+          />
       </Layout>
     );
   }
