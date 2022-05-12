@@ -431,10 +431,10 @@ class Visual extends Component {
               />
               <ColorBox
                 name="Flare"
-                pms="227C (220U)"
-                cmyk="38, 98, 31, 7"
-                rgb="161, 18, 100"
-                hex="#AB035C"
+                pms="000C (000U)"
+                cmyk="0, 96, 29, 0"
+                rgb="255, 27, 113"
+                hex="#FF1B71"
                 col="col-lg-6"
               />
             </div>
