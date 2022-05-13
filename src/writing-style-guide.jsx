@@ -76,11 +76,11 @@ class Landing extends Component {
                     <ol>
                       <li>
                         ARC's Board of Directors approved a number of changes to
-                        the ARA.
+                        the <strong>ARA</strong>.
                       </li>
                       <li>
                         ARC piloted its enhanced settlement capabilities with
-                        BA.
+                        <strong>BA</strong>.
                       </li>
                     </ol>
                   }
@@ -88,11 +88,11 @@ class Landing extends Component {
                     <ol>
                       <li>
                         ARC's Board of Directors approved a number of changes to
-                        the Agent Reporting Agreement <strong>(ARA)</strong>.
+                        the <strong>Agent Reporting Agreement (ARA)</strong>.
                       </li>
                       <li>
-                        ARC piloted its enhanced settlement capabilities with{" "}
-                        <strong>British Airways</strong>.
+                        ARC piloted its enhanced settlement capabilities with
+                        <strong> British Airways</strong>.
                       </li>
                     </ol>
                   }
@@ -167,9 +167,9 @@ class Landing extends Component {
               </div>
             </div>
             <TermsUsage
-              incorrectCopy="Expedia is an ARC Accredited agency."
+              incorrectCopy={<p>Expedia is an <strong>ARC Accredited agency</strong>.</p>}
               incorrectInfo=""
-              correctCopy="Expedia is an ARC-accredited agency."
+              correctCopy={<p>Expedia is an <strong>ARC-accredited agency</strong>.</p>}
               correctInfo=""
             />
             <h3>ARC Board of Directors</h3>
@@ -227,11 +227,11 @@ class Landing extends Component {
                 <div className="inner-document-names">
                   <ul className="inner-document-list">
                     <li>
-                      For more information, view the ARC holiday calendar.
+                      For more information, view the <strong>ARC holiday calendar</strong>.
                     </li>
                     <li>
-                      Please complete the attached cash security deposit program
-                      form.
+                      Please complete the attached <strong>cash security deposit program
+                      form.</strong>
                     </li>
                     <li>To learn more, see the 2022 fee schedule.</li>
                   </ul>
@@ -242,17 +242,17 @@ class Landing extends Component {
                 <div className="inner-document-names">
                   <ul className="inner-document-list">
                     <li>
-                      Please review changes to the Agent Reporting Agreement
-                      (ARA).
+                      Please review changes to the <strong>Agent Reporting Agreement
+                      (ARA).</strong>
                     </li>
                     <li>
                       Information on chargeback management can be found in the
-                      Industry Agents’ Handbook (IAH).
+                      <strong>Industry Agents’ Handbook (IAH).</strong>
                     </li>
                     <li>
-                      The Debit Memo Working Group developed the Best Practices
+                      The Debit Memo Working Group developed the <strong>Best Practices
                       for Effective Debit Memo Resolution and Prevention, NDC
-                      Getting Started Guide.
+                      Getting Started Guide.</strong>
                     </li>
                   </ul>
                 </div>
@@ -573,7 +573,10 @@ class Landing extends Component {
               }
             />
             <h3>Numerals</h3>
-            <p>When used in a sentence, spell out one through nine. Use numerals for 10 and above. Use figures for:</p>
+            <p>
+              When used in a sentence, spell out one through nine. Use numerals
+              for 10 and above. Use figures for:
+            </p>
             <div className="row">
               <div className="col-lg-6">
                 <ul>
@@ -588,7 +591,10 @@ class Landing extends Component {
               <div className="col-lg-6">
                 <ul>
                   <li>Plane designations (B-2 bomber, Airbus 330-200)</li>
-                  <li>Decimals, percentages and fractions with numbers larger than 1 (7.2 magnitude earthquake, 7.1 percent increase)</li>
+                  <li>
+                    Decimals, percentages and fractions with numbers larger than
+                    1 (7.2 magnitude earthquake, 7.1 percent increase)
+                  </li>
                   <li>Dimensions and distances (4 miles, 8 feet)</li>
                   <li>Sequential designations (Page 1, ARA Section 6)</li>
                   <li>Time of Day (a 1 p.m. webinar)</li>
@@ -596,47 +602,225 @@ class Landing extends Component {
               </div>
             </div>
             <h3>Phone Numbers</h3>
-            <p>Do not use the U.S. country code prefix (1) in phone numbers unless it is necessary for an international audience. Only use prefixes when necessary for international numbers (such as a new participating airline that does not have an office in the U.S.). Phone numbers should include dashes instead of periods, with the exception of designed documents. letterhead and signatures</p>
+            <p>
+              Do not use the U.S. country code prefix (1) in phone numbers
+              unless it is necessary for an international audience. Only use
+              prefixes when necessary for international numbers (such as a new
+              participating airline that does not have an office in the U.S.).
+              Phone numbers should include dashes instead of periods, with the
+              exception of designed documents. letterhead and signatures
+            </p>
             <ul>
-              <li>In TAC: “Contact ARC’s Customer Care Center at 855-816-8003.”</li>
-              <li>In TAC: “For inquiries, reservations and sales information, contact InselAir at +599-9-737-0444.”</li>
-              <li>In an email to a European airline: “If you have any questions, contact 1-703-816-8000.”</li>
+              <li>
+                In TAC: “Contact ARC’s Customer Care Center at 855-816-8003.”
+              </li>
+              <li>
+                In TAC: “For inquiries, reservations and sales information,
+                contact InselAir at +599-9-737-0444.”
+              </li>
+              <li>
+                In an email to a European airline: “If you have any questions,
+                contact 1-703-816-8000.”
+              </li>
             </ul>
             <h3>Percent</h3>
-            <p>Use the percent symbol (%) with a number, with no space (e.g., 3%).</p>
+            <p>
+              Use the percent symbol (%) with a number, with no space (e.g.,
+              3%).
+            </p>
             <h3>Time</h3>
-            <p>Use lowercase a.m. and p.m. with periods after each. When writing a time on the hour, just use the number without :00. When referencing 12:00, use “noon” or “midnight” for clarity.</p>
-            <TermsUsage incorrectCopy={<ul><li>The networking event begins at 7:00pm.</li><li>Join us for lunch at 12:00 p.m.</li></ul>} correctCopy={<ul><li>The networking event begins at 7 p.m.</li><li>Join us for lunch at noon.</li></ul>}/>
-            <p>For timeframes, join the two numbers with a hyphen, without spaces. Only include one reference of a.m. or p.m., unless it spans both.</p>
-            <TermsUsage incorrectCopy={<ul><li>The webinar will take place Tuesday 1 p.m.-2 p.m.</li></ul>} correctCopy={<ul><li>The webinar will take place Tuesday 1-2 p.m.</li><li>The training session will take place 10 a.m.-3 p.m.</li></ul>}/>
-          <h3>Time Zones</h3>
-          <p>For webinars and specific events, use EST or EDT to reflect Eastern Standard Time and Eastern Daylight Time, respectively. When listing year-round hours (e.g., hours of operation or phone support), use ET to reflect Eastern Time.</p>
-          <h2>Grammar & Punctuation</h2>
-          <h3>Ampersand (&)</h3>
-          <p>Ampersands should not be used as part of a sentence, unless you’re referring to an official company name that uses one (“at&t”). Instead, spell out the word “and.” Ampersands may be used in a headline where brevity is necessary for design purposes.</p>
-          <h3>Capitalization</h3>
-          <p>Apply standard capitalization rules to content. Capitalize the first word of a sentence, as well as proper nouns such as names, products, organizations and industry events.</p>
-          <h3>Headlines & Titles</h3>
-          <p>Capitalize the first word of the title, the last word of the title, and all “principal” words (nouns, pronouns, verbs, adverbs, adjectives, subordinating conjunctions, prepositions used adjectivally or adverbially) and all words longer than three letters. This also applies to document, chart and PowerPoint slide titles</p>
-          <TermsUsage incorrectCopy={<ul><li>Meet the customer of the future</li><li>Meet The Customer Of The Future</li></ul>} correctCopy={<ul><li>Meet the Customer of the Future</li></ul>}/>
-          <h3>Ellipsis</h3>
-          <p>As a general rule, do not use ellipsis.</p>
-          <h3>Hyphens</h3>
-          <p>Use hyphens to join two words or create compound modifiers. Do not add spaces before or after a hyphen. Do not hyphenate adverbs ending in "-ly."</p>
-          <TermsUsage incorrectCopy={<ul><li>Friendship is a two way street.</li><li>Expedia is a well known online travel agency</li></ul>} correctCopy={<ul><li>Friendship is a two-way street.</li><li>Expedia is a well-known online travel agency</li></ul>}/>
-          
-          <h3>Prefixes</h3>
-          <p>Generally, do not hyphenate when using a prefix with a word starting with a consonant. Use a hyphen if the word that follows is capitalized.</p>
-          <h3>Dashes</h3>
-          <p>Use em dashes (—) for emphasis in a sentence, or to set off a phrase. Use a space before and after the dash.</p>
-          <TermsUsage incorrectCopy={<ul><li>Transformation isn’t exclusive to technology - it permeates the entire organization.</li><li>Transformation isn’t exclusive to technology—it permeates the entire organization.</li></ul>} correctCopy={<ul><li>Transformation isn’t exclusive to technology — it permeates the entire organization.</li></ul>}/>
-          <h3>Serial Comma</h3>
-          <p>Per AP Style, ARC does not use the serial comma. This means that in a series or list of three or more items, the final two items are not separated by a comma unless one is needed for clarity.</p>
-          <TermsUsage incorrectCopy={<ul><li>ARC helps airlines and travel agencies connect, grow, and thrive.</li><li>ARC has office locations in Arlington, Louisville, and Tampa.</li></ul>} correctCopy={<ul><li>ARC helps airlines and travel agencies connect, grow and thrive.</li><li>ARC has office locations in Arlington, Louisville and Tampa.</li></ul>}/>
-          <h3>Verb Tense and Person</h3>
-          <p>Use active verbs rather than passive wherever possible. Avoid first-person verbs in external ARC communications such as articles, notifications, blog posts, etc., unless the communication is from an individual (e.g., an article or column from a subject matter expert on LinkedIn).</p>
-          <TermsUsage incorrectCopy={<ul><li>The brand and style guide was used by the entire company.</li><li>We implemented enhancements to Memo Manager.</li></ul>} correctCopy={<ul><li>The entire company used the brand and style guide.</li><li>ARC implemented enhancements to Memo Manager.</li></ul>}/>
-        </div>
+            <p>
+              Use lowercase a.m. and p.m. with periods after each. When writing
+              a time on the hour, just use the number without :00. When
+              referencing 12:00, use “noon” or “midnight” for clarity.
+            </p>
+            <TermsUsage
+              incorrectCopy={
+                <ul>
+                  <li>The networking event begins at 7:00pm.</li>
+                  <li>Join us for lunch at 12:00 p.m.</li>
+                </ul>
+              }
+              correctCopy={
+                <ul>
+                  <li>The networking event begins at 7 p.m.</li>
+                  <li>Join us for lunch at noon.</li>
+                </ul>
+              }
+            />
+            <p>
+              For timeframes, join the two numbers with a hyphen, without
+              spaces. Only include one reference of a.m. or p.m., unless it
+              spans both.
+            </p>
+            <TermsUsage
+              incorrectCopy={
+                <ul>
+                  <li>The webinar will take place Tuesday 1 p.m.-2 p.m.</li>
+                </ul>
+              }
+              correctCopy={
+                <ul>
+                  <li>The webinar will take place Tuesday 1-2 p.m.</li>
+                  <li>The training session will take place 10 a.m.-3 p.m.</li>
+                </ul>
+              }
+            />
+            <h3>Time Zones</h3>
+            <p>
+              For webinars and specific events, use EST or EDT to reflect
+              Eastern Standard Time and Eastern Daylight Time, respectively.
+              When listing year-round hours (e.g., hours of operation or phone
+              support), use ET to reflect Eastern Time.
+            </p>
+            <h2>Grammar & Punctuation</h2>
+            <h3>Ampersand (&)</h3>
+            <p>
+              Ampersands should not be used as part of a sentence, unless you’re
+              referring to an official company name that uses one (“at&t”).
+              Instead, spell out the word “and.” Ampersands may be used in a
+              headline where brevity is necessary for design purposes.
+            </p>
+            <h3>Capitalization</h3>
+            <p>
+              Apply standard capitalization rules to content. Capitalize the
+              first word of a sentence, as well as proper nouns such as names,
+              products, organizations and industry events.
+            </p>
+            <h3>Headlines & Titles</h3>
+            <p>
+              Capitalize the first word of the title, the last word of the
+              title, and all “principal” words (nouns, pronouns, verbs, adverbs,
+              adjectives, subordinating conjunctions, prepositions used
+              adjectivally or adverbially) and all words longer than three
+              letters. This also applies to document, chart and PowerPoint slide
+              titles
+            </p>
+            <TermsUsage
+              incorrectCopy={
+                <ul>
+                  <li>Meet the customer of the future</li>
+                  <li>Meet The Customer Of The Future</li>
+                </ul>
+              }
+              correctCopy={
+                <ul>
+                  <li>Meet the Customer of the Future</li>
+                </ul>
+              }
+            />
+            <h3>Ellipsis</h3>
+            <p>As a general rule, do not use ellipsis.</p>
+            <h3>Hyphens</h3>
+            <p>
+              Use hyphens to join two words or create compound modifiers. Do not
+              add spaces before or after a hyphen. Do not hyphenate adverbs
+              ending in "-ly."
+            </p>
+            <TermsUsage
+              incorrectCopy={
+                <ul>
+                  <li>Friendship is a two way street.</li>
+                  <li>Expedia is a well known online travel agency</li>
+                </ul>
+              }
+              correctCopy={
+                <ul>
+                  <li>Friendship is a two-way street.</li>
+                  <li>Expedia is a well-known online travel agency</li>
+                </ul>
+              }
+            />
+
+            <h3>Prefixes</h3>
+            <p>
+              Generally, do not hyphenate when using a prefix with a word
+              starting with a consonant. Use a hyphen if the word that follows
+              is capitalized.
+            </p>
+            <h3>Dashes</h3>
+            <p>
+              Use em dashes (—) for emphasis in a sentence, or to set off a
+              phrase. Use a space before and after the dash.
+            </p>
+            <TermsUsage
+              incorrectCopy={
+                <ul>
+                  <li>
+                    Transformation isn’t exclusive to technology - it permeates
+                    the entire organization.
+                  </li>
+                  <li>
+                    Transformation isn’t exclusive to technology—it permeates
+                    the entire organization.
+                  </li>
+                </ul>
+              }
+              correctCopy={
+                <ul>
+                  <li>
+                    Transformation isn’t exclusive to technology — it permeates
+                    the entire organization.
+                  </li>
+                </ul>
+              }
+            />
+            <h3>Serial Comma</h3>
+            <p>
+              Per AP Style, ARC does not use the serial comma. This means that
+              in a series or list of three or more items, the final two items
+              are not separated by a comma unless one is needed for clarity.
+            </p>
+            <TermsUsage
+              incorrectCopy={
+                <ul>
+                  <li>
+                    ARC helps airlines and travel agencies connect, grow, and
+                    thrive.
+                  </li>
+                  <li>
+                    ARC has office locations in Arlington, Louisville, and
+                    Tampa.
+                  </li>
+                </ul>
+              }
+              correctCopy={
+                <ul>
+                  <li>
+                    ARC helps airlines and travel agencies connect, grow and
+                    thrive.
+                  </li>
+                  <li>
+                    ARC has office locations in Arlington, Louisville and Tampa.
+                  </li>
+                </ul>
+              }
+            />
+            <h3>Verb Tense and Person</h3>
+            <p>
+              Use active verbs rather than passive wherever possible. Avoid
+              first-person verbs in external ARC communications such as
+              articles, notifications, blog posts, etc., unless the
+              communication is from an individual (e.g., an article or column
+              from a subject matter expert on LinkedIn).
+            </p>
+            <TermsUsage
+              incorrectCopy={
+                <ul>
+                  <li>
+                    The brand and style guide was used by the entire company.
+                  </li>
+                  <li>We implemented enhancements to Memo Manager.</li>
+                </ul>
+              }
+              correctCopy={
+                <ul>
+                  <li>The entire company used the brand and style guide.</li>
+                  <li>ARC implemented enhancements to Memo Manager.</li>
+                </ul>
+              }
+            />
+          </div>
         </div>
       </Layout>
     );
