@@ -18,7 +18,7 @@ class Visual extends Component {
   render() {
     return (
       <Layout active="style-guide">
-        <div className="styleguide-doc-section border-bottom">
+        <div className="styleguide-doc-section styleguide-doc-header border-bottom">
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-12">
@@ -195,13 +195,12 @@ class Visual extends Component {
                   Just as important as iconography and use of color, is the use
                   of unique typography to attach a deeper meaning to your
                   writing and accentuate our storytelling. Our marketing
-                  materials pair the modern and clean design of Source Sans with
-                  the friendly Roboto Slab, a combination that reflects ARC’s
-                  authority and approachability. The standardized fonts Arial
-                  Black and Palatino provide easy-to-use alternatives for our
-                  general tools and day-to-day communications.
+                  materials pair the modern and clean design of Source Sans that
+                  reflects ARC’s authority and approachability. The standardized
+                  fonts Arial Black and Calibri provide easy-to-use alternatives
+                  for our general tools and day-to-day communications.
                 </p>
-                <div className="typography-block">Typogaphy box here</div>
+                <div className="typography-block">asdf</div>
               </div>
             </div>
           </div>
@@ -515,9 +514,10 @@ class Visual extends Component {
             </div>
 
             <TermsUsage
-              incorrectCopy={"Image here"}
+              images={true}
+              incorrectCopy={<img src="https://www2.arccorp.com/globalassets/styleguide/color-guidance1.png"/>}
               incorrectInfo="Incorrect use of brand colors. Tertiary colors should be used in small amounts as a contrast color. In addition, the background color does not offer enough contrast for the copy."
-              correctCopy={"Image here"}
+              correctCopy={<img src="https://www2.arccorp.com/globalassets/styleguide/color-guidance2.png"/>}
               correctInfo="Correct use of brand colors. Primary colors should be used as main color in collateral. This background color also offers sufficient contrast for the copy."
             />
           </div>

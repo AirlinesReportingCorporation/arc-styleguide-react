@@ -16,7 +16,7 @@ class Landing extends Component {
   render() {
     return (
       <Layout active="our-brand">
-        <div className="styleguide-doc-section border-bottom">
+        <div className="styleguide-doc-section styleguide-doc-header border-bottom">
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">

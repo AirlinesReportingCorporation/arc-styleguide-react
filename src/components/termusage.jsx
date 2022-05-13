@@ -9,7 +9,8 @@ class TermsUsage extends Component {
     return (
       <div
         className={
-          this.props.className ? this.props.className : "term-usage-block"
+          (this.props.className ? this.props.className : "term-usage-block") +
+          (this.props.images ? " term-usage-block-img" : "")
         }
       >
         <div className="row">
@@ -19,8 +20,8 @@ class TermsUsage extends Component {
             </div>
             <div className="incorrect-bar"></div>
             <div className="bottom-area">
-            <h5 className="term-type">Incorrect</h5>
-            <p className="term-explaination">{this.props.incorrectInfo}</p>
+              <h5 className="term-type">Incorrect</h5>
+              <p className="term-explaination">{this.props.incorrectInfo}</p>
             </div>
           </div>
           <div className="col-lg-6">
@@ -29,8 +30,8 @@ class TermsUsage extends Component {
             </div>
             <div className="correct-bar"></div>
             <div className="bottom-area">
-            <h5 className="term-type">Correct</h5>
-            <p className="term-explaination">{this.props.correctInfo}</p>
+              <h5 className="term-type">Correct</h5>
+              <p className="term-explaination">{this.props.correctInfo}</p>
             </div>
           </div>
         </div>

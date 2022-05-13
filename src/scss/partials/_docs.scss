@@ -10,6 +10,10 @@
   padding-right: 15px;
   padding-left: 15px;
 
+  &.styleguide-doc-header {
+    padding-bottom: 60px;
+  }
+
   .styleguide-doc-inner {
     max-width: 920px;
     margin-left: auto;
