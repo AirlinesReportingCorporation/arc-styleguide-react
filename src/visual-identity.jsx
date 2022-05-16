@@ -221,7 +221,7 @@ class Visual extends Component {
             <TermsUsage
               incorrectCopy={
                 <div>
-                  <h5>I am a headline</h5>
+                  <div className="termusage-header">I am a headline</div>
                   <p style={{ fontWeight: "bold" }}>
                     I am not a headline but I use the same weight as a headline.
                     I am not a headline but I use the same weight as a headline.
@@ -233,7 +233,7 @@ class Visual extends Component {
               incorrectInfo="Do not use the same weight for different levels of text hierarchy."
               correctCopy={
                 <div>
-                  <h5>I am a headline</h5>
+                  <div className="termusage-header">I am a headline</div>
                   <p>
                     I am not a headline, I am body text, and I use a different
                     weight to a headline. I am not a headline, I am body text,
@@ -248,9 +248,9 @@ class Visual extends Component {
             <TermsUsage
               incorrectCopy={
                 <div>
-                  <h5>I am a headline</h5>
-                  <h6>I am a sub-head</h6>
-                  <p>
+                  <div className="termusage-header">I am a headline</div>
+                  <div className="termusage-sub" style={{fontSize:"32px"}}>I am a sub-head</div>
+                  <p style={{fontSize:"32px"}}>
                     I am body copy but I am the same size as the headline and
                     the sub-head{" "}
                   </p>
@@ -259,8 +259,8 @@ class Visual extends Component {
               incorrectInfo="Do not use the same point size for different levels of text hierarchy."
               correctCopy={
                 <div>
-                  <h5>I am a headline</h5>
-                  <h6>I am a sub-head</h6>
+                  <div className="termusage-header">I am a headline</div>
+                  <div className="termusage-sub">I am a sub-head</div>
                   <p>
                     I am body copy but I am the same size as the headline and
                     the sub-head
@@ -272,19 +272,19 @@ class Visual extends Component {
             <TermsUsage
               incorrectCopy={
                 <div>
-                  <h5>I am a headline</h5>
-                  <h6>I am a sub-head</h6>
-                  <p>
+                  <div className="termusage-header">I am a headline</div>
+                  <div className="termusage-sub" style={{position: "relative",left: "-25px"}}>I am a sub-head</div>
+                  <div className="termusage-p">
                     I am body copy but I am the same size as the headline and
                     the sub-head
-                  </p>
+                  </div>
                 </div>
               }
               incorrectInfo="Do not misalign your text."
               correctCopy={
                 <div>
-                  <h5>I am a headline</h5>
-                  <h6>I am a sub-head</h6>
+                  <div className="termusage-header">I am a headline</div>
+                  <div className="termusage-sub">I am a sub-head</div>
                   <p>
                     I am body copy but I am the same size as the headline and
                     the sub-head
@@ -296,13 +296,13 @@ class Visual extends Component {
             <TermsUsage
               incorrectCopy={
                 <div>
-                  <h5>Lorem ip s um</h5>
-                  <div>
+                  <div className="termusage-header">Lo<span style={{letterSpacing:"-6.6px"}}>re</span>m ip s <span style={{letterSpacing:"-6.6px"}}>um</span></div>
+                  <div className="termusage-semibold-lorem" style={{letterSpacing: "-1.76px"}}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                     sed aliquam turpis, ac condimentum libero. Donec consectetur
                     congue felis quis volutpat. Etiam et pulvinar nisi.
                   </div>
-                  <p>
+                  <p className="termusage-semibold-lorem" style={{letterSpacing: "3.2px"}}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                     sed aliquam turpis, ac condimentum libero. Donec consectetur
                     congue felis quis volutpat. Etiam et pulvinar nisi.
@@ -312,13 +312,13 @@ class Visual extends Component {
               incorrectInfo="Do not adjust the tracking or kerning of text."
               correctCopy={
                 <div>
-                  <h5>Lorem ip s um</h5>
-                  <p>
+                  <div className="termusage-header">Lorem ipsum</div>
+                  <p className="termusage-semibold-lorem">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                     sed aliquam turpis, ac condimentum libero. Donec consectetur
                     congue felis quis volutpat. Etiam et pulvinar nisi.
                   </p>
-                  <p>
+                  <p className="termusage-semibold-lorem">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                     sed aliquam turpis, ac condimentum libero. Donec consectetur
                     congue felis quis volutpat. Etiam et pulvinar nisi.
@@ -330,11 +330,11 @@ class Visual extends Component {
             <TermsUsage
               incorrectCopy={
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  sed aliquam turpis, ac condimentum libero. Donec consectetur
-                  congue felis quis volutpat. Etiam et pulvinar nisi. Vivamus
-                  sollicitudin lectus quis tortor vehicula, at pretium massa
-                  imperdiet.
+                  Lorem <span style={{fontSize:"large"}}>ipsum</span> dolor sit amet, <span style={{fontSize:"large"}}>consectetur</span> adipiscing elit. Ut
+                  sed aliquam turpis, ac <span className="termusage-semibold-lorem">condimentum</span> libero. <strong>Donec</strong> consectetur
+                  congue felis quis volutpat. <u>Etiam et pulvinar</u> nisi. <span style={{fontSize:"large"}}>Vivamus</span>
+                  sollicitudin lectus quis tortor vehicula, <span style={{fontSize:"large"}}>at pretium massa
+                  imperdiet.</span>
                 </p>
               }
               incorrectInfo="Do not overuse emphasis."
@@ -351,14 +351,14 @@ class Visual extends Component {
             />
             <TermsUsage
               incorrectCopy={
-                <div>
-                  <p>
+                <div style={{position: "relative",left: "-30px"}}>
+                  <p style={{width: "365px"}}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                     sed aliquam turpis, ac condimentum libero. Donec consectetur
                     congue felis quis volutpat. Etiam et pulvinar nisi. Vivamus
                     sollicitudin lectus quis tortor.
                   </p>
-                  <p>
+                  <p style={{width: "85px"}}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
                 </div>
