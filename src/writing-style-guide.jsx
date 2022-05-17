@@ -174,7 +174,7 @@ class Landing extends Component {
               correctInfo=""
             />
             <h3>ARC Board of Directors</h3>
-            <div>When do we capitalize Board? Board members?</div>
+            <div><em>When do we capitalize Board? Board members?</em></div>
             <p>
               Bonnie Reitz has historically been referred to as the “Chairman of
               the Board,” but prefers to be referred to as “Chair of the Board.”
@@ -502,7 +502,7 @@ class Landing extends Component {
             <p>
               Use the abbreviation U.S. when referring to the United States.
             </p>
-            <h2>Formatting Dates, Times, and Figures</h2>
+            <h2 id="formatting">Formatting Dates, Times, and Figures</h2>
             <h3>Dates and Date Ranges</h3>
             <p>
               In most cases, spell out the date without the day of the week:
@@ -674,7 +674,7 @@ class Landing extends Component {
               When listing year-round hours (e.g., hours of operation or phone
               support), use ET to reflect Eastern Time.
             </p>
-            <h2>Grammar & Punctuation</h2>
+            <h2 id="grammar-punctuation">Grammar & Punctuation</h2>
             <h3>Ampersand (&)</h3>
             <p>
               Ampersands should not be used as part of a sentence, unless you’re

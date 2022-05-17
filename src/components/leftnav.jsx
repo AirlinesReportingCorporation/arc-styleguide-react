@@ -39,7 +39,7 @@ class LeftNav extends Component {
               </a>
             </ul>
             <ul className="nav-menu-items style-sub-item">
-              <a href={writingURL + "#frequentlyUsedTerms"}>Frequently Used Terms</a>
+              <a href={writingURL + "#frequent"}>Frequently Used Terms</a>
             </ul>
             <ul className="nav-menu-items style-sub-item">
               <a href={writingURL + "#formatting"}>
@@ -51,8 +51,8 @@ class LeftNav extends Component {
             </ul>
             <ul className="nav-menu-items style-main-item"><a href={webURl}>Web Style Guide</a></ul>
             <ul className="nav-menu-items style-sub-item"><a href={webURl + "#typography"}>Typography</a></ul>
-            <ul className="nav-menu-items style-sub-item"><a href={webURl + "Components"}>Components</a></ul>
-            <ul className="nav-menu-items style-sub-item"><a href={webURl + "bestPractices"}>Best Practices</a></ul>
+            <ul className="nav-menu-items style-sub-item"><a href={webURl + "#components"}>Components</a></ul>
+            <ul className="nav-menu-items style-sub-item"><a href={webURl + "#bestPractices"}>Best Practices</a></ul>
           </div>
         </div>
       </div>

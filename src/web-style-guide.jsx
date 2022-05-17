@@ -32,7 +32,7 @@ class Web extends Component {
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
-                <h2>Typography</h2>
+                <h2 id="typography">Typography</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                   ullam rem quisquam laboriosam similique, corporis incidunt
@@ -47,7 +47,22 @@ class Web extends Component {
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
-                <h2>Web Components</h2>
+                <h2 id="components">Web Components</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  ullam rem quisquam laboriosam similique, corporis incidunt
+                  voluptatum ipsam corrupti totam animi quas impedit et esse
+                  debitis deleniti illo. Quidem, culpa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="styleguide-doc-section">
+          <div className="styleguide-doc-inner">
+            <div className="row">
+              <div className="col-lg-12">
+                <h2 id="bestPractices">Best Practices</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                   ullam rem quisquam laboriosam similique, corporis incidunt
