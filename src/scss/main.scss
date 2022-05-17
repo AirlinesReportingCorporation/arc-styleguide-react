@@ -129,7 +129,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 360px;
+    padding-top: 30px;
     min-width: 400px;
     width: 100%;
   }
@@ -148,6 +148,9 @@
 .term-usage-copy h6 {
   text-transform:none;
 }
+.term-usage-li {
+  margin-bottom: 20px;
+};
 
 .colorAccordion {
   .transitionRow {

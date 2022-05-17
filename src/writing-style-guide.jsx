@@ -74,11 +74,11 @@ class Landing extends Component {
                 <TermsUsage
                   incorrectCopy={
                     <ol>
-                      <li>
+                      <li className="term-usage-li">
                         ARC's Board of Directors approved a number of changes to
                         the <strong>ARA</strong>.
                       </li>
-                      <li>
+                      <li className="term-usage-li">
                         ARC piloted its enhanced settlement capabilities with
                         <strong>BA</strong>.
                       </li>
@@ -86,11 +86,11 @@ class Landing extends Component {
                   }
                   correctCopy={
                     <ol>
-                      <li>
+                      <li className="term-usage-li">
                         ARC's Board of Directors approved a number of changes to
                         the <strong>Agent Reporting Agreement (ARA)</strong>.
                       </li>
-                      <li>
+                      <li className="term-usage-li">
                         ARC piloted its enhanced settlement capabilities with
                         <strong> British Airways</strong>.
                       </li>
@@ -226,14 +226,14 @@ class Landing extends Component {
               <div className="col-lg-6">
                 <div className="inner-document-names">
                   <ul className="inner-document-list">
-                    <li>
+                    <li className="term-usage-li">
                       For more information, view the <strong>ARC holiday calendar</strong>.
                     </li>
-                    <li>
+                    <li className="term-usage-li">
                       Please complete the attached <strong>cash security deposit program
                       form.</strong>
                     </li>
-                    <li>To learn more, see the 2022 fee schedule.</li>
+                    <li className="term-usage-li">To learn more, see the 2022 fee schedule.</li>
                   </ul>
                 </div>
                 <h3>Lowercase</h3>
@@ -241,15 +241,15 @@ class Landing extends Component {
               <div className="col-lg-6">
                 <div className="inner-document-names">
                   <ul className="inner-document-list">
-                    <li>
+                    <li className="term-usage-li">
                       Please review changes to the <strong>Agent Reporting Agreement
                       (ARA).</strong>
                     </li>
-                    <li>
+                    <li className="term-usage-li">
                       Information on chargeback management can be found in the
                       <strong>Industry Agents’ Handbook (IAH).</strong>
                     </li>
-                    <li>
+                    <li className="term-usage-li">
                       The Debit Memo Working Group developed the <strong>Best Practices
                       for Effective Debit Memo Resolution and Prevention, NDC
                       Getting Started Guide.</strong>
@@ -267,14 +267,14 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>One way ticket sales have remained steady.</li>
-                  <li>Their flight to Paris is one-way.</li>
+                  <li className="term-usage-li">One way ticket sales have remained steady.</li>
+                  <li className="term-usage-li">Their flight to Paris is one-way.</li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li>One-way ticket sales have remained steady.</li>
-                  <li>Their flight to Paris is one way.</li>
+                  <li className="term-usage-li">One-way ticket sales have remained steady.</li>
+                  <li className="term-usage-li">Their flight to Paris is one way.</li>
                 </ul>
               }
             />
@@ -316,16 +316,16 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>They took a roundtrip to New York and back</li>
-                  <li>They took a round-trip to New York and back.</li>
-                  <li>The volume of roundtrip tickets increased last year.</li>
-                  <li>The volume of round trip tickets increased last year</li>
+                  <li className="term-usage-li">They took a roundtrip to New York and back</li>
+                  <li className="term-usage-li">They took a round-trip to New York and back.</li>
+                  <li className="term-usage-li">The volume of roundtrip tickets increased last year.</li>
+                  <li className="term-usage-li">The volume of round trip tickets increased last year</li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li>They took a round trip to New York and back.</li>
-                  <li>The volume of round-trip tickets increased last year.</li>
+                  <li className="term-usage-li">They took a round trip to New York and back.</li>
+                  <li className="term-usage-li">The volume of round-trip tickets increased last year.</li>
                 </ul>
               }
             />
@@ -337,8 +337,8 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>ARC’s Marketing Team created the writing style guide.</li>
-                  <li>
+                  <li className="term-usage-li">ARC’s Marketing Team created the writing style guide.</li>
+                  <li className="term-usage-li">
                     If you have any questions about the tool, contact the
                     customer care center.
                   </li>
@@ -346,8 +346,8 @@ class Landing extends Component {
               }
               correctCopy={
                 <ul>
-                  <li>ARC’s marketing team created the writing style guide.</li>
-                  <li>
+                  <li className="term-usage-li">ARC’s marketing team created the writing style guide.</li>
+                  <li className="term-usage-li">
                     If you have any questions about the tool, contact the
                     Customer Care Center.
                   </li>
@@ -363,11 +363,11 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li"> 
                     Lauri Reishus is ARC’s President and Chief Executive
                     Officer.
                   </li>
-                  <li>
+                  <li className="term-usage-li">
                     The video features an interview with ARC’s president and
                     chief executive officer, Lauri Reishus.
                   </li>
@@ -375,11 +375,11 @@ class Landing extends Component {
               }
               correctCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     Lauri Reishus is ARC’s president and chief executive
                     officer.
                   </li>
-                  <li>
+                  <li className="term-usage-li">
                     The video features an interview with ARC’s President and
                     Chief Executive Officer, Lauri Reishus.
                   </li>
@@ -393,12 +393,12 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>The President signed the bill.</li>
+                  <li className="term-usage-li">The President signed the bill.</li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li>The president signed the bill.</li>
+                  <li className="term-usage-li">The president signed the bill.</li>
                 </ul>
               }
             />
@@ -410,14 +410,14 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     The event will feature a Q&A with Airline Pilot Sally Smith.
                   </li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     The event will feature a Q&A with airline pilot Sally Smith.
                   </li>
                 </ul>
@@ -444,18 +444,18 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     Ms. Jones will moderate the panel on airline distribution.
                   </li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     First reference: Rachel Jones will moderate the panel on
                     airline distribution.
                   </li>
-                  <li>
+                  <li className="term-usage-li">
                     Later references: Jones will moderate the panel on airline
                     distribution.
                   </li>
@@ -470,7 +470,7 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     ARC’s Transformation will increase efficiency and
                     flexibility for the air travel industry.
                   </li>
@@ -478,7 +478,7 @@ class Landing extends Component {
               }
               correctCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     ARC’s transformation will increase efficiency and
                     flexibility for the air travel industry.
                   </li>
@@ -518,15 +518,15 @@ class Landing extends Component {
               incorrectCopy={
                 <div>
                   <ul>
-                    <li>January 7-January 20, 2023</li>
+                    <li className="term-usage-li">January 7-January 20, 2023</li>
                   </ul>
                 </div>
               }
               correctCopy={
                 <div>
                   <ul>
-                    <li>January 7-20, 2023</li>
-                    <li>January 7-February 5, 2023</li>
+                    <li className="term-usage-li">January 7-20, 2023</li>
+                    <li className="term-usage-li">January 7-February 5, 2023</li>
                   </ul>
                 </div>
               }
@@ -542,7 +542,7 @@ class Landing extends Component {
               incorrectCopy={
                 <div>
                   <ul>
-                    <li>
+                    <li className="term-usage-li">
                       ARC processed $4.969 million in credit card sales in
                       December 2018.
                     </li>
@@ -580,24 +580,24 @@ class Landing extends Component {
             <div className="row">
               <div className="col-lg-6">
                 <ul>
-                  <li>Addresses (5 Sixth Ave.)</li>
-                  <li>Ages (3 years old)</li>
-                  <li>Charts, labels and graphs</li>
-                  <li>Dates, years and decades (April 1, Class of '95)</li>
-                  <li>Currency ($5, $0.50)</li>
-                  <li>Millions, billions (4 billion, $50 million)</li>
+                  <li className="term-usage-li">Addresses (5 Sixth Ave.)</li>
+                  <li className="term-usage-li">Ages (3 years old)</li>
+                  <li className="term-usage-li">Charts, labels and graphs</li>
+                  <li className="term-usage-li">Dates, years and decades (April 1, Class of '95)</li>
+                  <li className="term-usage-li">Currency ($5, $0.50)</li>
+                  <li className="term-usage-li">Millions, billions (4 billion, $50 million)</li>
                 </ul>
               </div>
               <div className="col-lg-6">
                 <ul>
-                  <li>Plane designations (B-2 bomber, Airbus 330-200)</li>
-                  <li>
+                  <li className="term-usage-li">Plane designations (B-2 bomber, Airbus 330-200)</li>
+                  <li className="term-usage-li">
                     Decimals, percentages and fractions with numbers larger than
                     1 (7.2 magnitude earthquake, 7.1 percent increase)
                   </li>
-                  <li>Dimensions and distances (4 miles, 8 feet)</li>
-                  <li>Sequential designations (Page 1, ARA Section 6)</li>
-                  <li>Time of Day (a 1 p.m. webinar)</li>
+                  <li className="term-usage-li">Dimensions and distances (4 miles, 8 feet)</li>
+                  <li className="term-usage-li">Sequential designations (Page 1, ARA Section 6)</li>
+                  <li className="term-usage-li">Time of Day (a 1 p.m. webinar)</li>
                 </ul>
               </div>
             </div>
@@ -611,14 +611,14 @@ class Landing extends Component {
               exception of designed documents. letterhead and signatures
             </p>
             <ul>
-              <li>
+              <li className="term-usage-li">
                 In TAC: “Contact ARC’s Customer Care Center at 855-816-8003.”
               </li>
-              <li>
+              <li className="term-usage-li">
                 In TAC: “For inquiries, reservations and sales information,
                 contact InselAir at +599-9-737-0444.”
               </li>
-              <li>
+              <li className="term-usage-li">
                 In an email to a European airline: “If you have any questions,
                 contact 1-703-816-8000.”
               </li>
@@ -637,14 +637,14 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>The networking event begins at 7:00pm.</li>
-                  <li>Join us for lunch at 12:00 p.m.</li>
+                  <li className="term-usage-li">The networking event begins at 7:00pm.</li>
+                  <li className="term-usage-li">Join us for lunch at 12:00 p.m.</li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li>The networking event begins at 7 p.m.</li>
-                  <li>Join us for lunch at noon.</li>
+                  <li className="term-usage-li">The networking event begins at 7 p.m.</li>
+                  <li className="term-usage-li">Join us for lunch at noon.</li>
                 </ul>
               }
             />
@@ -656,13 +656,13 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>The webinar will take place Tuesday 1 p.m.-2 p.m.</li>
+                  <li className="term-usage-li">The webinar will take place Tuesday 1 p.m.-2 p.m.</li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li>The webinar will take place Tuesday 1-2 p.m.</li>
-                  <li>The training session will take place 10 a.m.-3 p.m.</li>
+                  <li className="term-usage-li">The webinar will take place Tuesday 1-2 p.m.</li>
+                  <li className="term-usage-li">The training session will take place 10 a.m.-3 p.m.</li>
                 </ul>
               }
             />
@@ -699,13 +699,13 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>Meet the customer of the future</li>
-                  <li>Meet The Customer Of The Future</li>
+                  <li className="term-usage-li">Meet the customer of the future</li>
+                  <li className="term-usage-li">Meet The Customer Of The Future</li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li>Meet the Customer of the Future</li>
+                  <li className="term-usage-li">Meet the Customer of the Future</li>
                 </ul>
               }
             />
@@ -720,14 +720,14 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>Friendship is a two way street.</li>
-                  <li>Expedia is a well known online travel agency</li>
+                  <li className="term-usage-li">Friendship is a two way street.</li>
+                  <li className="term-usage-li">Expedia is a well known online travel agency</li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li>Friendship is a two-way street.</li>
-                  <li>Expedia is a well-known online travel agency</li>
+                  <li className="term-usage-li">Friendship is a two-way street.</li>
+                  <li className="term-usage-li">Expedia is a well-known online travel agency</li>
                 </ul>
               }
             />
@@ -746,11 +746,11 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     Transformation isn’t exclusive to technology - it permeates
                     the entire organization.
                   </li>
-                  <li>
+                  <li className="term-usage-li">
                     Transformation isn’t exclusive to technology—it permeates
                     the entire organization.
                   </li>
@@ -758,7 +758,7 @@ class Landing extends Component {
               }
               correctCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     Transformation isn’t exclusive to technology — it permeates
                     the entire organization.
                   </li>
@@ -774,11 +774,11 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     ARC helps airlines and travel agencies connect, grow, and
                     thrive.
                   </li>
-                  <li>
+                  <li className="term-usage-li">
                     ARC has office locations in Arlington, Louisville, and
                     Tampa.
                   </li>
@@ -786,11 +786,11 @@ class Landing extends Component {
               }
               correctCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     ARC helps airlines and travel agencies connect, grow and
                     thrive.
                   </li>
-                  <li>
+                  <li className="term-usage-li">
                     ARC has office locations in Arlington, Louisville and Tampa.
                   </li>
                 </ul>
@@ -807,16 +807,16 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li>
+                  <li className="term-usage-li">
                     The brand and style guide was used by the entire company.
                   </li>
-                  <li>We implemented enhancements to Memo Manager.</li>
+                  <li className="term-usage-li">We implemented enhancements to Memo Manager.</li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li>The entire company used the brand and style guide.</li>
-                  <li>ARC implemented enhancements to Memo Manager.</li>
+                  <li className="term-usage-li">The entire company used the brand and style guide.</li>
+                  <li className="term-usage-li">ARC implemented enhancements to Memo Manager.</li>
                 </ul>
               }
             />
