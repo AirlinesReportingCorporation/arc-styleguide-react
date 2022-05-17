@@ -7,6 +7,7 @@ import Layout from "./components/layout";
 import TermsUsage from "./components/termusage";
 import ButtonBox from "./components/buttonBox";
 import BoxArrow from "./components/boxarrow";
+import BottomPageNav from "./components/BottomPageNav";
 
 class Landing extends Component {
   constructor() {
@@ -821,6 +822,12 @@ class Landing extends Component {
               }
             />
           </div>
+          <BottomPageNav
+            prevLink="visual-identity.html"
+            prevName="Visual Identity"
+            nextLink="web-style-guide.html"
+            nextName="Web Style Guide"
+          />
         </div>
       </Layout>
     );

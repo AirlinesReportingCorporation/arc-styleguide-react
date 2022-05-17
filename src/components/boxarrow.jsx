@@ -27,9 +27,9 @@ class BoxArrow extends Component {
               className="styleguide-boxArrowImg"
             />
           </div>
-          <div className="arrow">
+          <div className="arrow" style={{display:"flex"}}>
             <i
-              class="fa fa-arrow-right style-guide-arrow"
+              class="fa fa-arrow-right style-guide-arrow-box"
               aria-hidden="true"
             ></i>
           </div>

@@ -9,6 +9,7 @@ import BoxArrow from "./components/boxarrow";
 import TermsUsage from "./components/termusage";
 import ColorBox from "./components/ColorBox";
 import ColorAccordion from "./components/ColorAccordion";
+import BottomPageNav from "./components/BottomPageNav";
 
 class Visual extends Component {
   constructor() {
@@ -533,6 +534,12 @@ class Visual extends Component {
             </p>
             {/* Animated gif section */}
           </div>
+          <BottomPageNav
+            prevLink="index.html"
+            prevName="Using Our Brand"
+            nextLink="writing-style-guide.html"
+            nextName="Writing Style Guide"
+          />
         </div>
       </Layout>
     );
