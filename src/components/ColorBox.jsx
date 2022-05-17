@@ -57,12 +57,9 @@ class ColorBox extends Component {
                   borderRadius: "5px",
                   fontSize: "2rem",
                   display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  zIndex: "1"
                 }}
               >
-                Copied! Hex: {this.props.hex}
+                Copied! {this.props.name}: {this.props.hex}
               </p>
             </Modal.Header>
           </Modal>
