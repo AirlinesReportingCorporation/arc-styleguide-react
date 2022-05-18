@@ -14,7 +14,7 @@ class ARCBrand extends Component {
 
   render() {
     return (
-      <Layout active="our-brand">
+      <Layout active="style-guide">
         <div className="styleguide-doc-section styleguide-doc-header border-bottom">
           <div className="styleguide-doc-inner">
             <div className="row">

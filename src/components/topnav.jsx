@@ -11,11 +11,10 @@ class TopNav extends Component {
       <div className="top_nav">
         <a href="/" className="icon-arc-logo"></a>
         <div className="styles-top-menu">
-          <ul className={this.props.active == "our-brand" ? "active" : ""}>
+          <ul className={this.props.active == "our-brand" ? "active" : "inactive"}>
             Brand Overview
           </ul>
-          <ul>Style Guide</ul>
-          <ul>Media Kit</ul>
+          <ul className={this.props.active == "style-guide" ? "active" : "inactive"}>Style Guide</ul>
         </div>
       </div>
     );

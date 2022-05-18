@@ -38,7 +38,7 @@
 
   .styles-top-menu {
     flex-direction: row;
-    align-items: center;
+    align-items: end;
     display: flex;
     margin-left: auto;
     margin-right: 189px;
@@ -55,7 +55,23 @@
       letter-spacing: 0;
       line-height: 25px;
     }
+
+    .inactive {
+      border-top: 5px solid #1a9cb1;
+      border-bottom: 5px solid #1a9cb1;
+      padding-bottom: 30px;
+
+
+    }
+
+    .active {
+      border-top: 5px solid #1a9cb1;
+      border-bottom: 5px solid white;
+      padding-bottom: 30px;
+    }
   }
+
+ 
 
   .flex_side_sticky {
     width: 278px;
