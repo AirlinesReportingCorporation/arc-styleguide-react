@@ -822,13 +822,13 @@ class Landing extends Component {
               }
             />
           </div>
-          <BottomPageNav
+        </div>
+        <BottomPageNav
             prevLink="visual-identity.html"
             prevName="Visual Identity"
             nextLink="web-style-guide.html"
             nextName="Web Style Guide"
           />
-        </div>
       </Layout>
     );
   }

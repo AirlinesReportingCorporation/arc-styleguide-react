@@ -360,7 +360,7 @@ class ARCBrand extends Component {
           
         </div>
         <BottomPageNav
-            prevLink="our-brand.html"
+            prevLink="index.html"
             prevName="Our Brand"
             nextLink="visual-identity.html"
             nextName="Visual Identity"

@@ -625,13 +625,14 @@ class Visual extends Component {
               </div>
             </div>
           </div>
-          <BottomPageNav
-            prevLink="index.html"
+          
+        </div>
+        <BottomPageNav
+            prevLink="our-brand.html"
             prevName="Using Our Brand"
             nextLink="writing-style-guide.html"
             nextName="Writing Style Guide"
           />
-        </div>
       </Layout>
     );
   }

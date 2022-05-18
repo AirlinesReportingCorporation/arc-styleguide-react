@@ -84,8 +84,8 @@ class App extends Component {
           </div>
 
           <BottomPageNav
-            nextLink="visual-identity.html"
-            nextName="Visual Identity"
+            nextLink="our-brand.html"
+            nextName="Using Our Brand"
           />
         </div>
       </Layout>
