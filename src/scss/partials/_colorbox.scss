@@ -20,8 +20,6 @@
     .ColorBox-props {
       margin-top: auto;
     }
-
-    
   }
 }
 
@@ -34,4 +32,38 @@
 .ColorBox-props {
   font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
   font-size: 18px;
+}
+
+.ColorBox-modal {
+  .modal-content {
+    background: transparent;
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .modal-header {
+    border-radius: 0;
+    border-bottom: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.ColorBox-modal-copy {
+  font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+
+  strong {
+    font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+  }
 }

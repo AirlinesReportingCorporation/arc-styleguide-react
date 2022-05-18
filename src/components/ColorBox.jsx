@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import Modal from 'react-bootstrap/Modal';
-
+import Modal from "react-bootstrap/Modal";
 
 class ColorBox extends Component {
   constructor(props) {
@@ -9,15 +8,23 @@ class ColorBox extends Component {
     this.state = {
       modalShow: false,
     };
+
+    this.handleClose = this.handleClose.bind(this);
   }
 
   handleShow() {
     var e = this;
     if (this.state.modalShow == false) {
-      this.setState({ modalShow: true });
+      this.setState({ modalShow: true }, () => {
+        setTimeout(e.handleClose, 1500);
+      });
     } else {
       this.setState({ modalShow: false });
     }
+  }
+
+  handleClose() {
+    this.setState({ modalShow: false });
   }
 
   render() {
@@ -48,23 +55,16 @@ class ColorBox extends Component {
                 <strong>HEX:</strong> {this.props.hex}
               </div>
             </div>
-            <Modal show={this.state.modalShow}>
-            <Modal.Header>
-              <p
-                style={{
-                  border: "2px solid" + this.props.hex,
-                  padding: "10px",
-                  borderRadius: "5px",
-                  fontSize: "2rem",
-                  display: 'flex',
-                }}
-              >
-                Copied! {this.props.name}: {this.props.hex}
-              </p>
-            </Modal.Header>
-          </Modal>
+            <Modal className="ColorBox-modal" show={this.state.modalShow}>
+              <Modal.Header style={{ background: this.props.hex }}>
+                <p className="ColorBox-modal-copy">Copied to clipboard!</p>
+                <br />
+                <p className="ColorBox-modal-copy">
+                  <strong>{this.props.name}</strong>: {this.props.hex}
+                </p>
+              </Modal.Header>
+            </Modal>
           </div>
-         
         </CopyToClipboard>
       </div>
     );

@@ -18,7 +18,7 @@ class ColorAccordion extends Component {
   }
 
   getActiveClass(id) {
-    console.log(this.state.activeId);
+    //console.log(this.state.activeId);
     // if nothing hovered col-lg-4
     // else if currentitem is hovered over col-lg-6
     // else if currentitem is not active col-lg-3
