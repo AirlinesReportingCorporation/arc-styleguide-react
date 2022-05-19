@@ -300,22 +300,17 @@ class ARCBrand extends Component {
               discover new opportunities. ARC inspires its customers to build
               relationships and solutions that move our industry forward.
             </p>
-            <TermDef
-              term=""
-              definition={
-                <p
-                  style={{
-                    color: "#189BB0",
-                    fontSize: "36px",
-                    fontFamily: "Source Sans Pro Semibold",
-                    textAlign: "center",
-                  }}
-                >
-                  The ARC Voice is confident, inspiring, intelligent and
-                  researched.
-                </p>
-              }
-            />
+
+            <div className="col-lg-12"
+              style={{
+                color: "#189BB0",
+                fontSize: "36px",
+                fontFamily: "Source Sans Pro Semibold",
+                textAlign: "center",
+              }}
+            >
+              The ARC Voice is confident, inspiring, intelligent and researched.
+            </div>
             <TermDef
               term="Sage"
               definition={
@@ -357,14 +352,13 @@ class ARCBrand extends Component {
               }
             />
           </div>
-          
         </div>
         <BottomPageNav
-            prevLink="index.html"
-            prevName="Our Brand"
-            nextLink="visual-identity.html"
-            nextName="Visual Identity"
-          />
+          prevLink="index.html"
+          prevName="Our Brand"
+          nextLink="visual-identity.html"
+          nextName="Visual Identity"
+        />
       </Layout>
     );
   }
