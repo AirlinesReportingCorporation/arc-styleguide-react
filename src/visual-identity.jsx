@@ -201,7 +201,79 @@ class Visual extends Component {
                   fonts Arial Black and Calibri provide easy-to-use alternatives
                   for our general tools and day-to-day communications.
                 </p>
-                <div className="typography-block">asdf</div>
+                <div className="typography-block">
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="typography-block-header">
+                        Source Sans Pro
+                      </div>
+                      <p>For sales materials, online presense</p>
+                      <div className="typography-block-subheader">Light</div>
+                      <p className="typography-block-light">
+                        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+                        <br />a b c d e f g h i j k l m n o p q r s t u v w x y
+                        z
+                      </p>
+                      <div className="typography-block-subheader">Semibold</div>
+                      <p className="typography-block-semibold">
+                        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+                        <br />a b c d e f g h i j k l m n o p q r s t u v w x y
+                        z
+                      </p>
+                      <div className="typography-block-header typography-calibri">
+                        Calibri
+                      </div>
+                      <p>For Powerpoint presentations</p>
+                      <div className="typography-block-subheader typography-calibri">
+                        Light
+                      </div>
+                      <p className="typography-calibri-light">
+                        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+                        <br />a b c d e f g h i j k l m n o p q r s t u v w x y
+                        z
+                      </p>
+                      <div className="typography-block-subheader typography-calibri">
+                        Semibold
+                      </div>
+                      <p className="typography-calibri-semibold">
+                        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+                        <br />a b c d e f g h i j k l m n o p q r s t u v w x y
+                        z
+                      </p>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="typography-block-subheader">Regular</div>
+                      <p>
+                        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+                        <br />a b c d e f g h i j k l m n o p q r s t u v w x y
+                        z
+                      </p>
+                      <div className="typography-block-subheader">Bold</div>
+                      <p className="typography-block-bold">
+                        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+                        <br />a b c d e f g h i j k l m n o p q r s t u v w x y
+                        z
+                      </p>
+                      <div className="typography-block-subheader">Black</div>
+                      <p className="typography-block-black">
+                        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+                        <br />a b c d e f g h i j k l m n o p q r s t u v w x y
+                        z
+                      </p>
+                      <div className="typography-block-header typography-calibri">
+                        Arial Black
+                      </div>
+                      <p>
+                        For emails, document For emails, documents, presentations, web fallbacks
+                      </p>
+                      <p className="typography-arial-black">
+                        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+                        <br />a b c d e f g h i j k l m n o p q r s t u v w x y
+                        z
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -625,14 +697,13 @@ class Visual extends Component {
               </div>
             </div>
           </div>
-          
         </div>
         <BottomPageNav
-            prevLink="our-brand.html"
-            prevName="Using Our Brand"
-            nextLink="writing-style-guide.html"
-            nextName="Writing Style Guide"
-          />
+          prevLink="our-brand.html"
+          prevName="Using Our Brand"
+          nextLink="writing-style-guide.html"
+          nextName="Writing Style Guide"
+        />
       </Layout>
     );
   }

@@ -10,6 +10,8 @@
 @import "./partials/colorbox";
 @import "./partials/modal";
 
+@import url("https://fonts.googleapis.com/css2?family=Calibri:wght@400;&display=swap");
+
 #app {
   font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
 }
@@ -61,8 +63,6 @@
       border-top: 5px solid #1a9cb1;
       border-bottom: 5px solid #1a9cb1;
       padding-bottom: 30px;
-
-
     }
 
     .active {
@@ -71,8 +71,6 @@
       padding-bottom: 30px;
     }
   }
-
- 
 
   .flex_side_sticky {
     width: 278px;
@@ -163,11 +161,11 @@
   font-weight: normal;
 }
 .term-usage-copy h6 {
-  text-transform:none;
+  text-transform: none;
 }
 .term-usage-li {
   margin-bottom: 20px;
-};
+}
 
 .colorAccordion {
   .transitionRow {
@@ -177,6 +175,63 @@
   &.hover .col-lg-3 .ColorBox-props {
     font-size: 16px;
   }
+}
+
+.typography-block {
+  color: #ffffff;
+  background: #189bb0;
+  padding: 56px 50px;
+  font-size: 18px;
+
+  p {
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  .typography-block-black {
+    font-family: SourceSansPro-Black, Arial, Helvetica, sans-serif !important;
+  }
+  .typography-block-bold {
+    font-family: SourceSansPro-Bold, Arial, Helvetica, sans-serif !important;
+  }
+  .typography-block-semibold {
+    font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif !important;
+  }
+  .typography-block-light {
+    font-family: SourceSansPro-Light, Arial, Helvetica, sans-serif !important;
+  }
+  .typography-calibri {
+    font-family: "Calibri", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+  .typography-calibri-semibold {
+    font-family: "Calibri", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+  .typography-calibri-light {
+    font-family: "Calibri", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+  }
+
+  .typography-calibri-light,
+  .typography-calibri-semibold {
+    font-size: 16px;
+  }
+  .typography-arial-black {
+    font-family: "Arial Black", Arial Black, Arial, Helvetica, sans-serif;
+  }
+}
+
+.typography-block-header {
+  font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+  color: #2a2b2c;
+  margin-bottom: 7px;
+  font-size: 21px;
+}
+
+.typography-block-subheader {
+  color: #2a2b2c;
+  margin-bottom: 7px;
 }
 
 @import "./partials/responsive";
