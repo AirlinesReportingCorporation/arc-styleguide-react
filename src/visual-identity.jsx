@@ -264,7 +264,8 @@ class Visual extends Component {
                         Arial Black
                       </div>
                       <p>
-                        For emails, document For emails, documents, presentations, web fallbacks
+                        For emails, document For emails, documents,
+                        presentations, web fallbacks
                       </p>
                       <p className="typography-arial-black">
                         A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
@@ -594,11 +595,51 @@ class Visual extends Component {
                   efficitur. Vivamus fermentum ante a urna vehicula molestie.{" "}
                 </p>
                 <h3>Primary Colors</h3>
+                <div className="proportion-block-container">
+                  <div className="row no-gutter no-gutters">
+                    <div className="col-lg-7">
+                      <div className="proportion-block-1 proportion-block"></div>
+                    </div>
+                    <div className="col-lg-2">
+                      <div className="proportion-block-2 proportion-block"></div>
+                    </div>
+                    <div className="col-lg-2">
+                      <div className="proportion-block-3 proportion-block"></div>
+                    </div>
+                    <div className="col-lg-1">
+                      <div className="proportion-block-4 proportion-block"></div>
+                    </div>
+                  </div>
+                </div>
 
                 <h3>Secondary Colors</h3>
-                {/* Secondary color block here */}
+                <div className="proportion-block-container">
+                  <div className="row no-gutters">
+                    <div className="col-4">
+                      <div className="proportion-block-5  proportion-block-small"></div>
+                    </div>
+                    <div className="col-4">
+                      <div className="proportion-block-6 proportion-block-small"></div>
+                    </div>
+                    <div className="col-4">
+                      <div className="proportion-block-7 proportion-block-small"></div>
+                    </div>
+                  </div>
+                </div>
                 <h3>Tertiary Colors</h3>
-                {/* Tertiary Colors here */}
+                <div className="proportion-block-container">
+                  <div className="row no-gutters">
+                    <div className="col-2">
+                      <div className="proportion-block-8 proportion-block-smaller"></div>
+                    </div>
+                    <div className="col-2">
+                      <div className="proportion-block-9 proportion-block-smaller"></div>
+                    </div>
+                    <div className="col-2">
+                      <div className="proportion-block-10 proportion-block-smaller"></div>
+                    </div>
+                  </div>
+                </div>
                 <h3>Color Guidance</h3>
                 <p>
                   Our brand palette serves to underscore our brand history and
