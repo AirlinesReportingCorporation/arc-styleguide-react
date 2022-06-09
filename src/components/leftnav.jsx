@@ -60,7 +60,7 @@ class LeftNav extends Component {
               </ul>
               <ul className="nav-menu-items style-sub-item side-sticky-link">
                 <a href={writingURL + "#grammar-punctuation"}>
-                  Grammar & Punctuating
+                  Grammar & Punctuation
                 </a>
               </ul>
               <ul className="nav-menu-items style-main-item side-sticky-link">

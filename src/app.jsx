@@ -24,15 +24,18 @@ class App extends Component {
           <div className="content-area">
             <div>
               <h1>Our Brand</h1>
-              <p style={{ fontSize: "24px" }}>
+              <p className="our-brand-subtitle">
                 ARC’s brand style guide provides a comprehensive view of ARC’s
-                identity, including messaging, graphics, code and writing style.{" "}
+                identity, including messaging, graphics, code and writing style.
+                This guide was created for ARC employees, contractors and
+                industry partners to produce compelling, effective experiences
+                for a variety of audiences.{" "}
               </p>
             </div>
             <h2>Frequently requested assets</h2>
             <div className="row">
               <div className="col-lg-6">
-                <BoxArrowSmall copy="Arc Logos" />
+                <BoxArrowSmall copy="Logos" />
               </div>
               <div className="col-lg-6">
                 <BoxArrowSmall copy="Icons" />
@@ -40,10 +43,10 @@ class App extends Component {
             </div>
             <div className="row">
               <div className="col-lg-6">
-                <BoxArrowSmall copy="Approved Photo" />
+                <BoxArrowSmall copy="Approved photo library" />
               </div>
               <div className="col-lg-6">
-                <BoxArrowSmall copy="Presentation" />
+                <BoxArrowSmall copy="Presentation templates" />
               </div>
             </div>
             <h2 className="style-guide-h2">Explore Our Style Guide</h2>
@@ -52,7 +55,7 @@ class App extends Component {
                 <div className="col-lg-4">
                   <BoxArrow
                     link="/our-brand.html"
-                    copy="Using the ARC Brand"
+                    copy="Using Our Brand"
                     titleWidth="170px"
                     image="https://www2.arccorp.com/globalassets/styleguide/styleguide-using-brand.png?1"
                   />
@@ -60,7 +63,7 @@ class App extends Component {
                 <div className="col-lg-4">
                   <BoxArrow
                     link="/visual-identity.html"
-                    copy="ARC's Visual Identity"
+                    copy="Visual Identity"
                     titleWidth="150px"
                     image="https://www2.arccorp.com/globalassets/styleguide/styleguide-visual-identity.png"
                   />
@@ -68,7 +71,7 @@ class App extends Component {
                 <div className="col-lg-4">
                   <BoxArrow
                     link="/writing-style-guide.html"
-                    copy="Writing Style Guide & Best Practices"
+                    copy="Writing Style Guide"
                     image="https://www2.arccorp.com/globalassets/styleguide/styleguide-writing.png/"
                   />
                 </div>
@@ -83,10 +86,7 @@ class App extends Component {
             </div>
           </div>
 
-          <BottomPageNav
-            nextLink="our-brand.html"
-            nextName="Using Our Brand"
-          />
+          <BottomPageNav nextLink="our-brand.html" nextName="Using Our Brand" />
         </div>
       </Layout>
     );

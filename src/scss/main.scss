@@ -88,7 +88,7 @@
   .style-main-item,
   .style-main-item a {
     color: #2a2b2c;
-    font-family: SourceSansPro-Bold, Arial, Helvetica, sans-serif;
+    font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
     font-size: 21px;
     letter-spacing: 0;
     line-height: 30px;
@@ -136,6 +136,17 @@
     padding: 0 15px;
     width: 100%;
     margin: 0 auto 60px;
+
+    h1 {
+      font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
+      font-size: 66px;
+    }
+  }
+
+  .our-brand-subtitle {
+    font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
   }
   // Writing style guide
   .inner-document-names {
