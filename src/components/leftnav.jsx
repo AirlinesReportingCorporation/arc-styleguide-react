@@ -55,7 +55,7 @@ class LeftNav extends Component {
               </ul>
               <ul className="nav-menu-items style-sub-item side-sticky-link">
                 <a href={writingURL + "#formatting"}>
-                  Formatting Dates, Times, & Numbers
+                  Formatting Dates, Times & Numbers
                 </a>
               </ul>
               <ul className="nav-menu-items style-sub-item side-sticky-link">

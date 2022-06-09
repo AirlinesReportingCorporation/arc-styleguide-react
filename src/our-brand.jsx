@@ -25,18 +25,6 @@ class ARCBrand extends Component {
                   reliably to our customers. This framework positions ARC as a
                   forward-looking, customer-oriented and results-driven partner.
                 </p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-12">
-                <h2>Introduction</h2>
-                <p>
-                  ARC’s brand style guide provides a comprehensive view of ARC’s
-                  identity, including messaging, graphics, code and writing
-                  style. This guide was created for ARC employees, contractors
-                  and industry partners to produce compelling, effective
-                  experiences for a variety of audiences.
-                </p>
                 <button
                   href="https://www2.arccorp.com/globalassets/styleguide/arc-flight-map_a-guide-to-working-with-our-brand.pdf"
                   className="ctaBtn"
@@ -49,14 +37,9 @@ class ARCBrand extends Component {
         </div>
         <div className="styleguide-doc-section ">
           <div className="styleguide-doc-inner">
-            <div className="row">
-              <h3>About ARC</h3>
-              <p>
-                The ARC brand system ensures that we communicate clearly and
-                reliably to our customers. This framework positions ARC as a
-                forward-looking, customer-oriented and results-driven partner.
-              </p>
-            </div>
+            <h2>Brand Language</h2>
+            <h3>About ARC</h3>
+
             <TermDef
               term="ARC"
               definition={
@@ -123,7 +106,7 @@ class ARCBrand extends Component {
             />
             <h2 id="language">ARC Brand Language</h2>
             <h3>The Masterbrand Framework</h3>
-            <p>
+            <p style={{ maxWidth: "700px" }}>
               ARC’s masterbrand-led framework highlights four core components:
               brand essence, brand promise, brand equities and proof points.
             </p>
@@ -160,10 +143,7 @@ class ARCBrand extends Component {
             />
 
             <h3>Brand Equities and Proof Points</h3>
-            <p>
-              ARC’s masterbrand-led framework highlights four core components:
-              brand essence, brand promise, brand equities and proof points.
-            </p>
+
             <TermDef
               term="Industry Connector"
               definition={
@@ -226,7 +206,8 @@ class ARCBrand extends Component {
                 </ul>
               }
             />
-            <h3>Mission, Vision & Tagline</h3>
+            <h2 id="voice">Brand Voice</h2>
+
             <p>
               ARC’s masterbrand-led framework highlights four core components:
               brand essence, brand promise, brand equities and proof points.
@@ -247,7 +228,7 @@ class ARCBrand extends Component {
               }
             />
             <TermDef
-              term="Tagline"
+              term="Mission"
               definition={
                 <div>
                   <p className="term-def-large">
@@ -275,42 +256,60 @@ class ARCBrand extends Component {
                 </div>
               }
             />
-            <h2 id="voice">Brand Voice</h2>
-            <p>
-              In order to ensure that both internal and external stakeholders
-              are certain of who ARC is, it is important to operate with a
-              clear, resounding voice. This requires having a consistent tone
-              when communicating.
-            </p>
-            <p>
-              The ARC voice is confident, inspiring, intelligent and researched.
-              ARC empowers the global air travel community, striving to always
-              be transparent, trustworthy and approachable.
-            </p>
-            <p>
-              Because ARC is an objective, trusted voice at the center of the
-              industry, our voice walks a fine line between authority and
-              approachability. It’s professional, but not overly formal. It’s
-              accessible, but not overly casual. We take care to maintain a
-              voice that reflects our role as a trusted leader that consults
-              closely with customers to meet their needs.
-            </p>
-            <p>
-              ARC connects the global air travel community to solve problems and
-              discover new opportunities. ARC inspires its customers to build
-              relationships and solutions that move our industry forward.
-            </p>
 
-            <div className="col-lg-12"
-              style={{
-                color: "#189BB0",
-                fontSize: "36px",
-                fontFamily: "Source Sans Pro Semibold",
-                textAlign: "center",
-              }}
-            >
-              The ARC Voice is confident, inspiring, intelligent and researched.
-            </div>
+            <TermDef
+              term="Voice"
+              definition={
+                <>
+                  {" "}
+                  <p>
+                    In order to ensure that both internal and external
+                    stakeholders are certain of who ARC is, it is important to
+                    operate with a clear, resounding voice. This requires having
+                    a consistent tone when communicating.
+                  </p>
+                  <p>
+                    The ARC voice is confident, inspiring, intelligent and
+                    researched. ARC empowers the global air travel community,
+                    striving to always be transparent, trustworthy and
+                    approachable.
+                  </p>
+                  <p>
+                    Because ARC is an objective, trusted voice at the center of
+                    the industry, our voice walks a fine line between authority
+                    and approachability. It’s professional, but not overly
+                    formal. It’s accessible, but not overly casual. We take care
+                    to maintain a voice that reflects our role as a trusted
+                    leader that consults closely with customers to meet their
+                    needs.
+                  </p>
+                  <p>
+                    ARC connects the global air travel community to solve
+                    problems and discover new opportunities. ARC inspires its
+                    customers to build relationships and solutions that move our
+                    industry forward.
+                  </p>
+                </>
+              }
+            />
+
+            <TermDef
+              term=""
+              definition={
+                <div
+                  style={{
+                    color: "#189BB0",
+                    fontSize: "36px",
+                    fontFamily: "Source Sans Pro Semibold",
+                    textAlign: "center",
+                  }}
+                >
+                  The ARC Voice is confident, inspiring, intelligent and
+                  researched.
+                </div>
+              }
+            />
+
             <TermDef
               term="Sage"
               definition={

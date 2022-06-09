@@ -1,17 +1,20 @@
 .term-def {
-    margin: 60px auto;
+  margin: 60px auto;
 }
 
 .term-item {
-    width: 137px;
+  width: 137px;
 }
 
 .term-defintion {
-    width: 666px;
+  width: 666px;
+  ul li {
+    color: #6d6e71;
+  }
 }
 
 .term-def-large {
-    color: #189BB0 !important;
-    font-size: 30px !important;
-    font-family: Source Sans Pro Semibold;
+  color: #189bb0 !important;
+  font-size: 30px !important;
+  font-family: Source Sans Pro Semibold;
 }

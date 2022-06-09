@@ -666,7 +666,7 @@ class Visual extends Component {
 
         <div className="styleguide-doc-section">
           <div className="styleguide-doc-inner">
-            <h3>Animated GIF</h3>
+            <h2>Animated GIF</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               posuere lacus in lacus accumsan, at tincidunt metus efficitur.
