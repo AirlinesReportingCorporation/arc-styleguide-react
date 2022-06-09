@@ -502,7 +502,7 @@ class Landing extends Component {
             <p>
               Use the abbreviation U.S. when referring to the United States.
             </p>
-            <h2 id="formatting">Formatting Dates, Times, and Figures</h2>
+            <h2 id="formatting">Formatting Dates, Times & Numbers</h2>
             <h3>Dates and Date Ranges</h3>
             <p>
               In most cases, spell out the date without the day of the week:
