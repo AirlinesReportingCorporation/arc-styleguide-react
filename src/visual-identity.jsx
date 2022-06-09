@@ -174,7 +174,7 @@ class Visual extends Component {
         </div>
         <div className="styleguide-doc-section">
           <div className="styleguide-doc-inner">
-            <h2>Logo Suite</h2>
+            <h3>Logo Suite</h3>
             <div>
               Download our logo suite containing different sizes, colors and
               file types.
@@ -667,11 +667,11 @@ class Visual extends Component {
         <div className="styleguide-doc-section">
           <div className="styleguide-doc-inner">
             <h2>Animated GIF</h2>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               posuere lacus in lacus accumsan, at tincidunt metus efficitur.
               Vivamus fermentum ante a urna vehicula molestie.
-            </p>
+            </p> */}
             <div className="row no-gutters">
               <div className="col-md-12">
                 <div className="row text-center mt-4">

@@ -16,7 +16,7 @@ class BottomPageNav extends Component {
                 className="styleguide-nav-bottom styleguide-nav-prev"
               >
                 <div className="styleguide-nav-bottom-inner">
-                  Prev:<br/>
+                  Previous:<br/>
                   {this.props.prevName}
                 </div>
               </a>
