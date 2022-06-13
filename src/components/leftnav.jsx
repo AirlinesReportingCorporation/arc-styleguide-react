@@ -48,7 +48,7 @@ class LeftNav extends Component {
                 <a href={visualURL + "#colorPalette"}>Color Palette</a>
               </ul>
               <ul className="nav-menu-items style-main-item side-sticky-link">
-                <a href={writingURL}>Writing Style Guide & Best Practices</a>
+                <a href={writingURL}>Writing Style Guide</a>
               </ul>
               <ul className="nav-menu-items style-sub-item side-sticky-link">
                 <a href={writingURL + "#frequent"}>Frequently Used Terms</a>
