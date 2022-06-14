@@ -32,7 +32,7 @@ class App extends Component {
                 for a variety of audiences.{" "}
               </p>
             </div>
-            <h2>Frequently requested assets</h2>
+            <h2 className="style-guide-h2">Frequently requested assets</h2>
             <div className="row">
               <div className="col-lg-6">
                 <BoxArrowSmall copy="Logos" />
