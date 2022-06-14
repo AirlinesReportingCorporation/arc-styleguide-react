@@ -67,6 +67,7 @@ class Visual extends Component {
             />
             <TermDef
               term="Secondary Logo With Full Company Name"
+              width="195px"
               definition={
                 <div>
                   <p>
