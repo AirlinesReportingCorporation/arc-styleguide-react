@@ -43,34 +43,37 @@ class Landing extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <h2 id="frequent">Frequently Used Terms</h2>
-                <h3>Abbreviations and Acronyms</h3>
-                <p>
-                  For most abbreviations or acronyms, define the full name on
-                  first reference with the abbreviation or acronym in
-                  parentheses. The abbreviation or acronym can then be used
-                  alone in subsequent references.
-                </p>
-                <p>
-                  An exception to the rule above is “ARC,” which can be
-                  abbreviated on first reference except in press releases or
-                  when the full name is needed for context. The only other
-                  exceptions are very commonly known acronyms listed in AP Style
-                  (COVID, FBI, U.S.), which do not need to be written out.
-                </p>
-                <p>
-                  For ARC products, ensure your abbreviation or acronym is
-                  customer-facing and not just internal. Abbreviations and
-                  acronyms we use include:
-                  <ul>
-                    <li>Direct Data Solutions (DDS)</li>
-                  </ul>
-                </p>
-                <p>
-                  Headlines and titles may include commonly used abbreviations,
-                  but the text should introduce the acronym's definition in the
-                  first few sentences. Do not use airline codes as abbreviations
-                  in formal external content.{" "}
-                </p>
+                <div className="inner-document-casing">
+                  <h3>Abbreviations and Acronyms</h3>
+                  <p>
+                    For most abbreviations or acronyms, define the full name on
+                    first reference with the abbreviation or acronym in
+                    parentheses. The abbreviation or acronym can then be used
+                    alone in subsequent references.
+                  </p>
+                  <p>
+                    An exception to the rule above is “ARC,” which can be
+                    abbreviated on first reference except in press releases or
+                    when the full name is needed for context. The only other
+                    exceptions are very commonly known acronyms listed in AP
+                    Style (COVID, FBI, U.S.), which do not need to be written
+                    out.
+                  </p>
+                  <p>
+                    For ARC products, ensure your abbreviation or acronym is
+                    customer-facing and not just internal. Abbreviations and
+                    acronyms we use include:
+                    <ul>
+                      <li>Direct Data Solutions (DDS)</li>
+                    </ul>
+                  </p>
+                  <p>
+                    Headlines and titles may include commonly used
+                    abbreviations, but the text should introduce the acronym's
+                    definition in the first few sentences. Do not use airline
+                    codes as abbreviations in formal external content.{" "}
+                  </p>
+                </div>
 
                 <TermsUsage
                   incorrectCopy={
@@ -163,78 +166,101 @@ class Landing extends Component {
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
-                <h3>ARC-accredited agency</h3>
-                <p>Use the hyphen, as "ARC-accredited" modifies "agency."</p>
+                <div className="inner-document-casing">
+                  <h3>ARC-accredited agency</h3>
+                  <p>Use the hyphen, as "ARC-accredited" modifies "agency."</p>
+                </div>
               </div>
             </div>
             <TermsUsage
-              incorrectCopy={<p>Expedia is an <strong>ARC Accredited agency</strong>.</p>}
+              incorrectCopy={
+                <p>
+                  Expedia is an <strong>ARC Accredited agency</strong>.
+                </p>
+              }
               incorrectInfo=""
-              correctCopy={<p>Expedia is an <strong>ARC-accredited agency</strong>.</p>}
+              correctCopy={
+                <p>
+                  Expedia is an <strong>ARC-accredited agency</strong>.
+                </p>
+              }
               correctInfo=""
             />
-            <h3>ARC Board of Directors</h3>
-            <div><em>When do we capitalize Board? Board members?</em></div>
-            <p>
-              Bonnie Reitz has historically been referred to as the “Chairman of
-              the Board,” but prefers to be referred to as “Chair of the Board.”
-              Please update any outdated instances as you come around them, and
-              use “Chair of the Board” going forward.
-            </p>
+            <div className="inner-document-casing">
+              <h3>ARC Board of Directors</h3>
+              <div>
+                <em>When do we capitalize Board? Board members?</em>
+              </div>
+              <p>
+                Bonnie Reitz has historically been referred to as the “Chairman
+                of the Board,” but prefers to be referred to as “Chair of the
+                Board.” Please update any outdated instances as you come around
+                them, and use “Chair of the Board” going forward.
+              </p>
+            </div>
 
-            <h3>Calls to Action</h3>
-            <div className="row">
-              <div className="col-lg-3">
-                <ButtonBox button="Sign in" />
-                <p>
-                  This is the preferred term for signing in to My ARC. "Login"
-                  is used to refer to the user’s credentials.
-                </p>
-              </div>
-              <div className="col-lg-3">
-                <ButtonBox button="Download" />
-                <p>
-                  Use only when the button generates a direct download. If there
-                  is one more step to be completed, use language like "Get the
-                  Report."
-                </p>
-              </div>
-              <div className="col-lg-3">
-                <ButtonBox button="Register" />
-                <p>
-                  Use only when the button generates a direct download. If there
-                  is one more step to be completed, use language like "Get the
-                  Report."
-                </p>
-              </div>
-              <div className="col-lg-3">
-                <ButtonBox button="subscribe" />
-                <p>
-                  Use only when the button generates a direct download. If there
-                  is one more step to be completed, use language like "Get the
-                  Report."
-                </p>
+            <div className="inner-document-casing">
+              <h3>Calls to Action</h3>
+              <div className="row">
+                <div className="col-lg-3">
+                  <ButtonBox button="Sign in" />
+                  <p>
+                    This is the preferred term for signing in to My ARC. "Login"
+                    is used to refer to the user’s credentials.
+                  </p>
+                </div>
+                <div className="col-lg-3">
+                  <ButtonBox button="Download" />
+                  <p>
+                    Use only when the button generates a direct download. If
+                    there is one more step to be completed, use language like
+                    "Get the Report."
+                  </p>
+                </div>
+                <div className="col-lg-3">
+                  <ButtonBox button="Register" />
+                  <p>
+                    Use only when the button generates a direct download. If
+                    there is one more step to be completed, use language like
+                    "Get the Report."
+                  </p>
+                </div>
+                <div className="col-lg-3">
+                  <ButtonBox button="subscribe" />
+                  <p>
+                    Use only when the button generates a direct download. If
+                    there is one more step to be completed, use language like
+                    "Get the Report."
+                  </p>
+                </div>
               </div>
             </div>
-            <h3>Document Names</h3>
-            <p>
-              When referring to general documents in a sentence (such as forms,
-              calendars and applications), document names should be lowercase.
-              Industrywide documents, contracts or reference guides are
-              capitalized.
-            </p>
+
+            <div className="inner-document-casing">
+              <h3>Document Names</h3>
+              <p>
+                When referring to general documents in a sentence (such as
+                forms, calendars and applications), document names should be
+                lowercase. Industrywide documents, contracts or reference guides
+                are capitalized.
+              </p>
+            </div>
+
             <div className="row">
               <div className="col-lg-6">
                 <div className="inner-document-names">
                   <ul className="inner-document-list">
                     <li className="term-usage-li">
-                      For more information, view the <strong>ARC holiday calendar</strong>.
+                      For more information, view the{" "}
+                      <strong>ARC holiday calendar</strong>.
                     </li>
                     <li className="term-usage-li">
-                      Please complete the attached <strong>cash security deposit program
-                      form.</strong>
+                      Please complete the attached{" "}
+                      <strong>cash security deposit program form.</strong>
                     </li>
-                    <li className="term-usage-li">To learn more, see the 2022 fee schedule.</li>
+                    <li className="term-usage-li">
+                      To learn more, see the 2022 fee schedule.
+                    </li>
                   </ul>
                 </div>
                 <h3>Lowercase</h3>
@@ -243,17 +269,19 @@ class Landing extends Component {
                 <div className="inner-document-names">
                   <ul className="inner-document-list">
                     <li className="term-usage-li">
-                      Please review changes to the <strong>Agent Reporting Agreement
-                      (ARA).</strong>
+                      Please review changes to the{" "}
+                      <strong>Agent Reporting Agreement (ARA).</strong>
                     </li>
                     <li className="term-usage-li">
                       Information on chargeback management can be found in the
                       <strong>Industry Agents’ Handbook (IAH).</strong>
                     </li>
                     <li className="term-usage-li">
-                      The Debit Memo Working Group developed the <strong>Best Practices
-                      for Effective Debit Memo Resolution and Prevention, NDC
-                      Getting Started Guide.</strong>
+                      The Debit Memo Working Group developed the{" "}
+                      <strong>
+                        Best Practices for Effective Debit Memo Resolution and
+                        Prevention, NDC Getting Started Guide.
+                      </strong>
                     </li>
                   </ul>
                 </div>
@@ -268,46 +296,57 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li className="term-usage-li">One way ticket sales have remained steady.</li>
-                  <li className="term-usage-li">Their flight to Paris is one-way.</li>
+                  <li className="term-usage-li">
+                    One way ticket sales have remained steady.
+                  </li>
+                  <li className="term-usage-li">
+                    Their flight to Paris is one-way.
+                  </li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li className="term-usage-li">One-way ticket sales have remained steady.</li>
-                  <li className="term-usage-li">Their flight to Paris is one way.</li>
+                  <li className="term-usage-li">
+                    One-way ticket sales have remained steady.
+                  </li>
+                  <li className="term-usage-li">
+                    Their flight to Paris is one way.
+                  </li>
                 </ul>
               }
             />
-            <h3>Product Names</h3>
-            <p>
-              ARC product names should be written as shown. Do not use an
-              acronym or abbreviation for a product unless the product has one
-              listed below.
-            </p>
-            <p>
-              <strong>AeroGram</strong> <br />
-              <strong>ARC Agency BI</strong> – “Agency BI” is acceptable on
-              subsequent references or in headlines where context is clear.{" "}
-              <br />
-              <strong>ARC Airline BI</strong> – “Airline BI” is acceptable on
-              subsequent references or in headlines where context is clear.{" "}
-              <br />
-              <strong>ARC Data Connect</strong> <br />
-              <strong> ARC Direct Connect</strong> <br />
-              <strong> ARC Pay</strong> – Always written as “ARC Pay,” never
-              just “Pay.” <br />
-              <strong>ARC Risk Check</strong> <br />
-              <strong>Aria</strong> <br />
-              <strong>Custom Reports</strong> <br />
-              <strong>Direct Data Solutions (DDS)</strong> <br />
-              <strong>Memo Analyzer</strong> – If needed, “Memo Analyzer for
-              Agencies” or “Memo Analyzer for Airlines” can be specified. <br />
-              <strong>Memo Manager </strong>
-              <br />
-              <strong>Revenue Analysis Reports</strong> <br />
-              <strong> Revenue Recovery Services</strong> <br />
-            </p>
+            <div className="inner-document-casing">
+              <h3>Product Names</h3>
+              <p>
+                ARC product names should be written as shown. Do not use an
+                acronym or abbreviation for a product unless the product has one
+                listed below.
+              </p>
+              <p>
+                <strong>AeroGram</strong> <br />
+                <strong>ARC Agency BI</strong> – “Agency BI” is acceptable on
+                subsequent references or in headlines where context is clear.{" "}
+                <br />
+                <strong>ARC Airline BI</strong> – “Airline BI” is acceptable on
+                subsequent references or in headlines where context is clear.{" "}
+                <br />
+                <strong>ARC Data Connect</strong> <br />
+                <strong> ARC Direct Connect</strong> <br />
+                <strong> ARC Pay</strong> – Always written as “ARC Pay,” never
+                just “Pay.” <br />
+                <strong>ARC Risk Check</strong> <br />
+                <strong>Aria</strong> <br />
+                <strong>Custom Reports</strong> <br />
+                <strong>Direct Data Solutions (DDS)</strong> <br />
+                <strong>Memo Analyzer</strong> – If needed, “Memo Analyzer for
+                Agencies” or “Memo Analyzer for Airlines” can be specified.{" "}
+                <br />
+                <strong>Memo Manager </strong>
+                <br />
+                <strong>Revenue Analysis Reports</strong> <br />
+                <strong> Revenue Recovery Services</strong> <br />
+              </p>
+            </div>
 
             <h3>Round Trip</h3>
             <p>
@@ -317,16 +356,28 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li className="term-usage-li">They took a roundtrip to New York and back</li>
-                  <li className="term-usage-li">They took a round-trip to New York and back.</li>
-                  <li className="term-usage-li">The volume of roundtrip tickets increased last year.</li>
-                  <li className="term-usage-li">The volume of round trip tickets increased last year</li>
+                  <li className="term-usage-li">
+                    They took a roundtrip to New York and back
+                  </li>
+                  <li className="term-usage-li">
+                    They took a round-trip to New York and back.
+                  </li>
+                  <li className="term-usage-li">
+                    The volume of roundtrip tickets increased last year.
+                  </li>
+                  <li className="term-usage-li">
+                    The volume of round trip tickets increased last year
+                  </li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li className="term-usage-li">They took a round trip to New York and back.</li>
-                  <li className="term-usage-li">The volume of round-trip tickets increased last year.</li>
+                  <li className="term-usage-li">
+                    They took a round trip to New York and back.
+                  </li>
+                  <li className="term-usage-li">
+                    The volume of round-trip tickets increased last year.
+                  </li>
                 </ul>
               }
             />
@@ -338,7 +389,9 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li className="term-usage-li">ARC’s Marketing Team created the writing style guide.</li>
+                  <li className="term-usage-li">
+                    ARC’s Marketing Team created the writing style guide.
+                  </li>
                   <li className="term-usage-li">
                     If you have any questions about the tool, contact the
                     customer care center.
@@ -347,7 +400,9 @@ class Landing extends Component {
               }
               correctCopy={
                 <ul>
-                  <li className="term-usage-li">ARC’s marketing team created the writing style guide.</li>
+                  <li className="term-usage-li">
+                    ARC’s marketing team created the writing style guide.
+                  </li>
                   <li className="term-usage-li">
                     If you have any questions about the tool, contact the
                     Customer Care Center.
@@ -364,7 +419,7 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li className="term-usage-li"> 
+                  <li className="term-usage-li">
                     Lauri Reishus is ARC’s President and Chief Executive
                     Officer.
                   </li>
@@ -387,23 +442,27 @@ class Landing extends Component {
                 </ul>
               }
             />
-            <p>
+            <p className="inner-document-casing">
               Never capitalize a job title that stands alone, no matter how
               important it seems.
             </p>
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li className="term-usage-li">The President signed the bill.</li>
+                  <li className="term-usage-li">
+                    The President signed the bill.
+                  </li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li className="term-usage-li">The president signed the bill.</li>
+                  <li className="term-usage-li">
+                    The president signed the bill.
+                  </li>
                 </ul>
               }
             />
-            <p>
+            <p className="inner-document-casing">
               Most job descriptions are not considered titles and are not
               capitalized: astronaut John Glenn, actor Zac Efron, teacher Nancy
               Hanson.
@@ -424,24 +483,29 @@ class Landing extends Component {
                 </ul>
               }
             />
-            <h3>Abbreviations</h3>
-            <p>
-              Formal titles are those that denote a scope of authority,
-              professional rank or academic rank: professor, judge, mayor,
-              doctor, emperor. Remember, they’re capitalized when used with a
-              proper name, but not when used alone. Most formal titles are not
-              abbreviated when used with a proper name. Only a few titles can be
-              abbreviated: Gov., Lt. Gov., Sen., Rep., Dr., the Rev., most
-              military and law enforcement titles. Never abbreviate president or
-              vice president.
-            </p>
-            <h3>Courtesy Titles</h3>
-            <p>
-              Both men and women are introduced by their first and last names —
-              without a courtesy title — on the first reference. Subsequent
-              references use their last name only. Do not use courtesy titles
-              (Mr., Ms.) unless they appear in direct quotations.
-            </p>
+            <div className="inner-document-casing">
+              <h3>Abbreviations</h3>
+              <p>
+                Formal titles are those that denote a scope of authority,
+                professional rank or academic rank: professor, judge, mayor,
+                doctor, emperor. Remember, they’re capitalized when used with a
+                proper name, but not when used alone. Most formal titles are not
+                abbreviated when used with a proper name. Only a few titles can
+                be abbreviated: Gov., Lt. Gov., Sen., Rep., Dr., the Rev., most
+                military and law enforcement titles. Never abbreviate president
+                or vice president.
+              </p>
+            </div>
+            <div className="inner-document-casing">
+              <h3>Courtesy Titles</h3>
+              <p>
+                Both men and women are introduced by their first and last names
+                — without a courtesy title — on the first reference. Subsequent
+                references use their last name only. Do not use courtesy titles
+                (Mr., Ms.) unless they appear in direct quotations.
+              </p>
+            </div>
+
             <TermsUsage
               incorrectCopy={
                 <ul>
@@ -486,40 +550,50 @@ class Landing extends Component {
                 </ul>
               }
             />
-            <h3>Travel Agency</h3>
-            <p>
-              To provide context to the reader, use the full term "travel
-              agency" on first use. After that, simplifying to "agent" or
-              "agency" is fine. Use "agency" when referring to the business. Use
-              "agent" when referring to an individual selling travel.
-            </p>
-            <p>
-              The IAH, ARA and any official or legal documentation are
-              exceptions, which use the term "Agent" to refer to contractual
-              agreements with an agency.
-            </p>
-            <h3>U.S.</h3>
-            <p>
-              Use the abbreviation U.S. when referring to the United States.
-            </p>
+            <div className="inner-document-casing">
+              <h3>Travel Agency</h3>
+              <p>
+                To provide context to the reader, use the full term "travel
+                agency" on first use. After that, simplifying to "agent" or
+                "agency" is fine. Use "agency" when referring to the business.
+                Use "agent" when referring to an individual selling travel.
+              </p>
+              <p>
+                The IAH, ARA and any official or legal documentation are
+                exceptions, which use the term "Agent" to refer to contractual
+                agreements with an agency.
+              </p>
+            </div>
+            <div className="inner-document-casing">
+              <h3>U.S.</h3>
+              <p>
+                Use the abbreviation U.S. when referring to the United States.
+              </p>
+            </div>
+
             <h2 id="formatting">Formatting Dates, Times & Numbers</h2>
-            <h3>Dates and Date Ranges</h3>
-            <p>
-              In most cases, spell out the date without the day of the week:
-              January 1, 2023. If the day of the week is important, write as:
-              Sunday, January 1, 2023.
-            </p>
-            <p>
-              Period-ending dates are an exception and use the MM/DD/YY format
-              (PED 01/01/23). Use a hyphen without spaces to indicate date
-              ranges. For date ranges within the same month, only list the month
-              once.
-            </p>
+            <div className="inner-document-casing">
+              <h3>Dates and Date Ranges</h3>
+              <p>
+                In most cases, spell out the date without the day of the week:
+                January 1, 2023. If the day of the week is important, write as:
+                Sunday, January 1, 2023.
+              </p>
+              <p>
+                Period-ending dates are an exception and use the MM/DD/YY format
+                (PED 01/01/23). Use a hyphen without spaces to indicate date
+                ranges. For date ranges within the same month, only list the
+                month once.
+              </p>
+            </div>
+
             <TermsUsage
               incorrectCopy={
                 <div>
                   <ul>
-                    <li className="term-usage-li">January 7-January 20, 2023</li>
+                    <li className="term-usage-li">
+                      January 7-January 20, 2023
+                    </li>
                   </ul>
                 </div>
               }
@@ -527,7 +601,9 @@ class Landing extends Component {
                 <div>
                   <ul>
                     <li className="term-usage-li">January 7-20, 2023</li>
-                    <li className="term-usage-li">January 7-February 5, 2023</li>
+                    <li className="term-usage-li">
+                      January 7-February 5, 2023
+                    </li>
                   </ul>
                 </div>
               }
@@ -573,83 +649,111 @@ class Landing extends Component {
                 </div>
               }
             />
-            <h3>Numerals</h3>
-            <p>
-              When used in a sentence, spell out one through nine. Use numerals
-              for 10 and above. Use figures for:
-            </p>
-            <div className="row">
-              <div className="col-lg-6">
-                <ul>
-                  <li className="term-usage-li">Addresses (5 Sixth Ave.)</li>
-                  <li className="term-usage-li">Ages (3 years old)</li>
-                  <li className="term-usage-li">Charts, labels and graphs</li>
-                  <li className="term-usage-li">Dates, years and decades (April 1, Class of '95)</li>
-                  <li className="term-usage-li">Currency ($5, $0.50)</li>
-                  <li className="term-usage-li">Millions, billions (4 billion, $50 million)</li>
-                </ul>
-              </div>
-              <div className="col-lg-6">
-                <ul>
-                  <li className="term-usage-li">Plane designations (B-2 bomber, Airbus 330-200)</li>
-                  <li className="term-usage-li">
-                    Decimals, percentages and fractions with numbers larger than
-                    1 (7.2 magnitude earthquake, 7.1 percent increase)
-                  </li>
-                  <li className="term-usage-li">Dimensions and distances (4 miles, 8 feet)</li>
-                  <li className="term-usage-li">Sequential designations (Page 1, ARA Section 6)</li>
-                  <li className="term-usage-li">Time of Day (a 1 p.m. webinar)</li>
-                </ul>
+            <div className="inner-document-casing">
+              <h3>Numerals</h3>
+              <p>
+                When used in a sentence, spell out one through nine. Use
+                numerals for 10 and above. Use figures for:
+              </p>
+              <div className="row">
+                <div className="col-lg-6">
+                  <ul>
+                    <li className="term-usage-li">Addresses (5 Sixth Ave.)</li>
+                    <li className="term-usage-li">Ages (3 years old)</li>
+                    <li className="term-usage-li">Charts, labels and graphs</li>
+                    <li className="term-usage-li">
+                      Dates, years and decades (April 1, Class of '95)
+                    </li>
+                    <li className="term-usage-li">Currency ($5, $0.50)</li>
+                    <li className="term-usage-li">
+                      Millions, billions (4 billion, $50 million)
+                    </li>
+                  </ul>
+                </div>
+                <div className="col-lg-6">
+                  <ul>
+                    <li className="term-usage-li">
+                      Plane designations (B-2 bomber, Airbus 330-200)
+                    </li>
+                    <li className="term-usage-li">
+                      Decimals, percentages and fractions with numbers larger
+                      than 1 (7.2 magnitude earthquake, 7.1 percent increase)
+                    </li>
+                    <li className="term-usage-li">
+                      Dimensions and distances (4 miles, 8 feet)
+                    </li>
+                    <li className="term-usage-li">
+                      Sequential designations (Page 1, ARA Section 6)
+                    </li>
+                    <li className="term-usage-li">
+                      Time of Day (a 1 p.m. webinar)
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <h3>Phone Numbers</h3>
-            <p>
-              Do not use the U.S. country code prefix (1) in phone numbers
-              unless it is necessary for an international audience. Only use
-              prefixes when necessary for international numbers (such as a new
-              participating airline that does not have an office in the U.S.).
-              Phone numbers should include dashes instead of periods, with the
-              exception of designed documents. letterhead and signatures
-            </p>
-            <ul>
-              <li className="term-usage-li">
-                In TAC: “Contact ARC’s Customer Care Center at 855-816-8003.”
-              </li>
-              <li className="term-usage-li">
-                In TAC: “For inquiries, reservations and sales information,
-                contact InselAir at +599-9-737-0444.”
-              </li>
-              <li className="term-usage-li">
-                In an email to a European airline: “If you have any questions,
-                contact 1-703-816-8000.”
-              </li>
-            </ul>
-            <h3>Percent</h3>
-            <p>
-              Use the percent symbol (%) with a number, with no space (e.g.,
-              3%).
-            </p>
-            <h3>Time</h3>
-            <p>
-              Use lowercase a.m. and p.m. with periods after each. When writing
-              a time on the hour, just use the number without :00. When
-              referencing 12:00, use “noon” or “midnight” for clarity.
-            </p>
+
+            <div className="inner-document-casing">
+              <h3>Phone Numbers</h3>
+              <p>
+                Do not use the U.S. country code prefix (1) in phone numbers
+                unless it is necessary for an international audience. Only use
+                prefixes when necessary for international numbers (such as a new
+                participating airline that does not have an office in the U.S.).
+                Phone numbers should include dashes instead of periods, with the
+                exception of designed documents. letterhead and signatures
+              </p>
+              <ul>
+                <li className="term-usage-li">
+                  In TAC: “Contact ARC’s Customer Care Center at 855-816-8003.”
+                </li>
+                <li className="term-usage-li">
+                  In TAC: “For inquiries, reservations and sales information,
+                  contact InselAir at +599-9-737-0444.”
+                </li>
+                <li className="term-usage-li">
+                  In an email to a European airline: “If you have any questions,
+                  contact 1-703-816-8000.”
+                </li>
+              </ul>
+            </div>
+            <div className="inner-document-casing">
+              <h3>Percent</h3>
+              <p>
+                Use the percent symbol (%) with a number, with no space (e.g.,
+                3%).
+              </p>
+            </div>
+            <div className="inner-document-casing">
+              <h3>Time</h3>
+              <p>
+                Use lowercase a.m. and p.m. with periods after each. When
+                writing a time on the hour, just use the number without :00.
+                When referencing 12:00, use “noon” or “midnight” for clarity.
+              </p>
+            </div>
+
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li className="term-usage-li">The networking event begins at 7:00pm.</li>
-                  <li className="term-usage-li">Join us for lunch at 12:00 p.m.</li>
+                  <li className="term-usage-li">
+                    The networking event begins at 7:00pm.
+                  </li>
+                  <li className="term-usage-li">
+                    Join us for lunch at 12:00 p.m.
+                  </li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li className="term-usage-li">The networking event begins at 7 p.m.</li>
+                  <li className="term-usage-li">
+                    The networking event begins at 7 p.m.
+                  </li>
                   <li className="term-usage-li">Join us for lunch at noon.</li>
                 </ul>
               }
             />
-            <p>
+            <p className="inner-document-casing">
               For timeframes, join the two numbers with a hyphen, without
               spaces. Only include one reference of a.m. or p.m., unless it
               spans both.
@@ -657,93 +761,133 @@ class Landing extends Component {
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li className="term-usage-li">The webinar will take place Tuesday 1 p.m.-2 p.m.</li>
+                  <li className="term-usage-li">
+                    The webinar will take place Tuesday 1 p.m.-2 p.m.
+                  </li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li className="term-usage-li">The webinar will take place Tuesday 1-2 p.m.</li>
-                  <li className="term-usage-li">The training session will take place 10 a.m.-3 p.m.</li>
+                  <li className="term-usage-li">
+                    The webinar will take place Tuesday 1-2 p.m.
+                  </li>
+                  <li className="term-usage-li">
+                    The training session will take place 10 a.m.-3 p.m.
+                  </li>
                 </ul>
               }
             />
-            <h3>Time Zones</h3>
-            <p>
-              For webinars and specific events, use EST or EDT to reflect
-              Eastern Standard Time and Eastern Daylight Time, respectively.
-              When listing year-round hours (e.g., hours of operation or phone
-              support), use ET to reflect Eastern Time.
-            </p>
+            <div className="inner-document-casing">
+              <h3>Time Zones</h3>
+              <p>
+                For webinars and specific events, use EST or EDT to reflect
+                Eastern Standard Time and Eastern Daylight Time, respectively.
+                When listing year-round hours (e.g., hours of operation or phone
+                support), use ET to reflect Eastern Time.
+              </p>
+            </div>
+
             <h2 id="grammar-punctuation">Grammar & Punctuation</h2>
-            <h3>Ampersand (&)</h3>
-            <p>
-              Ampersands should not be used as part of a sentence, unless you’re
-              referring to an official company name that uses one (“at&t”).
-              Instead, spell out the word “and.” Ampersands may be used in a
-              headline where brevity is necessary for design purposes.
-            </p>
-            <h3>Capitalization</h3>
-            <p>
-              Apply standard capitalization rules to content. Capitalize the
-              first word of a sentence, as well as proper nouns such as names,
-              products, organizations and industry events.
-            </p>
-            <h3>Headlines & Titles</h3>
-            <p>
-              Capitalize the first word of the title, the last word of the
-              title, and all “principal” words (nouns, pronouns, verbs, adverbs,
-              adjectives, subordinating conjunctions, prepositions used
-              adjectivally or adverbially) and all words longer than three
-              letters. This also applies to document, chart and PowerPoint slide
-              titles
-            </p>
+            <div className="inner-document-casing">
+              <h3>Ampersand (&)</h3>
+              <p>
+                Ampersands should not be used as part of a sentence, unless
+                you’re referring to an official company name that uses one
+                (“at&t”). Instead, spell out the word “and.” Ampersands may be
+                used in a headline where brevity is necessary for design
+                purposes.
+              </p>
+            </div>
+            <div className="inner-document-casing">
+              <h3>Capitalization</h3>
+              <p>
+                Apply standard capitalization rules to content. Capitalize the
+                first word of a sentence, as well as proper nouns such as names,
+                products, organizations and industry events.
+              </p>
+            </div>
+            <div className="inner-document-casing">
+              <h3>Headlines & Titles</h3>
+              <p>
+                Capitalize the first word of the title, the last word of the
+                title, and all “principal” words (nouns, pronouns, verbs,
+                adverbs, adjectives, subordinating conjunctions, prepositions
+                used adjectivally or adverbially) and all words longer than
+                three letters. This also applies to document, chart and
+                PowerPoint slide titles
+              </p>
+            </div>
+
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li className="term-usage-li">Meet the customer of the future</li>
-                  <li className="term-usage-li">Meet The Customer Of The Future</li>
+                  <li className="term-usage-li">
+                    Meet the customer of the future
+                  </li>
+                  <li className="term-usage-li">
+                    Meet The Customer Of The Future
+                  </li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li className="term-usage-li">Meet the Customer of the Future</li>
+                  <li className="term-usage-li">
+                    Meet the Customer of the Future
+                  </li>
                 </ul>
               }
             />
+            <div className="inner-document-casing">
             <h3>Ellipsis</h3>
             <p>As a general rule, do not use ellipsis.</p>
+            </div>
+            <div className="inner-document-casing">
             <h3>Hyphens</h3>
             <p>
               Use hyphens to join two words or create compound modifiers. Do not
               add spaces before or after a hyphen. Do not hyphenate adverbs
               ending in "-ly."
             </p>
+            </div>
+            
             <TermsUsage
               incorrectCopy={
                 <ul>
-                  <li className="term-usage-li">Friendship is a two way street.</li>
-                  <li className="term-usage-li">Expedia is a well known online travel agency</li>
+                  <li className="term-usage-li">
+                    Friendship is a two way street.
+                  </li>
+                  <li className="term-usage-li">
+                    Expedia is a well known online travel agency
+                  </li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li className="term-usage-li">Friendship is a two-way street.</li>
-                  <li className="term-usage-li">Expedia is a well-known online travel agency</li>
+                  <li className="term-usage-li">
+                    Friendship is a two-way street.
+                  </li>
+                  <li className="term-usage-li">
+                    Expedia is a well-known online travel agency
+                  </li>
                 </ul>
               }
             />
-
+            <div className="inner-document-casing">
             <h3>Prefixes</h3>
             <p>
               Generally, do not hyphenate when using a prefix with a word
               starting with a consonant. Use a hyphen if the word that follows
               is capitalized.
             </p>
+            </div>
+            <div className="inner-document-casing">
             <h3>Dashes</h3>
             <p>
               Use em dashes (—) for emphasis in a sentence, or to set off a
               phrase. Use a space before and after the dash.
             </p>
+            </div>
+            
             <TermsUsage
               incorrectCopy={
                 <ul>
@@ -766,12 +910,15 @@ class Landing extends Component {
                 </ul>
               }
             />
+            <div className="inner-document-casing">
             <h3>Serial Comma</h3>
             <p>
               Per AP Style, ARC does not use the serial comma. This means that
               in a series or list of three or more items, the final two items
               are not separated by a comma unless one is needed for clarity.
             </p>
+            </div>
+            
             <TermsUsage
               incorrectCopy={
                 <ul>
@@ -797,6 +944,7 @@ class Landing extends Component {
                 </ul>
               }
             />
+            <div className="inner-document-casing">
             <h3>Verb Tense and Person</h3>
             <p>
               Use active verbs rather than passive wherever possible. Avoid
@@ -805,30 +953,38 @@ class Landing extends Component {
               communication is from an individual (e.g., an article or column
               from a subject matter expert on LinkedIn).
             </p>
+            </div>
+            
             <TermsUsage
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
                     The brand and style guide was used by the entire company.
                   </li>
-                  <li className="term-usage-li">We implemented enhancements to Memo Manager.</li>
+                  <li className="term-usage-li">
+                    We implemented enhancements to Memo Manager.
+                  </li>
                 </ul>
               }
               correctCopy={
                 <ul>
-                  <li className="term-usage-li">The entire company used the brand and style guide.</li>
-                  <li className="term-usage-li">ARC implemented enhancements to Memo Manager.</li>
+                  <li className="term-usage-li">
+                    The entire company used the brand and style guide.
+                  </li>
+                  <li className="term-usage-li">
+                    ARC implemented enhancements to Memo Manager.
+                  </li>
                 </ul>
               }
             />
           </div>
         </div>
         <BottomPageNav
-            prevLink="visual-identity.html"
-            prevName="Visual Identity"
-            nextLink="web-style-guide.html"
-            nextName="Web Style Guide"
-          />
+          prevLink="visual-identity.html"
+          prevName="Visual Identity"
+          nextLink="web-style-guide.html"
+          nextName="Web Style Guide"
+        />
       </Layout>
     );
   }
