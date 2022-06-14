@@ -177,6 +177,7 @@ class ARCBrand extends Component {
             />
             <TermDef
               term="Global Source of Airline Data"
+              width="190px"
               definition={
                 <ul>
                   <li>

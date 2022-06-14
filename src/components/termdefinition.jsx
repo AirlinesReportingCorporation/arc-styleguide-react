@@ -11,7 +11,9 @@ class TermDef extends Component {
       <div className="term-def">
         <div className="row">
           <div className="col-3">
-            <h3 className="term-item">{this.props.term}</h3>
+            <h3 className="term-item" style={{ width: this.props.width }}>
+              {this.props.term}
+            </h3>
           </div>
           <div className="col-9 term-definition">{this.props.definition}</div>
         </div>
