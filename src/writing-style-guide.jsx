@@ -38,7 +38,7 @@ class Landing extends Component {
             </div>
           </div>
         </div>
-        <div className="styleguide-doc-section">
+        <div className="styleguide-doc-section" style={{marginBottom: "0px"}}>
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
@@ -105,7 +105,7 @@ class Landing extends Component {
             </div>
           </div>
         </div>
-        <div className="styleguide-doc-section">
+        <div className="styleguide-doc-section" style={{marginTop: "0px"}}>
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
