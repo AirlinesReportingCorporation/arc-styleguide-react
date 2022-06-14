@@ -78,7 +78,7 @@ class LeftNav extends Component {
             </div>
             <hr></hr>
             <ul className="style-main-item side-sticky-link">
-              <a href={mediaKit} style={{ marginLeft: "24px" }}>
+              <a href={mediaKit}>
                 Media Kit
               </a>
             </ul>
