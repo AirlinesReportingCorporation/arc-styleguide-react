@@ -322,30 +322,24 @@ class Landing extends Component {
                 acronym or abbreviation for a product unless the product has one
                 listed below.
               </p>
-              <p>
-                <strong>AeroGram</strong> <br />
-                <strong>ARC Agency BI</strong> – “Agency BI” is acceptable on
-                subsequent references or in headlines where context is clear.{" "}
-                <br />
-                <strong>ARC Airline BI</strong> – “Airline BI” is acceptable on
-                subsequent references or in headlines where context is clear.{" "}
-                <br />
-                <strong>ARC Data Connect</strong> <br />
-                <strong> ARC Direct Connect</strong> <br />
-                <strong> ARC Pay</strong> – Always written as “ARC Pay,” never
-                just “Pay.” <br />
-                <strong>ARC Risk Check</strong> <br />
-                <strong>Aria</strong> <br />
-                <strong>Custom Reports</strong> <br />
-                <strong>Direct Data Solutions (DDS)</strong> <br />
-                <strong>Memo Analyzer</strong> – If needed, “Memo Analyzer for
-                Agencies” or “Memo Analyzer for Airlines” can be specified.{" "}
-                <br />
-                <strong>Memo Manager </strong>
-                <br />
-                <strong>Revenue Analysis Reports</strong> <br />
-                <strong> Revenue Recovery Services</strong> <br />
-              </p>
+                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/aerogram.png" style={{maxHeight:"16px"}}></img></div>
+                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/agency-bi.png" style={{maxHeight:"20px"}}></img>
+                <p>“Agency BI” is acceptable on subsequent references or in headlines where context is clear.</p></div>
+                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/airline-bi.png" style={{maxHeight:"16px"}}></img>
+                <p>“Airline BI” is acceptable on subsequent references or in headlines where context is clear.</p></div>
+                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/data-connect.png" style={{maxHeight:"16px"}}></img></div> 
+                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/direct-connect.png" style={{maxHeight:"16px"}}></img> </div>
+                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/arc-pay.png" style={{maxHeight:"26px"}}></img>
+                <p>Always written as “ARC Pay,” neverjust “Pay.”</p></div>
+                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/risk-check.png" style={{maxHeight:"16px"}}></img></div>
+                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/aria.png" style={{maxHeight:"16px"}}></img></div>
+                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/custom-reports.png" style={{maxHeight:"26px"}}></img></div>
+                <div><span><img src="https://www2.arccorp.com/globalassets/styleguide/images/direct-data-solutions.png" style={{maxHeight:"26px"}}></img><strong>(DDS)</strong></span></div>
+                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/memo-analyzer.png" style={{maxHeight:"26px"}}></img> 
+                <p>If needed, “Memo Analyzer for Agencies” or “Memo Analyzer for Airlines” can be specified.</p></div>
+                <div><strong>Memo Manager </strong></div>
+                <div><strong>Revenue Analysis Reports</strong></div>
+                <div><strong> Revenue Recovery Services</strong></div>
             </div>
 
             <h3>Round Trip</h3>
