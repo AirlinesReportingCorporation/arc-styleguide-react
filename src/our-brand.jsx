@@ -25,12 +25,6 @@ class ARCBrand extends Component {
                   reliably to our customers. This framework positions ARC as a
                   forward-looking, customer-oriented and results-driven partner.
                 </p>
-                <button
-                  href="https://www2.arccorp.com/globalassets/styleguide/arc-flight-map_a-guide-to-working-with-our-brand.pdf"
-                  className="ctaBtn"
-                >
-                  ARC Flight Map
-                </button>
               </div>
             </div>
           </div>

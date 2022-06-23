@@ -82,6 +82,13 @@ class App extends Component {
                     image="https://www2.arccorp.com/globalassets/styleguide/styleguide-web.png"
                   />
                 </div>
+                <div className="col-lg-4">
+                  <BoxArrow
+                    link="https://www2.arccorp.com/globalassets/styleguide/arc-flight-map_a-guide-to-working-with-our-brand.pdf"
+                    copy="Flight Design System"
+                    image="https://www2.arccorp.com/globalassets/styleguide/styleguide-flight.png"
+                  />
+                </div>
               </div>
             </div>
           </div>
