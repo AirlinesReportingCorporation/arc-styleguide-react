@@ -322,33 +322,33 @@ class Landing extends Component {
                 acronym or abbreviation for a product unless the product has one
                 listed below.
               </p>
-              <div>
-                <img
-                  src="https://www2.arccorp.com/globalassets/styleguide/images/aerogram.png"
-                  style={{ maxHeight: "16px", marginBottom: "20px" }}
-                ></img>
-              </div>
-              <div>
-                <img
-                  src="https://www2.arccorp.com/globalassets/styleguide/images/agency-bi.png"
-                  style={{ maxHeight: "20px" }}
-                ></img>
-                <p>
-                  “Agency BI” is acceptable on subsequent references or in
-                  headlines where context is clear.
-                </p>
-              </div>
-              <div>
-                <img
-                  src="https://www2.arccorp.com/globalassets/styleguide/images/airline-bi.png"
-                  style={{ maxHeight: "16px" }}
-                ></img>
-                <p>
-                  “Airline BI” is acceptable on subsequent references or in
-                  headlines where context is clear.
-                </p>
-              </div>
-              <div>
+              <div style={{marginTop: "30px"}}>
+                <div>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/styleguide/images/aerogram.png"
+                    style={{ maxHeight: "16px", marginBottom: "20px" }}
+                  ></img>
+                </div>
+                <div>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/styleguide/images/agency-bi.png"
+                    style={{ maxHeight: "20px" }}
+                  ></img>
+                  <p>
+                    “Agency BI” is acceptable on subsequent references or in
+                    headlines where context is clear.
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/styleguide/images/airline-bi.png"
+                    style={{ maxHeight: "16px" }}
+                  ></img>
+                  <p>
+                    “Airline BI” is acceptable on subsequent references or in
+                    headlines where context is clear.
+                  </p>
+                </div>
                 <div>
                   <img
                     src="https://www2.arccorp.com/globalassets/styleguide/images/data-connect.png"
