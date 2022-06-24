@@ -38,7 +38,7 @@ class Landing extends Component {
             </div>
           </div>
         </div>
-        <div className="styleguide-doc-section" style={{marginBottom: "0px"}}>
+        <div className="styleguide-doc-section" style={{ marginBottom: "0px" }}>
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
@@ -105,7 +105,7 @@ class Landing extends Component {
             </div>
           </div>
         </div>
-        <div className="styleguide-doc-section" style={{marginTop: "0px"}}>
+        <div className="styleguide-doc-section" style={{ marginTop: "0px" }}>
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
@@ -322,24 +322,104 @@ class Landing extends Component {
                 acronym or abbreviation for a product unless the product has one
                 listed below.
               </p>
-                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/aerogram.png" style={{maxHeight:"16px"}}></img></div>
-                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/agency-bi.png" style={{maxHeight:"20px"}}></img>
-                <p>“Agency BI” is acceptable on subsequent references or in headlines where context is clear.</p></div>
-                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/airline-bi.png" style={{maxHeight:"16px"}}></img>
-                <p>“Airline BI” is acceptable on subsequent references or in headlines where context is clear.</p></div>
-                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/data-connect.png" style={{maxHeight:"16px"}}></img></div> 
-                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/direct-connect.png" style={{maxHeight:"16px"}}></img> </div>
-                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/arc-pay.png" style={{maxHeight:"26px"}}></img>
-                <p>Always written as “ARC Pay,” neverjust “Pay.”</p></div>
-                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/risk-check.png" style={{maxHeight:"16px"}}></img></div>
-                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/aria.png" style={{maxHeight:"16px"}}></img></div>
-                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/custom-reports.png" style={{maxHeight:"26px"}}></img></div>
-                <div><span><img src="https://www2.arccorp.com/globalassets/styleguide/images/direct-data-solutions.png" style={{maxHeight:"26px"}}></img><strong>(DDS)</strong></span></div>
-                <div><img src="https://www2.arccorp.com/globalassets/styleguide/images/memo-analyzer.png" style={{maxHeight:"26px"}}></img> 
-                <p>If needed, “Memo Analyzer for Agencies” or “Memo Analyzer for Airlines” can be specified.</p></div>
-                <div><strong>Memo Manager </strong></div>
-                <div><strong>Revenue Analysis Reports</strong></div>
-                <div><strong> Revenue Recovery Services</strong></div>
+              <div>
+                <img
+                  src="https://www2.arccorp.com/globalassets/styleguide/images/aerogram.png"
+                  style={{ maxHeight: "16px", marginBottom: "20px" }}
+                ></img>
+              </div>
+              <div>
+                <img
+                  src="https://www2.arccorp.com/globalassets/styleguide/images/agency-bi.png"
+                  style={{ maxHeight: "20px" }}
+                ></img>
+                <p>
+                  “Agency BI” is acceptable on subsequent references or in
+                  headlines where context is clear.
+                </p>
+              </div>
+              <div>
+                <img
+                  src="https://www2.arccorp.com/globalassets/styleguide/images/airline-bi.png"
+                  style={{ maxHeight: "16px" }}
+                ></img>
+                <p>
+                  “Airline BI” is acceptable on subsequent references or in
+                  headlines where context is clear.
+                </p>
+              </div>
+              <div>
+                <div>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/styleguide/images/data-connect.png"
+                    style={{ maxHeight: "16px", marginBottom: "20px" }}
+                  ></img>
+                </div>
+                <div>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/styleguide/images/direct-connect.png"
+                    style={{ maxHeight: "16px", marginBottom: "20px" }}
+                  ></img>{" "}
+                </div>
+                <div>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/styleguide/images/arc-pay.png"
+                    style={{ maxHeight: "26px" }}
+                  ></img>
+                  <p>Always written as “ARC Pay,” neverjust “Pay.”</p>
+                </div>
+                <div>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/styleguide/images/risk-check.png"
+                    style={{ maxHeight: "16px", marginBottom: "20px" }}
+                  ></img>
+                </div>
+                <div>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/styleguide/images/aria.png"
+                    style={{ maxHeight: "16px", marginBottom: "20px" }}
+                  ></img>
+                </div>
+                <div>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/styleguide/images/custom-reports.png"
+                    style={{ maxHeight: "26px", marginBottom: "20px" }}
+                  ></img>
+                </div>
+                <div style={{ marginBottom: "20px" }}>
+                  <span>
+                    <img
+                      src="https://www2.arccorp.com/globalassets/styleguide/images/direct-data-solutions.png"
+                      style={{ maxHeight: "26px" }}
+                    ></img>
+                    <strong style={{ fontSize: "18px" }}> (DDS)</strong>
+                  </span>
+                </div>
+                <div>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/styleguide/images/memo-analyzer.png"
+                    style={{ maxHeight: "26px" }}
+                  ></img>
+                  <p>
+                    If needed, “Memo Analyzer for Agencies” or “Memo Analyzer
+                    for Airlines” can be specified.
+                  </p>
+                </div>
+                <div style={{ marginBottom: "20px" }}>
+                  <strong style={{ fontSize: "20px" }}>Memo Manager </strong>
+                </div>
+                <div style={{ marginBottom: "20px" }}>
+                  <strong style={{ fontSize: "20px" }}>
+                    Revenue Analysis Reports
+                  </strong>
+                </div>
+                <div style={{ marginBottom: "20px" }}>
+                  <strong style={{ fontSize: "20px" }}>
+                    {" "}
+                    Revenue Recovery Services
+                  </strong>
+                </div>
+              </div>
             </div>
 
             <h3>Round Trip</h3>
@@ -832,18 +912,18 @@ class Landing extends Component {
               }
             />
             <div className="inner-document-casing">
-            <h3>Ellipsis</h3>
-            <p>As a general rule, do not use ellipsis.</p>
+              <h3>Ellipsis</h3>
+              <p>As a general rule, do not use ellipsis.</p>
             </div>
             <div className="inner-document-casing">
-            <h3>Hyphens</h3>
-            <p>
-              Use hyphens to join two words or create compound modifiers. Do not
-              add spaces before or after a hyphen. Do not hyphenate adverbs
-              ending in "-ly."
-            </p>
+              <h3>Hyphens</h3>
+              <p>
+                Use hyphens to join two words or create compound modifiers. Do
+                not add spaces before or after a hyphen. Do not hyphenate
+                adverbs ending in "-ly."
+              </p>
             </div>
-            
+
             <TermsUsage
               incorrectCopy={
                 <ul>
@@ -867,21 +947,21 @@ class Landing extends Component {
               }
             />
             <div className="inner-document-casing">
-            <h3>Prefixes</h3>
-            <p>
-              Generally, do not hyphenate when using a prefix with a word
-              starting with a consonant. Use a hyphen if the word that follows
-              is capitalized.
-            </p>
+              <h3>Prefixes</h3>
+              <p>
+                Generally, do not hyphenate when using a prefix with a word
+                starting with a consonant. Use a hyphen if the word that follows
+                is capitalized.
+              </p>
             </div>
             <div className="inner-document-casing">
-            <h3>Dashes</h3>
-            <p>
-              Use em dashes (—) for emphasis in a sentence, or to set off a
-              phrase. Use a space before and after the dash.
-            </p>
+              <h3>Dashes</h3>
+              <p>
+                Use em dashes (—) for emphasis in a sentence, or to set off a
+                phrase. Use a space before and after the dash.
+              </p>
             </div>
-            
+
             <TermsUsage
               incorrectCopy={
                 <ul>
@@ -905,14 +985,14 @@ class Landing extends Component {
               }
             />
             <div className="inner-document-casing">
-            <h3>Serial Comma</h3>
-            <p>
-              Per AP Style, ARC does not use the serial comma. This means that
-              in a series or list of three or more items, the final two items
-              are not separated by a comma unless one is needed for clarity.
-            </p>
+              <h3>Serial Comma</h3>
+              <p>
+                Per AP Style, ARC does not use the serial comma. This means that
+                in a series or list of three or more items, the final two items
+                are not separated by a comma unless one is needed for clarity.
+              </p>
             </div>
-            
+
             <TermsUsage
               incorrectCopy={
                 <ul>
@@ -939,16 +1019,16 @@ class Landing extends Component {
               }
             />
             <div className="inner-document-casing">
-            <h3>Verb Tense and Person</h3>
-            <p>
-              Use active verbs rather than passive wherever possible. Avoid
-              first-person verbs in external ARC communications such as
-              articles, notifications, blog posts, etc., unless the
-              communication is from an individual (e.g., an article or column
-              from a subject matter expert on LinkedIn).
-            </p>
+              <h3>Verb Tense and Person</h3>
+              <p>
+                Use active verbs rather than passive wherever possible. Avoid
+                first-person verbs in external ARC communications such as
+                articles, notifications, blog posts, etc., unless the
+                communication is from an individual (e.g., an article or column
+                from a subject matter expert on LinkedIn).
+              </p>
             </div>
-            
+
             <TermsUsage
               incorrectCopy={
                 <ul>
