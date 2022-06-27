@@ -2,3 +2,87 @@
     height: 850px;
     min-height: 100vh;
   }
+
+  .styleguide-sticky-container {
+    height: 56px;
+    width: 100%;
+  }
+
+  .styleguide-sticky-inner {
+    height: 100%;
+    background: #189bb0;
+  }
+  
+  .styleguide-sticky-nav {
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .icon-arc-logo {
+    font-size: 25px;
+    color: white;
+    margin-left: 200px;
+}
+  
+  .styleguide-sticky-menu {
+    height: 100%;
+  }
+  
+  .styleguide-sticky-links {
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  a.styleguide-sticky-link,
+  a.styleguide-sticky-link-right {
+    font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0 10px;
+    color: #ffffff;
+  
+    &:hover,
+    &:active,
+    &:focus {
+      color: #ffffff;
+      opacity: 0.9;
+    }
+  }
+  
+  a.styleguide-sticky-link-right,
+  a.styleguide-sticky-link-right:active,
+  a.styleguide-sticky-link-right:focus,
+  a.styleguide-sticky-link-right:hover {
+    color: #ffffff;
+    padding-right: 0;
+  }
+
+  a.styleguide-sticky-link-right{
+    padding-right: 175px;
+  }
+  
+  a.styleguide-sticky-link-right i,
+  a.styleguide-sticky-link-right svg {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+  
+  .styleguide-sticky-brand img {
+    height: 16px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  
+  .styleguide-sticky-title {
+    font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 0px;
+    color: #ffffff;
+  }
+
+@media (max-width: 990px) {
+  .styleguide-sticky-container {
+    display: none;
+  }
+}

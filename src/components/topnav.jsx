@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import stickybits from "stickybits";
 
 class TopNav extends Component {
   constructor() {
@@ -9,32 +10,36 @@ class TopNav extends Component {
   render() {
     return (
       <div className="top_nav">
-        <a href="/" className="icon-arc-logo"></a>
-        <div className="styles-top-menu">
-          <ul
-            className={this.props.active == "our-brand" ? "active" : "inactive"}
-          >
-            <a href="/" style={{ color: "white" }}>
-              {" "}
-              Brand Overview{" "}
-            </a>
-          </ul>
-          <ul
-            className={
-              this.props.active == "style-guide" ? "active" : "inactive"
-            }
-          >
-            <a href="/our-brand.html" style={{ color: "white" }}>
-              Style Guide
-            </a>
-          </ul>
+        <div className="styleguide-sticky-container" style={{ zIndex: "12" }}>
+          <div className="styleguide-sticky-inner">
+            <div className="styleguide-sticky-nav">
+              <div className="styleguide-sticky-brand d-flex align-items-center">
+                <a href="/" className="icon-arc-logo"></a>
+              </div>
+              <div className="styleguide-sticky-links d-flex align-items-center">
+                <a
+                  href="/"
+                  style={{ color: "white" }}
+                  className="styleguide-sticky-link"
+                >
+                  Brand Overview
+                </a>
+                <a
+                  href="#expertise"
+                  style={{ color: "white" }}
+                  className="styleguide-sticky-link"
+                >
+                  Style Guide
+                </a>
+              </div>
+              <div className="styleguide-sticky-menu d-flex align-items-center">
+                <a href="/" className="styleguide-sticky-link-right">
+                  Media Kit <i className="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <ul className="top_nav_media_ul">
-          <a href="/" style={{ color: "white" }}>
-            {" "}
-            Media Kit
-          </a>
-        </ul>
       </div>
     );
   }
