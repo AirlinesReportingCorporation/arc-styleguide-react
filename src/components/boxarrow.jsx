@@ -29,7 +29,7 @@ class BoxArrow extends Component {
           </div>
           <div className="arrow" style={{display:"flex"}}>
             <i
-              class="fa fa-arrow-right style-guide-arrow-box"
+              className="fa fa-arrow-right style-guide-arrow-box"
               aria-hidden="true"
             ></i>
           </div>

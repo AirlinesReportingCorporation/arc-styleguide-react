@@ -16,7 +16,7 @@ class BoxArrowSmall extends Component {
         }
       >
         <div>{this.props.copy}</div>{" "}
-        <i class="fa fa-arrow-right style-guide-arrow" aria-hidden="true"></i>
+        <i className="fa fa-arrow-right style-guide-arrow" aria-hidden="true"></i>
       </a>
     );
   }
