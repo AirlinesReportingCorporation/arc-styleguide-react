@@ -10,7 +10,7 @@ class TopNav extends Component {
   render() {
     return (
       <div className="top_nav">
-        <div className="styleguide-sticky-container" style={{ zIndex: "12" }}>
+        <div className="styleguide-sticky-container top_nav" style={{ zIndex: "12" }}>
           <div className="styleguide-sticky-inner">
             <div className="styleguide-sticky-nav">
               <div className="styleguide-sticky-brand d-flex align-items-center">
