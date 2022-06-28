@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import stickybits from "stickybits";
 
 class TopNav extends Component {
   constructor() {
@@ -7,9 +6,6 @@ class TopNav extends Component {
     this.state = {};
   }
 
-  componentDidMount() {
-    stickybits(".top_nav");
-  }
 
   render() {
     return (
