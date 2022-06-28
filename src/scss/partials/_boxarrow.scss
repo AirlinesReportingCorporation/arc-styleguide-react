@@ -1,3 +1,5 @@
+@import "~arccorp-vars/src/scss/partials/fonts.scss";
+
 a.styleguide-box-arrow {
   color: #2a2b2c;
   display: block;
@@ -6,7 +8,7 @@ a.styleguide-box-arrow {
   line-height: 49px;
   padding: 20px;
   align-items: center;
-  font-family: Source Sans Pro Semibold;
+  font-family: $arc-font-semibold;
   margin-right: 12px;
   margin-bottom: 26px;
 }
@@ -22,7 +24,7 @@ a.styleguide-box-arrow-small {
   align-items: center;
   display: flex;
   margin-bottom: 10px;
-  font-family: Source Sans Pro Semibold;
+  font-family: $arc-font-semibold;
 }
 
 .styleguide-box-arrow-title{
