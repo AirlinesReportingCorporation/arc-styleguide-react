@@ -295,7 +295,7 @@ class ARCBrand extends Component {
                   style={{
                     color: "#189BB0",
                     fontSize: "36px",
-                    fontFamily: "Source Sans Pro Semibold",
+                    fontFamily: "SourceSansPro-SemiBold",
                     textAlign: "center",
                   }}
                 >
