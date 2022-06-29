@@ -33,7 +33,7 @@ class TopNav extends Component {
                 </a>
               </div>
               <div className="styleguide-sticky-menu d-flex align-items-center">
-                <a href="/" className="styleguide-sticky-link-right">
+                <a href="https://www2.arccorp.com/about-us/newsroom/media-kit/" className="styleguide-sticky-link-right">
                   Media Kit <i className="fas fa-chevron-right"></i>
                 </a>
               </div>
