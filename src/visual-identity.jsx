@@ -65,6 +65,44 @@ class Visual extends Component {
                 </p>
               }
             />
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="logo-box lg">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-teal.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="logo-box sm">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-teal.png"
+                    alt=""
+                  />
+                </div>
+                <div className="logo-box sm">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-gray.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="logo-box sm">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-black.png"
+                    alt=""
+                  />
+                </div>
+                <div className="logo-box sm gray">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-white.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
             <TermDef
               term="Secondary Logo With Full Company Name"
               width="195px"
@@ -89,72 +127,18 @@ class Visual extends Component {
               <div className="col-lg-6">
                 <div className="logo-box lg">
                   <img
-                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-teal.png"
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-teal-tag.png"
                     alt=""
                   />
                 </div>
               </div>
-              <div className="col-lg-6">
-                <div className="logo-box lg">
-                  <img
-                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/ARC-Logo-l-teal-Tag.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-3 col-md-6">
-                <div className="logo-box sm">
-                  <img
-                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-teal.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="logo-box sm">
-                  <img
-                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-black.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="logo-box sm">
-                  <img
-                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-gray.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="logo-box sm gray">
-                  <img
-                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-white.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-3">
                 <div className="logo-box sm">
                   <img
                     src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-teal-tag.png"
                     alt=""
                   />
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="logo-box sm">
-                  <img
-                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-black-tag.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
                 <div className="logo-box sm">
                   <img
                     src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-gray-tag.png"
@@ -162,7 +146,13 @@ class Visual extends Component {
                   />
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-3">
+                <div className="logo-box sm">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-black-tag.png"
+                    alt=""
+                  />
+                </div>
                 <div className="logo-box sm gray">
                   <img
                     src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-l-white-tag.png"
