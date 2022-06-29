@@ -25,7 +25,7 @@ class TopNav extends Component {
                   Brand Overview
                 </a>
                 <a
-                  href="#expertise"
+                  href="/our-brand.html"
                   style={{ color: "white" }}
                   className="styleguide-sticky-link"
                 >
