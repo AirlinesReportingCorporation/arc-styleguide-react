@@ -38,7 +38,7 @@ class App extends Component {
                 <BoxArrowSmall link="/visual-identity.html#logo" copy="Logos" />
               </div>
               <div className="col-lg-6">
-                <BoxArrowSmall copy="Icons" />
+                <BoxArrowSmall copy="Icons for Presentations" />
               </div>
             </div>
             <div className="row">
