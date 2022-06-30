@@ -15,8 +15,8 @@ class TermsUsage extends Component {
       >
         <div className="row">
           <div className="col-lg-6">
-          <div className="incorrect-bar"></div>
           <h5 className="term-type">Incorrect</h5>
+          <div className="incorrect-bar"></div>
             <div className="incorrect">
               <div className="term-usage-copy">{this.props.incorrectCopy}</div>
             </div>
@@ -25,8 +25,8 @@ class TermsUsage extends Component {
             </div>
           </div>
           <div className="col-lg-6">
-          <div className="correct-bar"></div>
           <h5 className="term-type">Correct</h5>
+          <div className="correct-bar"></div>
             <div className="correct">
               <div className="term-usage-copy">{this.props.correctCopy}</div>
             </div>
