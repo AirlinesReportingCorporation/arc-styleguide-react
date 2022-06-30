@@ -272,7 +272,16 @@
 }
 
 .proportion-block-container {
-  width: 560px;
+  max-width: 921px;
+  width: 100%;
+  margin: 25px auto 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.proportion-block-container-sm {
+  max-width: 560px;
+  width: 100%;
   margin: 25px 20px 45px;
 }
 

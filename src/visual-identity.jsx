@@ -604,7 +604,7 @@ class Visual extends Component {
                 </div>
 
                 <h3>Secondary Colors</h3>
-                <div className="proportion-block-container">
+                <div className="proportion-block-container-sm">
                   <div className="row no-gutters">
                     <div className="col-4">
                       <div className="proportion-block-5  proportion-block-small"></div>
@@ -618,7 +618,7 @@ class Visual extends Component {
                   </div>
                 </div>
                 <h3>Tertiary Colors</h3>
-                <div className="proportion-block-container">
+                <div className="proportion-block-container-sm">
                   <div className="row no-gutters">
                     <div className="col-2">
                       <div className="proportion-block-8 proportion-block-smaller"></div>
