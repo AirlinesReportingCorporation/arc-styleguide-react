@@ -83,3 +83,10 @@
     max-width: 100%;
   }
 }
+
+.term-usage-writing {
+  .correct,
+  .incorrect {
+    min-height: unset;
+  }
+}

@@ -12,6 +12,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Calibri:wght@400;&display=swap");
 
+.supernav {
+  border-bottom: #1a9cb1;
+}
+
 #app {
   font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
 }
@@ -192,6 +196,12 @@
 }
 .term-usage-li {
   margin-bottom: 20px;
+}
+
+.ariline-company-name {
+  font-family: SourceSansPro-SemiBold, arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #2a2b2c;
 }
 
 .colorAccordion {

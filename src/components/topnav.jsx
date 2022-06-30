@@ -14,7 +14,7 @@ class TopNav extends Component {
           <div className="styleguide-sticky-inner">
             <div className="styleguide-sticky-nav">
               <div className="styleguide-sticky-brand d-flex align-items-center">
-                <a href="/" className="icon-arc-logo"></a>
+                <a href="/" className="arc-title">Our Brand</a>
               </div>
               <div className="styleguide-sticky-links d-flex align-items-center">
                 <a
