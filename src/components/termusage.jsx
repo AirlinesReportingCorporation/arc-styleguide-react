@@ -17,21 +17,21 @@ class TermsUsage extends Component {
           <div className="col-lg-6">
           <h5 className="term-type">Incorrect</h5>
           <div className="incorrect-bar"></div>
+          <div className="bottom-area">
+              <p className="term-explaination">{this.props.incorrectInfo}</p>
+            </div>
             <div className="incorrect">
               <div className="term-usage-copy">{this.props.incorrectCopy}</div>
-            </div>
-            <div className="bottom-area">
-              <p className="term-explaination">{this.props.incorrectInfo}</p>
             </div>
           </div>
           <div className="col-lg-6">
           <h5 className="term-type">Correct</h5>
           <div className="correct-bar"></div>
+          <div className="bottom-area">
+              <p className="term-explaination">{this.props.correctInfo}</p>
+            </div>
             <div className="correct">
               <div className="term-usage-copy">{this.props.correctCopy}</div>
-            </div>
-            <div className="bottom-area">
-              <p className="term-explaination">{this.props.correctInfo}</p>
             </div>
           </div>
         </div>
