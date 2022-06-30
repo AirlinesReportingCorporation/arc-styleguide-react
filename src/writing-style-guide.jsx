@@ -691,6 +691,7 @@ class Landing extends Component {
               and billions.
             </p>
             <TermsUsage className="term-usage-block term-usage-writing"
+            termType="Avoid"
               incorrectCopy={
                 <div>
                   <ul>

@@ -15,7 +15,7 @@ class TermsUsage extends Component {
       >
         <div className="row">
           <div className="col-lg-6">
-          <h5 className="term-type">Incorrect</h5>
+          <h5 className="term-type">{(this.props.termType ? this.props.termType : "Incorrect")}</h5>
           <div className="incorrect-bar"></div>
           <div className="bottom-area">
               <p className="term-explaination">{this.props.incorrectInfo}</p>
