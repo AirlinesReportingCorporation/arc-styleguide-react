@@ -390,7 +390,7 @@ class Visual extends Component {
                   </p>
                 </div>
               }
-              incorrectInfo="Do not adjust the tracking or kerning of text."
+              incorrectInfo={<p style={{height:"45px"}}>"Do not adjust the tracking or kerning of text."</p>}
               correctCopy={
                 <div>
                   <div className="termusage-header">Lorem ipsum</div>
@@ -451,7 +451,7 @@ class Visual extends Component {
                   </p>
                 </div>
               }
-              incorrectInfo="Do not set text paragraphs too wide or too narrow."
+              incorrectInfo={<p style={{height: "65px"}}>Do not set text paragraphs too wide or too narrow.</p>}
               correctCopy={
                 <div>
                   <p>

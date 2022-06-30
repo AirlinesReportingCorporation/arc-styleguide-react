@@ -16,7 +16,6 @@
 
   .term-usage-copy {
     font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
-
     max-width: 290px;
     width: 100%;
   }
@@ -26,6 +25,10 @@
     width: 100%;
     min-height: 12px;
     margin-bottom: 15px !important;
+  }
+
+  .term-explaination {
+    height: auto;
   }
 
   .bottom-area {
