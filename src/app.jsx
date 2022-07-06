@@ -35,18 +35,18 @@ class App extends Component {
             <h2 className="style-guide-h2">Frequently Requested Assets</h2>
             <div className="row">
               <div className="col-lg-6">
-                <BoxArrowSmall link="/visual-identity.html#logo" copy="Logos" />
+                <BoxArrowSmall link="https://www2.arccorp.com/globalassets/styleguide/arc-logo-suite.zip" copy="Logos" />
               </div>
               <div className="col-lg-6">
-                <BoxArrowSmall copy="Icons for Presentations" />
+                <BoxArrowSmall link="https://arccorp365.sharepoint.com/sites/Marketing/SitePages/Brand-Resources.aspx" copy="Icons for Presentations" />
               </div>
             </div>
             <div className="row">
               <div className="col-lg-6">
-                <BoxArrowSmall copy="Approved photo library" />
+                <BoxArrowSmall link="https://arccorp365.sharepoint.com/sites/Marketing/PPT%20Images/Forms/Thumbnail%20View.aspx" copy="Approved photo library" />
               </div>
               <div className="col-lg-6">
-                <BoxArrowSmall copy="Presentation templates" />
+                <BoxArrowSmall link="https://arccorp365.sharepoint.com/:f:/r/sites/Marketing/Brand%20Resources/Presentations?csf=1&web=1&e=2OlRRj" copy="Presentation templates" />
               </div>
             </div>
             <h2 className="style-guide-h2">Explore Our Style Guide</h2>
