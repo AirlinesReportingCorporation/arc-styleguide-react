@@ -344,4 +344,31 @@
   background: #8ac926;
 }
 
+.accessibility-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 195px;
+  margin: auto;
+  font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
+}
+
+.accessibility-text-top {
+  max-width: 140px;
+  font-size: 20px;
+  margin: auto;
+  padding-bottom: 27px;
+  font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
+}
+.accessibility-text-bottom {
+  max-width: 140px;
+  font-size: 20px;
+  margin: auto;
+  padding-bottom: 25px;
+  font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+}
+
+.vl {
+  border-left: 2px solid;
+}
+
 @import "./partials/responsive";

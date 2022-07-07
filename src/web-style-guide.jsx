@@ -101,6 +101,58 @@ class Web extends Component {
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
+                <h2 id="accessibility">Accessibility</h2>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="row">
+                  <div className="col-lg-12">
+                    Background Clear Skies Hex #FFFFFF
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-6"
+                style={{ backgroundColor: "#2a2b2c", textAlign: "center" }}
+              >
+                <div className="row">
+                  <div className="col-lg-12" style={{ color: "#ffffff" }}>
+                    <div className="accessibility-title">
+                    Background Tarmac Hex #2A2B2C
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-6" style={{ color: "#ffffff" }}>
+                    <div className="accessibility-text-top">
+                      <div>COPY</div>
+                      <div>Clear Skies</div>
+                      <div>HEX #FFFFFF</div>
+                    </div>
+                    <div className="accessibility-text-bottom">
+                      <div>6.1:1 WCAG: AAAAA PASS WCAG: AAAAA PASS 14pt +</div>
+                    </div>
+                  </div>
+                  <div className="col-lg-6" style={{ color: "#aaaaaa" }}>
+                    <div className="accessibility-text-top">
+                      <div>Copy</div>
+                      <div>Clear Skies</div>
+                      <div>HEX #AAAAAA</div>
+                      </div>
+                      <div className="accessibility-text-bottom vl">
+                      <div>6.1:1 WCAG: AAAAA PASS WCAG: AAAAA PASS 14pt +</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="styleguide-doc-section">
+          <div className="styleguide-doc-inner">
+            <div className="row">
+              <div className="col-lg-12">
                 <h2 id="components">Web Components</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
