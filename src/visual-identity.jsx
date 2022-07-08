@@ -493,15 +493,15 @@ class Visual extends Component {
             <div className="row">
               <ColorBox
                 name="ARC Teal"
-                pms="229C (7421U)"
-                cmyk="55, 98, 47, 54"
-                rgb="07, 28, 58"
+                pms="7711C (7712U)"
+                cmyk="79, 21, 27, 0"
+                rgb="24, 155, 176"
                 hex="#189BB0"
                 col="col-lg-6"
               />
               <ColorBox
                 name="Tarmac"
-                pms="419C (6U)"
+                pms="000C (000U)"
                 cmyk="72, 65, 62, 65"
                 rgb="42, 43, 44"
                 hex="#2A2B2C"
