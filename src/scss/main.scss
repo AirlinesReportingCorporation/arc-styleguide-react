@@ -354,7 +354,7 @@
   width: 100%;
 }
 
-.accessibility-title {
+.accessibility-title, .color-title {
   font-size: 20px;
   text-transform: uppercase;
   margin: auto;
@@ -378,9 +378,8 @@
   font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
 }
 
-.text-bottom-bold {
+.text-bottom-bold, .color-desc {
   font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
-  max-width: 140px;
   font-size: 20px;
   margin: auto;
 }
@@ -389,4 +388,21 @@
   border-left: 1px solid;
 }
 
+.color-div {
+  max-width: 278px;
+  width: 100%;
+  max-height: 178px;
+  height: 100%;
+  text-align: center;
+}
+
+.color-title {
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 62px;
+}
+
+.color-desc {
+  padding-bottom: 20px;
+}
 @import "./partials/responsive";

@@ -130,7 +130,12 @@ class Web extends Component {
                         <div>HEX #2A2B2C</div>
                       </div>
                       <div className="accessibility-text-bottom">
-                        <div className="text-bottom-bold">14.18:1 <br /> WCAG: AAAAA </div> <div>PASS</div> <div className="text-bottom-bold">WCAG: AAAAA</div> <div>PASS</div>
+                        <div className="text-bottom-bold">
+                          14.18:1 <br /> WCAG: AAAAA{" "}
+                        </div>{" "}
+                        <div>PASS</div>{" "}
+                        <div className="text-bottom-bold">WCAG: AAAAA</div>{" "}
+                        <div>PASS</div>
                       </div>
                     </div>
                     <div className="col-lg-6 vl" style={{ color: "#aaaaaa" }}>
@@ -142,7 +147,12 @@ class Web extends Component {
                         <div>HEX #888888</div>
                       </div>
                       <div className="accessibility-text-bottom">
-                        <div className="text-bottom-bold">14.18:1 <br /> WCAG: AAAAA</div> <div>PASS</div> <div className="text-bottom-bold">WCAG: AAAAA</div> <div>PASS</div>
+                        <div className="text-bottom-bold">
+                          14.18:1 <br /> WCAG: AAAAA
+                        </div>{" "}
+                        <div>PASS</div>{" "}
+                        <div className="text-bottom-bold">WCAG: AAAAA</div>{" "}
+                        <div>PASS</div>
                       </div>
                     </div>
                   </div>
@@ -170,8 +180,11 @@ class Web extends Component {
                       </div>
                       <div className="accessibility-text-bottom">
                         <div className="text-bottom-bold">
-                          6.1:1 <br /> WCAG: AAAAA </div> <div>PASS</div> <div className="text-bottom-bold">WCAG: AAAAA</div> <div>PASS 14pt +
-                        </div>
+                          6.1:1 <br /> WCAG: AAAAA{" "}
+                        </div>{" "}
+                        <div>PASS</div>{" "}
+                        <div className="text-bottom-bold">WCAG: AAAAA</div>{" "}
+                        <div>PASS 14pt +</div>
                       </div>
                     </div>
                     <div className="col-lg-6 vl" style={{ color: "#aaaaaa" }}>
@@ -181,8 +194,12 @@ class Web extends Component {
                         <div>HEX #AAAAAA</div>
                       </div>
                       <div className="accessibility-text-bottom">
-                        <div className="text-bottom-bold">14.18:1 <br /> WCAG: AAAAA </div> <div>PASS</div>{" "}
-                        <div className="text-bottom-bold">WCAG: AAAAA</div> <div>PASS</div>
+                        <div className="text-bottom-bold">
+                          14.18:1 <br /> WCAG: AAAAA{" "}
+                        </div>{" "}
+                        <div>PASS</div>{" "}
+                        <div className="text-bottom-bold">WCAG: AAAAA</div>{" "}
+                        <div>PASS</div>
                       </div>
                     </div>
                   </div>
@@ -286,9 +303,71 @@ class Web extends Component {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-4"></div>
-              <div className="col-lg-4"></div>
-              <div className="col-lg-4"></div>
+              <div className="col-lg-4">
+                <div
+                  className="color-div"
+                  style={{ backgroundColor: "#189BB0" }}
+                >
+                  <div className="row">
+                    <div
+                      className="col-lg-12 color-title"
+                      style={{ color: "#fff", paddingBottom:"30px" }}
+                    >
+                      Background/ <br /> Copy
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div
+                      className="col-lg-12 color-desc"
+                      style={{ color: "#fff" }}
+                    >
+                      ARC Teal <br /> HEX #189BB0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div
+                  className="color-div"
+                  style={{ backgroundColor: "#FF1B71" }}
+                >
+                  <div className="row">
+                    <div
+                      className="col-lg-12 color-title"
+                      style={{ color: "#fff" }}
+                    >
+                      Background
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div
+                      className="col-lg-12 color-desc"
+                      style={{ color: "#fff" }}
+                    >
+                      Flare <br /> HEX #FF1B71
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div
+                  className="color-div"
+                  style={{ backgroundColor: "#F7F5F5", border: "0.5px solid #979797" }}
+                >
+                  <div className="row">
+                    <div
+                      className="col-lg-12 color-title"
+                    >
+                      Background
+                    </div>
+                    <div
+                      className="col-lg-12 color-desc"
+                    >
+                      FOG <br /> HEX #F7F5F5
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
