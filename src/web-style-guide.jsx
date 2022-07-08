@@ -108,13 +108,17 @@ class Web extends Component {
               <div className="col-lg-6 accessibility-div-outer">
                 <div
                   className="accessibility-div-inner"
-                  style={{ backgroundColor: "#fff", textAlign: "center", border:"1px solid" }}
+                  style={{
+                    backgroundColor: "#fff",
+                    textAlign: "center",
+                    border: "1px solid",
+                  }}
                 >
                   <div className="row">
                     <div className="col-lg-12">
                       <div className="accessibility-title">
                         Background
-                        <div>Clear Skies HEX #FFFFFF</div> 
+                        <div>Clear Skies HEX #FFFFFF</div>
                       </div>
                     </div>
                   </div>
@@ -126,31 +130,34 @@ class Web extends Component {
                         <div>HEX #2A2B2C</div>
                       </div>
                       <div className="accessibility-text-bottom">
-                        <div>14.18:1 WCAG: AAAAA PASS WCAG: AAAAA PASS</div>
+                        <div className="text-bottom-bold">14.18:1 <br /> WCAG: AAAAA </div> <div>PASS</div> <div className="text-bottom-bold">WCAG: AAAAA</div> <div>PASS</div>
                       </div>
                     </div>
                     <div className="col-lg-6 vl" style={{ color: "#aaaaaa" }}>
                       <div className="accessibility-text-top">
                         <div>COPY</div>
-                        <div style={{fontSize:"17px"}}>Landing Gear Grey</div>
+                        <div style={{ fontSize: "17px" }}>
+                          Landing Gear Grey
+                        </div>
                         <div>HEX #888888</div>
                       </div>
                       <div className="accessibility-text-bottom">
-                        <div>14.18:1 WCAG: AAAAA PASS WCAG: AAAAA PASS</div>
+                        <div className="text-bottom-bold">14.18:1 <br /> WCAG: AAAAA</div> <div>PASS</div> <div className="text-bottom-bold">WCAG: AAAAA</div> <div>PASS</div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div
-                className="col-lg-6 accessibility-div-outer"
-              >
-                <div className="accessibility-div-inner" style={{ backgroundColor: "#2a2b2c"}}>
+              <div className="col-lg-6 accessibility-div-outer">
+                <div
+                  className="accessibility-div-inner"
+                  style={{ backgroundColor: "#2a2b2c" }}
+                >
                   <div className="row">
                     <div className="col-lg-12" style={{ color: "#ffffff" }}>
                       <div className="accessibility-title">
-                        Background 
-                        <div>Tarmac Hex #2A2B2C</div> 
+                        Background
+                        <div>Tarmac Hex #2A2B2C</div>
                       </div>
                     </div>
                   </div>
@@ -162,8 +169,8 @@ class Web extends Component {
                         <div>HEX #FFFFFF</div>
                       </div>
                       <div className="accessibility-text-bottom">
-                        <div>
-                          6.1:1 WCAG: AAAAA PASS WCAG: AAAAA PASS 14pt +
+                        <div className="text-bottom-bold">
+                          6.1:1 <br /> WCAG: AAAAA </div> <div>PASS</div> <div className="text-bottom-bold">WCAG: AAAAA</div> <div>PASS 14pt +
                         </div>
                       </div>
                     </div>
@@ -174,7 +181,8 @@ class Web extends Component {
                         <div>HEX #AAAAAA</div>
                       </div>
                       <div className="accessibility-text-bottom">
-                        <div>14.18:1 WCAG: AAAAA PASS WCAG: AAAAA PASS</div>
+                        <div className="text-bottom-bold">14.18:1 <br /> WCAG: AAAAA </div> <div>PASS</div>{" "}
+                        <div className="text-bottom-bold">WCAG: AAAAA</div> <div>PASS</div>
                       </div>
                     </div>
                   </div>
@@ -185,13 +193,16 @@ class Web extends Component {
               <div className="col-lg-6 accessibility-div-outer">
                 <div
                   className="accessibility-div-inner"
-                  style={{ backgroundColor: "#000", textAlign: "center"}}
+                  style={{ backgroundColor: "#000", textAlign: "center" }}
                 >
                   <div className="row">
                     <div className="col-lg-12">
-                      <div className="accessibility-title" style={{ color: "#ffffff" }}>
+                      <div
+                        className="accessibility-title"
+                        style={{ color: "#ffffff" }}
+                      >
                         Background
-                        <div>Autopilot HEX #000000</div> 
+                        <div>Autopilot HEX #000000</div>
                       </div>
                     </div>
                   </div>
@@ -203,9 +214,12 @@ class Web extends Component {
                         <div>HEX #FFFFFF</div>
                       </div>
                       <div className="accessibility-text-bottom">
-                        <div>
-                          6.1:1 WCAG: AAAAA PASS WCAG: AAAAA PASS 14pt +
+                        <div className="text-bottom-bold">
+                          9.03:1 <br /> WCAG: AAAAA
                         </div>
+                        <div>PASS</div>
+                        <div className="text-bottom-bold">WCAG: AAAAA</div>
+                        <div> PASS 14pt +</div>
                       </div>
                     </div>
                     <div className="col-lg-6 vl" style={{ color: "#aaaaaa" }}>
@@ -215,21 +229,27 @@ class Web extends Component {
                         <div>HEX #AAAAAA</div>
                       </div>
                       <div className="accessibility-text-bottom">
-                        <div>14.18:1 WCAG: AAAAA PASS WCAG: AAAAA PASS</div>
+                        <div className="text-bottom-bold">
+                          21:1 <br /> WCAG: AAAAA
+                        </div>
+                        <div> PASS </div>
+                        <div className="text-bottom-bold"> WCAG: AAAAA </div>
+                        <div>PASS</div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div
-                className="col-lg-6 accessibility-div-outer"
-              >
-                <div className="accessibility-div-inner" style={{ backgroundColor: "#189BB0"}}>
+              <div className="col-lg-6 accessibility-div-outer">
+                <div
+                  className="accessibility-div-inner"
+                  style={{ backgroundColor: "#189BB0" }}
+                >
                   <div className="row">
                     <div className="col-lg-12" style={{ color: "#ffffff" }}>
                       <div className="accessibility-title">
-                        Background 
-                        <div>ARC Teal HEX #189BB0</div> 
+                        Background
+                        <div>ARC Teal HEX #189BB0</div>
                       </div>
                     </div>
                   </div>
@@ -241,14 +261,34 @@ class Web extends Component {
                         <div>HEX #FFFFFF</div>
                       </div>
                       <div className="accessibility-text-bottom">
-                        <div>
-                          6.1:1 WCAG: AAAAA PASS WCAG: AAAAA PASS 14pt +
+                        <div className="text-bottom-bold">
+                          3:3:1 <br /> WCAG: AAAAA
                         </div>
+                        <div>PASS </div>
+                        <div className="text-bottom-bold">
+                          {" "}
+                          WCAG: AAAAA
+                        </div>{" "}
+                        <div> PASS 14pt +</div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="styleguide-doc-section">
+          <div className="styleguide-doc-inner">
+            <div className="row">
+              <div className="col-lg-12">
+                <h2 id="accessibility">Additional Copy/ Background Colors</h2>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-4"></div>
+              <div className="col-lg-4"></div>
+              <div className="col-lg-4"></div>
             </div>
           </div>
         </div>
