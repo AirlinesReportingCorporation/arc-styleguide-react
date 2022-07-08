@@ -105,14 +105,16 @@ class Web extends Component {
               </div>
             </div>
             <div className="row">
-              <div
-                className="col-lg-6"
-              >
-                <div className="accessibility-div" style={{ backgroundColor: "#fff", textAlign: "center" }}>
+              <div className="col-lg-6 accessibility-div-outer">
+                <div
+                  className="accessibility-div-inner"
+                  style={{ backgroundColor: "#fff", textAlign: "center", border:"1px solid" }}
+                >
                   <div className="row">
                     <div className="col-lg-12">
                       <div className="accessibility-title">
-                        Background Clear Skies HEX #FFFFFF
+                        Background
+                        <div>Clear Skies HEX #FFFFFF</div> 
                       </div>
                     </div>
                   </div>
@@ -130,7 +132,7 @@ class Web extends Component {
                     <div className="col-lg-6 vl" style={{ color: "#aaaaaa" }}>
                       <div className="accessibility-text-top">
                         <div>COPY</div>
-                        <div>Landing Gear Grey</div>
+                        <div style={{fontSize:"17px"}}>Landing Gear Grey</div>
                         <div>HEX #888888</div>
                       </div>
                       <div className="accessibility-text-bottom">
@@ -141,35 +143,39 @@ class Web extends Component {
                 </div>
               </div>
               <div
-                className="col-lg-6"
-                style={{ backgroundColor: "#2a2b2c", textAlign: "center" }}
+                className="col-lg-6 accessibility-div-outer"
               >
-                <div className="row">
-                  <div className="col-lg-12" style={{ color: "#ffffff" }}>
-                    <div className="accessibility-title">
-                      Background Tarmac Hex #2A2B2C
+                <div className="accessibility-div-inner" style={{ backgroundColor: "#2a2b2c"}}>
+                  <div className="row">
+                    <div className="col-lg-12" style={{ color: "#ffffff" }}>
+                      <div className="accessibility-title">
+                        Background 
+                        <div>Tarmac Hex #2A2B2C</div> 
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="row">
-                  <div className="col-lg-6" style={{ color: "#ffffff" }}>
-                    <div className="accessibility-text-top">
-                      <div>COPY</div>
-                      <div>Clear Skies</div>
-                      <div>HEX #FFFFFF</div>
+                  <div className="row">
+                    <div className="col-lg-6" style={{ color: "#ffffff" }}>
+                      <div className="accessibility-text-top">
+                        <div>COPY</div>
+                        <div>Clear Skies</div>
+                        <div>HEX #FFFFFF</div>
+                      </div>
+                      <div className="accessibility-text-bottom">
+                        <div>
+                          6.1:1 WCAG: AAAAA PASS WCAG: AAAAA PASS 14pt +
+                        </div>
+                      </div>
                     </div>
-                    <div className="accessibility-text-bottom">
-                      <div>6.1:1 WCAG: AAAAA PASS WCAG: AAAAA PASS 14pt +</div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 vl" style={{ color: "#aaaaaa" }}>
-                    <div className="accessibility-text-top">
-                      <div>Copy</div>
-                      <div>Clear Skies</div>
-                      <div>HEX #AAAAAA</div>
-                    </div>
-                    <div className="accessibility-text-bottom">
-                      <div>14.18:1 WCAG: AAAAA PASS WCAG: AAAAA PASS</div>
+                    <div className="col-lg-6 vl" style={{ color: "#aaaaaa" }}>
+                      <div className="accessibility-text-top">
+                        <div>Copy</div>
+                        <div>Clear Skies</div>
+                        <div>HEX #AAAAAA</div>
+                      </div>
+                      <div className="accessibility-text-bottom">
+                        <div>14.18:1 WCAG: AAAAA PASS WCAG: AAAAA PASS</div>
+                      </div>
                     </div>
                   </div>
                 </div>
