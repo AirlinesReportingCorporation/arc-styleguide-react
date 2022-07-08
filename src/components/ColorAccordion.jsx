@@ -63,7 +63,7 @@ class ColorAccordion extends Component {
               name={this.props.colors ? this.props.colors[1].name : ""}
               hex={this.props.colors ? this.props.colors[1].hex : ""}
               pms={this.props.colors ? this.props.colors[1].pms : ""}
-              cmyk={this.props.colors ? this.props.colors[1].hex : ""}
+              cmyk={this.props.colors ? this.props.colors[1].cmyk : ""}
               rgb={this.props.colors ? this.props.colors[1].rgb : ""}
               size="sm"
             />
@@ -77,7 +77,7 @@ class ColorAccordion extends Component {
               name={this.props.colors ? this.props.colors[2].name : ""}
               hex={this.props.colors ? this.props.colors[2].hex : ""}
               pms={this.props.colors ? this.props.colors[2].pms : ""}
-              cmyk={this.props.colors ? this.props.colors[2].hex : ""}
+              cmyk={this.props.colors ? this.props.colors[2].cmyk : ""}
               rgb={this.props.colors ? this.props.colors[2].rgb : ""}
               size="sm"
             />
