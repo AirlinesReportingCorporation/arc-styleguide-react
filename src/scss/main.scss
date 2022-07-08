@@ -344,12 +344,21 @@
   background: #8ac926;
 }
 
+.accessibility-div {
+  text-align: center;
+  max-width: 430px;
+  width: 100%;
+  border: 1px solid;
+}
+
 .accessibility-title {
   font-size: 20px;
   text-transform: uppercase;
   width: 195px;
   margin: auto;
   font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
+  margin-bottom: 130px;
+  margin-top: 30px;
 }
 
 .accessibility-text-top {

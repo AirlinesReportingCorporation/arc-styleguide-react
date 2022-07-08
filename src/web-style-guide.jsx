@@ -105,10 +105,38 @@ class Web extends Component {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-6">
-                <div className="row">
-                  <div className="col-lg-12">
-                    Background Clear Skies Hex #FFFFFF
+              <div
+                className="col-lg-6"
+              >
+                <div className="accessibility-div" style={{ backgroundColor: "#fff", textAlign: "center" }}>
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="accessibility-title">
+                        Background Clear Skies HEX #FFFFFF
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-lg-6" style={{ color: "#2a2b2c" }}>
+                      <div className="accessibility-text-top">
+                        <div>COPY</div>
+                        <div>Tarmac</div>
+                        <div>HEX #2A2B2C</div>
+                      </div>
+                      <div className="accessibility-text-bottom">
+                        <div>14.18:1 WCAG: AAAAA PASS WCAG: AAAAA PASS</div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 vl" style={{ color: "#aaaaaa" }}>
+                      <div className="accessibility-text-top">
+                        <div>COPY</div>
+                        <div>Landing Gear Grey</div>
+                        <div>HEX #888888</div>
+                      </div>
+                      <div className="accessibility-text-bottom">
+                        <div>14.18:1 WCAG: AAAAA PASS WCAG: AAAAA PASS</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -119,7 +147,7 @@ class Web extends Component {
                 <div className="row">
                   <div className="col-lg-12" style={{ color: "#ffffff" }}>
                     <div className="accessibility-title">
-                    Background Tarmac Hex #2A2B2C
+                      Background Tarmac Hex #2A2B2C
                     </div>
                   </div>
                 </div>
@@ -134,14 +162,14 @@ class Web extends Component {
                       <div>6.1:1 WCAG: AAAAA PASS WCAG: AAAAA PASS 14pt +</div>
                     </div>
                   </div>
-                  <div className="col-lg-6" style={{ color: "#aaaaaa" }}>
+                  <div className="col-lg-6 vl" style={{ color: "#aaaaaa" }}>
                     <div className="accessibility-text-top">
                       <div>Copy</div>
                       <div>Clear Skies</div>
                       <div>HEX #AAAAAA</div>
-                      </div>
-                      <div className="accessibility-text-bottom vl">
-                      <div>6.1:1 WCAG: AAAAA PASS WCAG: AAAAA PASS 14pt +</div>
+                    </div>
+                    <div className="accessibility-text-bottom">
+                      <div>14.18:1 WCAG: AAAAA PASS WCAG: AAAAA PASS</div>
                     </div>
                   </div>
                 </div>
