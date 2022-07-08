@@ -169,12 +169,81 @@ class Web extends Component {
                     </div>
                     <div className="col-lg-6 vl" style={{ color: "#aaaaaa" }}>
                       <div className="accessibility-text-top">
-                        <div>Copy</div>
-                        <div>Clear Skies</div>
+                        <div>COPY</div>
+                        <div>Overcast</div>
                         <div>HEX #AAAAAA</div>
                       </div>
                       <div className="accessibility-text-bottom">
                         <div>14.18:1 WCAG: AAAAA PASS WCAG: AAAAA PASS</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-6 accessibility-div-outer">
+                <div
+                  className="accessibility-div-inner"
+                  style={{ backgroundColor: "#000", textAlign: "center"}}
+                >
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="accessibility-title" style={{ color: "#ffffff" }}>
+                        Background
+                        <div>Autopilot HEX #000000</div> 
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-lg-6" style={{ color: "#ffffff" }}>
+                      <div className="accessibility-text-top">
+                        <div>COPY</div>
+                        <div>Clear Skies</div>
+                        <div>HEX #FFFFFF</div>
+                      </div>
+                      <div className="accessibility-text-bottom">
+                        <div>
+                          6.1:1 WCAG: AAAAA PASS WCAG: AAAAA PASS 14pt +
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 vl" style={{ color: "#aaaaaa" }}>
+                      <div className="accessibility-text-top">
+                        <div>COPY</div>
+                        <div>Overcast</div>
+                        <div>HEX #AAAAAA</div>
+                      </div>
+                      <div className="accessibility-text-bottom">
+                        <div>14.18:1 WCAG: AAAAA PASS WCAG: AAAAA PASS</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-6 accessibility-div-outer"
+              >
+                <div className="accessibility-div-inner" style={{ backgroundColor: "#189BB0"}}>
+                  <div className="row">
+                    <div className="col-lg-12" style={{ color: "#ffffff" }}>
+                      <div className="accessibility-title">
+                        Background 
+                        <div>ARC Teal HEX #189BB0</div> 
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-lg-12" style={{ color: "#ffffff" }}>
+                      <div className="accessibility-text-top">
+                        <div>COPY</div>
+                        <div>Clear Skies</div>
+                        <div>HEX #FFFFFF</div>
+                      </div>
+                      <div className="accessibility-text-bottom">
+                        <div>
+                          6.1:1 WCAG: AAAAA PASS WCAG: AAAAA PASS 14pt +
+                        </div>
                       </div>
                     </div>
                   </div>

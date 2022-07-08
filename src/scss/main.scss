@@ -345,14 +345,13 @@
 }
 
 .accessibility-div-outer {
-  
+  padding-bottom: 30px;
   text-align: center;
 }
 
 .accessibility-div-inner {
   max-width: 431px;
   width: 100%;
-  padding-bottom: 20px;
 }
 
 .accessibility-title {
@@ -380,7 +379,7 @@
 }
 
 .vl {
-  border-left: 2px solid;
+  border-left: 1px solid;
 }
 
 @import "./partials/responsive";
