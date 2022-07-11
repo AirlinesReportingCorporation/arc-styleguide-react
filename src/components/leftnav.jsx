@@ -70,6 +70,9 @@ class LeftNav extends Component {
                 <a href={webURl + "#typography"}>Typography</a>
               </ul>
               <ul className="nav-menu-items style-sub-item side-sticky-link">
+                <a href={webURl + "#accessibility"}>Accessibility</a>
+              </ul>
+              <ul className="nav-menu-items style-sub-item side-sticky-link">
                 <a href={webURl + "#components"}>Components</a>
               </ul>
               <ul className="nav-menu-items style-sub-item side-sticky-link">

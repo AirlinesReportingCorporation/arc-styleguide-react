@@ -311,7 +311,7 @@ class Web extends Component {
                   <div className="row">
                     <div
                       className="col-lg-12 color-title"
-                      style={{ color: "#fff", paddingBottom:"30px" }}
+                      style={{ color: "#fff", paddingBottom:"32px" }}
                     >
                       Background/ <br /> Copy
                     </div>
