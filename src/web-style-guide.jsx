@@ -299,7 +299,7 @@ class Web extends Component {
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
-                <h2 id="accessibility">Additional Copy/ Background Colors</h2>
+                <h3 className="mb-4" id="accessibility">Additional Copy/Background Colors</h3>
               </div>
             </div>
             <div className="row">
@@ -367,21 +367,6 @@ class Web extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="styleguide-doc-section">
-          <div className="styleguide-doc-inner">
-            <div className="row">
-              <div className="col-lg-12">
-                <h2 id="components">Web Components</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                  ullam rem quisquam laboriosam similique, corporis incidunt
-                  voluptatum ipsam corrupti totam animi quas impedit et esse
-                  debitis deleniti illo. Quidem, culpa.
-                </p>
               </div>
             </div>
           </div>
