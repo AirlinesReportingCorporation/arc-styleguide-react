@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 
+import {
+  baseLink
+  ourBrandLink,
+} from "../links";
+
 class TopNav extends Component {
   constructor() {
     super();
@@ -14,18 +19,18 @@ class TopNav extends Component {
           <div className="styleguide-sticky-inner">
             <div className="styleguide-sticky-nav">
               <div className="styleguide-sticky-brand d-flex align-items-center">
-                <a href="/" className="arc-title">Style Guide</a>
+                <a href={baseLink} className="arc-title">Style Guide</a>
               </div>
               <div className="styleguide-sticky-links d-flex align-items-center">
                 <a
-                  href="/"
+                  href={baseLink}
                   style={{ color: "white" }}
                   className="styleguide-sticky-link"
                 >
                   Brand Overview
                 </a>
                 <a
-                  href="/our-brand.html"
+                  href={ourBrandLink}
                   style={{ color: "white" }}
                   className="styleguide-sticky-link"
                 >
