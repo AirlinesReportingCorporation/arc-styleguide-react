@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import stickybits from "stickybits";
 
 import {
+  baseLink,
   ourBrandLink,
   visualIdentityLink,
   writingStyleGuideLink,
@@ -31,7 +32,7 @@ class LeftNav extends Component {
           <div className="side-sticky-nav">
             <div className="nav-menu side-sticky-links">
               <ul className="nav-menu-items style-main-item side-sticky-link">
-                <a href="/">Our Brand</a>
+                <a href={baseLink}>Our Brand</a>
               </ul>
               <ul className="nav-menu-items style-main-item side-sticky-link">
                 <a href={brandURL}>Using Our Brand</a>
