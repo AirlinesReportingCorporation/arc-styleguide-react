@@ -170,12 +170,12 @@ class Visual extends Component {
               Download our logo suite containing different sizes, colors and
               file types.
             </div>
-            <button
+            <a
               href="https://www2.arccorp.com/globalassets/styleguide/arc-logo-suite.zip"
               className="ctaBtn"
             >
               Download
-            </button>
+            </a>
           </div>
         </div>
         <div className="styleguide-doc-section">
@@ -508,7 +508,7 @@ class Visual extends Component {
                 col="col-lg-6"
               />
               <ColorBox
-                name="Altitude Grey"
+                name="Altitude Gray"
                 pms="Cool Gray 2C
                 (Cool Gray 2U)"
                 cmyk="16, 12, 13, 0"
@@ -546,7 +546,7 @@ class Visual extends Component {
                     },
                     {
                       name: "Fuselage",
-                      pms: "Coll Gray 10C (426U)",
+                      pms: "Cool Gray 10C (426U)",
                       cmyk: "0, 0, 0, 70",
                       rgb: "109, 110, 113",
                       hex: "#6D6E71",
