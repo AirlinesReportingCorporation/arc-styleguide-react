@@ -581,9 +581,9 @@ class Visual extends Component {
                 />
                 <h3>Usage Proportions</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   {/* ipsum dolor sit amet, consectetur adipiscing elit.
                   Nullam posuere lacus in lacus accumsan, at tincidunt metus
-                  efficitur. Vivamus fermentum ante a urna vehicula molestie.{" "}
+                  efficitur. Vivamus fermentum ante a urna vehicula molestie.{" "}Lorem */}
                 </p>
                 <h3>Primary Colors</h3>
                 <div className="proportion-block-container">
