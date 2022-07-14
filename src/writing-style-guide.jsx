@@ -9,6 +9,14 @@ import ButtonBox from "./components/buttonBox";
 import BoxArrow from "./components/boxarrow";
 import BottomPageNav from "./components/BottomPageNav";
 
+import {
+  baseLink,
+  ourBrandLink,
+  visualIdentityLink,
+  writingStyleGuideLink,
+  webStyleGuideLink,
+} from "./links";
+
 class Landing extends Component {
   constructor() {
     super();
@@ -75,7 +83,8 @@ class Landing extends Component {
                   </p>
                 </div>
 
-                <TermsUsage className="term-usage-block term-usage-writing"
+                <TermsUsage
+                  className="term-usage-block term-usage-writing"
                   incorrectCopy={
                     <ol>
                       <li className="term-usage-li">
@@ -109,41 +118,69 @@ class Landing extends Component {
           <div className="styleguide-doc-inner">
             <div className="row">
               <div className="col-lg-12">
-                <h3 style={{marginBottom: "27px"}}>ARC Board Airlines Names</h3>
+                <h3 style={{ marginBottom: "27px" }}>
+                  ARC Board Airlines Names
+                </h3>
                 <p>
                   <strong className="ariline-company-name">Air Canada</strong>
                   <p>Always written as “Air Canada.”</p>
-                  <strong className="ariline-company-name">Alaska Airlines</strong>
-                  <p>May be written as “Alaska”
-                  after first reference and when space is limited, as long as
-                  context makes it clear you’re not referring to the state name.</p>
-                  <strong className="ariline-company-name">American Airlines</strong>
-                  <p>May be written as
-                  “American” after first reference and when space is limited, as
-                  long as context makes it clear you’re not referring to the
-                  nationality.</p>
-                  <strong className="ariline-company-name">Delta Air Lines</strong>
-                  <p>Note that this airline
-                  formats “Air Lines” as two words. May be written as “Delta”
-                  after first reference and when space is limited.</p>
-                  
-                  <strong className="ariline-company-name">Hawaiian Airlines</strong>
-                  <p>May be written as “JetBlue”
-                  after first reference and when space is limited.</p>
-                
-                  <strong className="ariline-company-name">JetBlue Airways</strong>
-                  <p>May be written as “JetBlue”
-                  after first reference and when space is limited.</p>
+                  <strong className="ariline-company-name">
+                    Alaska Airlines
+                  </strong>
+                  <p>
+                    May be written as “Alaska” after first reference and when
+                    space is limited, as long as context makes it clear you’re
+                    not referring to the state name.
+                  </p>
+                  <strong className="ariline-company-name">
+                    American Airlines
+                  </strong>
+                  <p>
+                    May be written as “American” after first reference and when
+                    space is limited, as long as context makes it clear you’re
+                    not referring to the nationality.
+                  </p>
+                  <strong className="ariline-company-name">
+                    Delta Air Lines
+                  </strong>
+                  <p>
+                    Note that this airline formats “Air Lines” as two words. May
+                    be written as “Delta” after first reference and when space
+                    is limited.
+                  </p>
 
-                  <strong className="ariline-company-name">Southwest Airlines</strong>
-                  <p>May be written as
-                  “Southwest” after first reference and when space is limited,
-                  as long as context makes it clear you’re not referring to the
-                  direction.</p>
-                  
-                  <strong className="ariline-company-name">United Airlines</strong>
-                  <p>May be written as after “United” after first reference and when space is limited.</p>
-                  
+                  <strong className="ariline-company-name">
+                    Hawaiian Airlines
+                  </strong>
+                  <p>
+                    May be written as “JetBlue” after first reference and when
+                    space is limited.
+                  </p>
+
+                  <strong className="ariline-company-name">
+                    JetBlue Airways
+                  </strong>
+                  <p>
+                    May be written as “JetBlue” after first reference and when
+                    space is limited.
+                  </p>
+
+                  <strong className="ariline-company-name">
+                    Southwest Airlines
+                  </strong>
+                  <p>
+                    May be written as “Southwest” after first reference and when
+                    space is limited, as long as context makes it clear you’re
+                    not referring to the direction.
+                  </p>
+
+                  <strong className="ariline-company-name">
+                    United Airlines
+                  </strong>
+                  <p>
+                    May be written as after “United” after first reference and
+                    when space is limited.
+                  </p>
                 </p>
               </div>
             </div>
@@ -173,7 +210,8 @@ class Landing extends Component {
                 </div>
               </div>
             </div>
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <p>
                   Expedia is an <strong>ARC Accredited agency</strong>.
@@ -294,7 +332,8 @@ class Landing extends Component {
               Use "one way" as a standalone adjective or adverb, but "one-way"
               as a compound modifier.
             </p>
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -323,7 +362,7 @@ class Landing extends Component {
                 acronym or abbreviation for a product unless the product has one
                 listed below.
               </p>
-              <div style={{marginTop: "30px"}}>
+              <div style={{ marginTop: "30px" }}>
                 <div>
                   <img
                     src="https://www2.arccorp.com/globalassets/styleguide/images/aerogram.png"
@@ -428,7 +467,8 @@ class Landing extends Component {
               Use "round trip" as a noun, and "round-trip" as a compound
               modifier when describing another noun.
             </p>
-            <TermsUsage className="term-usage-block term-usage-writing" 
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -461,7 +501,8 @@ class Landing extends Component {
               Use lowercase for team names, with the exception of formal points
               of contact such as the Customer Care Center and Airline Help Desk.
             </p>
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -491,7 +532,8 @@ class Landing extends Component {
               it appears before the person’s name. If the title appears after
               the name, it is lowercase.
             </p>
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -521,7 +563,8 @@ class Landing extends Component {
               Never capitalize a job title that stands alone, no matter how
               important it seems.
             </p>
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -542,7 +585,8 @@ class Landing extends Component {
               capitalized: astronaut John Glenn, actor Zac Efron, teacher Nancy
               Hanson.
             </p>
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -581,7 +625,8 @@ class Landing extends Component {
               </p>
             </div>
 
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -607,7 +652,8 @@ class Landing extends Component {
               Because digital transformations are not exclusive to ARC,
               "transformation," should be lowercase.
             </p>
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -662,7 +708,8 @@ class Landing extends Component {
               </p>
             </div>
 
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <div>
                   <ul>
@@ -690,8 +737,9 @@ class Landing extends Component {
               Decimals can also be used to consolidate numbers in the millions
               and billions.
             </p>
-            <TermsUsage className="term-usage-block term-usage-writing"
-            termType="Avoid"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
+              termType="Avoid"
               incorrectCopy={
                 <div>
                   <ul>
@@ -809,7 +857,8 @@ class Landing extends Component {
               </p>
             </div>
 
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -834,7 +883,8 @@ class Landing extends Component {
               spaces. Only include one reference of a.m. or p.m., unless it
               spans both.
             </p>
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -894,7 +944,8 @@ class Landing extends Component {
               </p>
             </div>
 
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -926,7 +977,8 @@ class Landing extends Component {
               </p>
             </div>
 
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -964,7 +1016,8 @@ class Landing extends Component {
               </p>
             </div>
 
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -995,7 +1048,8 @@ class Landing extends Component {
               </p>
             </div>
 
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -1031,7 +1085,8 @@ class Landing extends Component {
               </p>
             </div>
 
-            <TermsUsage className="term-usage-block term-usage-writing"
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
@@ -1056,9 +1111,9 @@ class Landing extends Component {
           </div>
         </div>
         <BottomPageNav
-          prevLink="visual-identity.html"
+          prevLink={visualIdentityLink}
           prevName="Visual Identity"
-          nextLink="web-style-guide.html"
+          nextLink={webStyleGuideLink}
           nextName="Web Style Guide"
         />
       </Layout>

@@ -11,6 +11,14 @@ import ColorBox from "./components/ColorBox";
 import ColorAccordion from "./components/ColorAccordion";
 import BottomPageNav from "./components/BottomPageNav";
 
+import {
+  baseLink,
+  ourBrandLink,
+  visualIdentityLink,
+  writingStyleGuideLink,
+  webStyleGuideLink,
+} from "./links";
+
 class Visual extends Component {
   constructor() {
     super();
@@ -731,9 +739,9 @@ class Visual extends Component {
           </div>
         </div>
         <BottomPageNav
-          prevLink="our-brand.html"
+          prevLink={ourBrandLink}
           prevName="Using Our Brand"
-          nextLink="writing-style-guide.html"
+          nextLink={writingStyleGuideLink}
           nextName="Writing Style Guide"
         />
       </Layout>

@@ -8,6 +8,14 @@ import TermsUsage from "./components/termusage";
 import BottomPageNav from "./components/BottomPageNav";
 import TermDef from "./components/termdefinition";
 
+import {
+  baseLink,
+  ourBrandLink,
+  visualIdentityLink,
+  writingStyleGuideLink,
+  webStyleGuideLink,
+} from "./links";
+
 class Web extends Component {
   constructor() {
     super();
@@ -432,9 +440,9 @@ class Web extends Component {
           </div>
         </div>
         <BottomPageNav
-          prevLink="writing-style-guide.html"
+          prevLink={writingStyleGuideLink}
           prevName="Writing Style Guide"
-          nextLink="our-brand.html"
+          nextLink={ourBrandLink}
           nextName="Our Brand"
         />
       </Layout>

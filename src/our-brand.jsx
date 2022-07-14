@@ -7,6 +7,11 @@ import Layout from "./components/layout";
 import TermDef from "./components/termdefinition";
 import BottomPageNav from "./components/BottomPageNav";
 
+import {
+  baseLink,
+  visualIdentityLink,
+} from "./links";
+
 class ARCBrand extends Component {
   constructor() {
     super();
@@ -347,9 +352,9 @@ class ARCBrand extends Component {
           </div>
         </div>
         <BottomPageNav
-          prevLink="index.html"
+          prevLink={baseLink}
           prevName="Our Brand"
-          nextLink="visual-identity.html"
+          nextLink={visualIdentityLink}
           nextName="Visual Identity"
         />
       </Layout>

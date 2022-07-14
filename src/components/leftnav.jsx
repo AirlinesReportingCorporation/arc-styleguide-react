@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import stickybits from "stickybits";
 
+import {
+  ourBrandLink,
+  visualIdentityLink,
+  writingStyleGuideLink,
+  webStyleGuideLink,
+} from "../links";
+
 class LeftNav extends Component {
   constructor() {
     super();
@@ -12,10 +19,10 @@ class LeftNav extends Component {
   }
 
   render() {
-    const brandURL = "/our-brand.html";
-    const visualURL = "/visual-identity.html";
-    const writingURL = "/writing-style-guide.html";
-    const webURl = "/web-style-guide.html";
+    const brandURL = ourBrandLink;
+    const visualURL = visualIdentityLink;
+    const writingURL = writingStyleGuideLink;
+    const webURl = webStyleGuideLink;
     const mediaKit = "https://www2.arccorp.com/about-us/newsroom/media-kit/";
 
     return (
