@@ -82,19 +82,18 @@ class ARCBrand extends Component {
               }
             />
             <TermDef
-              term="Boiler Plate"
+              term="Boilerplate"
               definition={
                 <p>
-                  An industry leader in air travel distribution and
-                  intelligence, ARC provides channel-agnostic tools and insights
-                  to help the global travel community connect, grow and thrive.
-                  ARC enables the diverse retailing strategies of its customers
-                  by providing flexible settlement solutions, innovative
-                  technology and access to the world’s most comprehensive air
-                  transaction dataset. In 2018, ARC settled $94.8 billion in
-                  transactions between airlines and travel agencies,
-                  representing more than 295 million passenger trips. For more
-                  information, please visit www.arccorp.com.
+                  ARC accelerates the growth of global air travel by delivering
+                  forward-looking travel data, flexible distribution services
+                  and other innovative industry solutions. We are a leading
+                  travel intelligence company that possesses the world’s
+                  largest, most comprehensive global airline ticket dataset,
+                  including more than 15 billion passenger flights representing
+                  490 airlines and 230 countries and territories. Our solutions
+                  and expertise strengthen economies and enrich lives by
+                  connecting stakeholders across the travel ecosystem.
                 </p>
               }
             />
