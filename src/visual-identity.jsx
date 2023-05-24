@@ -398,7 +398,11 @@ class Visual extends Component {
                   </p>
                 </div>
               }
-              incorrectInfo={<p style={{height:"45px"}}>"Do not adjust the tracking or kerning of text."</p>}
+              incorrectInfo={
+                <p style={{ height: "45px" }}>
+                  "Do not adjust the tracking or kerning of text."
+                </p>
+              }
               correctCopy={
                 <div>
                   <div className="termusage-header">Lorem ipsum</div>
@@ -459,7 +463,11 @@ class Visual extends Component {
                   </p>
                 </div>
               }
-              incorrectInfo={<p style={{height: "65px"}}>Do not set text paragraphs too wide or too narrow.</p>}
+              incorrectInfo={
+                <p style={{ height: "65px" }}>
+                  Do not set text paragraphs too wide or too narrow.
+                </p>
+              }
               correctCopy={
                 <div>
                   <p>
@@ -589,7 +597,7 @@ class Visual extends Component {
                 />
                 <h3>Usage Proportions</h3>
                 <p>
-                   {/* ipsum dolor sit amet, consectetur adipiscing elit.
+                  {/* ipsum dolor sit amet, consectetur adipiscing elit.
                   Nullam posuere lacus in lacus accumsan, at tincidunt metus
                   efficitur. Vivamus fermentum ante a urna vehicula molestie.{" "}Lorem */}
                 </p>
@@ -660,6 +668,39 @@ class Visual extends Component {
               }
               correctInfo="Correct use of brand colors. Primary colors should be used as main color in collateral. This background color also offers sufficient contrast for the copy."
             />
+          </div>
+        </div>
+        <div className="styleguide-doc-section">
+          <div className="styleguide-doc-inner">
+            <div className="row">
+              <div className="col-lg-12">
+                <h3>Photography</h3>
+                <p>
+                  Thank you for taking the time to choose images that best fit
+                  the ARC brand. Our goal is to select images that feel
+                  authentic, avoiding a generic “stock photo” look that comes
+                  across as static and staged. We strive to capture warm and
+                  welcoming imagery, with dynamic lighting and a balance of
+                  vibrant and soft colors. Additionally, we do allow for
+                  black-and-white photography when appropriate. If you ever feel
+                  unsure whether an image fits our brand guidelines, reach out
+                  to our marketing team – we’re always here and enjoy providing
+                  guidance and support.
+                </p>
+
+                <TermsUsage
+                  images={true}
+                  incorrectCopy={
+                    <img src="https://www2.arccorp.com/globalassets/styleguide/photography1.png" />
+                  }
+                  incorrectInfo="Incorrect use of brand photography. The image does not use a good balance of colors, instead the colors are vibrant and offensive. The image is unwelcoming and out of focus."
+                  correctCopy={
+                    <img src="https://www2.arccorp.com/globalassets/styleguide/photography2.png" />
+                  }
+                  correctInfo="Correct use of brand photography. The image uses a balance of vibrant and soft colors. The subjects look active instead of static and staged."
+                />
+              </div>
+            </div>
           </div>
         </div>
 
