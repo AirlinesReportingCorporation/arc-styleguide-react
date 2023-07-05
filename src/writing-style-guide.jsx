@@ -38,7 +38,7 @@ class Landing extends Component {
                 </p>
                 <p class="styleguide-doc-subtitle">
                   ARC's house style and key guidelines are listed below. For any
-                  writing guidelines not reflected here, please use The
+                  writing guidelines not reflected here, please use the
                   Associated Press Stylebook (AP style) or check with the
                   Marketing team.
                 </p>
@@ -54,25 +54,38 @@ class Landing extends Component {
                 <div className="inner-document-casing">
                   <h3>Abbreviations and Acronyms</h3>
                   <p>
-                    For most abbreviations or acronyms, define the full name on
-                    first reference with the abbreviation or acronym in
-                    parentheses. The abbreviation or acronym can then be used
-                    alone in subsequent references.
+                    Consistent, clear writing is a reflection of the ARC brand.
+                    We want customers to trust ARC, understand what we represent
+                    and be confident in our solutions. That starts with a clear,
+                    engaging experience with our content across every channel.
                   </p>
                   <p>
                     An exception to the rule above is “ARC,” which can be
                     abbreviated on first reference except in press releases or
                     when the full name is needed for context. The only other
-                    exceptions are very commonly known acronyms listed in AP
-                    Style (COVID, FBI, U.S.), which do not need to be written
-                    out.
+                    exceptions are very commonly known acronyms listed in{" "}
+                    <a href="https://www.apstylebook.com/">AP Style</a> (COVID,
+                    FBI, U.S.), which do not need to be written out.
                   </p>
                   <p>
                     For ARC products, ensure your abbreviation or acronym is
                     customer-facing and not just internal. Abbreviations and
-                    acronyms we use include:
+                    acronyms we use externally include:
                     <ul>
+                      <li>Agency Business Intelligence (Agency BI)</li>
+                      <li>Agent Reporting Agreement (ARA)</li>
+                      <li>Airline Business Intelligence (Airline BI)</li>
+                      <li>ARC Document Retrieval Service (DRS)</li>
+                      <li>ARC Total Air Market (TAM)</li>
+                      <li>Area Settlement Plan (ASP)</li>
+                      <li>Billing and Settlement Plan (BSP)</li>
+                      <li>Debit Memo Advisory Group (DMAG)</li>
                       <li>Direct Data Solutions (DDS)</li>
+                      <li>Distribution Advisory Council (DAC)</li>
+                      <li>Industry Agents’ Handbook (IAH)</li>
+                      <li>Revenue Recovery Service (RRS)</li>
+                      <li>Travel Agent Communications (TAC)</li>
+                      <li>Travel Executive Council (TEC)</li>
                     </ul>
                   </p>
                   <p>
@@ -93,7 +106,7 @@ class Landing extends Component {
                       </li>
                       <li className="term-usage-li">
                         ARC piloted its enhanced settlement capabilities with
-                        <strong>BA</strong>.
+                        <strong> BA</strong>.
                       </li>
                     </ol>
                   }
@@ -228,7 +241,11 @@ class Landing extends Component {
             <div className="inner-document-casing">
               <h3>ARC Board of Directors</h3>
               <div>
-                <em>When do we capitalize Board? Board members?</em>
+                <em>
+                  ARC’s Board of Directors can be referred to as “the Board” on
+                  second reference. Members are “Board members” with a capital
+                  ‘B’ and lowercase ‘m.’{" "}
+                </em>
               </div>
               <p>
                 Bonnie Reitz has historically been referred to as the “Chairman
@@ -241,13 +258,6 @@ class Landing extends Component {
             <div className="inner-document-casing">
               <h3>Calls to Action</h3>
               <div className="row">
-                <div className="col-lg-3">
-                  <ButtonBox button="Sign in" />
-                  <p>
-                    This is the preferred term for signing in to My ARC. "Login"
-                    is used to refer to the user’s credentials.
-                  </p>
-                </div>
                 <div className="col-lg-3">
                   <ButtonBox button="Download" />
                   <p>
@@ -262,6 +272,13 @@ class Landing extends Component {
                     Use only when the button generates a direct download. If
                     there is one more step to be completed, use language like
                     "Get the Report."
+                  </p>
+                </div>
+                <div className="col-lg-3">
+                  <ButtonBox button="Sign in" />
+                  <p>
+                    This is the preferred term for signing in to My ARC. "Login"
+                    is used to refer to the user’s credentials.
                   </p>
                 </div>
                 <div className="col-lg-3">
@@ -313,10 +330,10 @@ class Landing extends Component {
                     </li>
                     <li className="term-usage-li">
                       Information on chargeback management can be found in the
-                      <strong>Industry Agents’ Handbook (IAH).</strong>
+                      <strong> Industry Agents’ Handbook (IAH).</strong>
                     </li>
                     <li className="term-usage-li">
-                      The Debit Memo Working Group developed the{" "}
+                      The Debit Memo Advisory Group developed the{" "}
                       <strong>
                         Best Practices for Effective Debit Memo Resolution and
                         Prevention, NDC Getting Started Guide.
@@ -327,6 +344,14 @@ class Landing extends Component {
                 <h3 className="inner-document-casing">Uppercase</h3>
               </div>
             </div>
+            <h3>Elevate + TravelConnect 2024</h3>
+            <p>
+              The conference name should be written as “Elevate + TravelConnect
+              2024”. Just “Elevate + TravelConnect” is OK if the date is
+              specified in the content piece. Ensure there are spaces on either
+              side of the plus sign. For more details, see the larger Elevate +
+              TravelConnect 2024 content guide.
+            </p>
             <h3>One Way</h3>
             <p>
               Use "one way" as a standalone adjective or adverb, but "one-way"
@@ -406,7 +431,7 @@ class Landing extends Component {
                     src="https://www2.arccorp.com/globalassets/styleguide/images/arc-pay.png"
                     style={{ maxHeight: "26px" }}
                   ></img>
-                  <p>Always written as “ARC Pay,” neverjust “Pay.”</p>
+                  <p>Always written as “ARC Pay,” never just “Pay.”</p>
                 </div>
                 <div>
                   <img
@@ -456,7 +481,7 @@ class Landing extends Component {
                 <div style={{ marginBottom: "20px" }}>
                   <strong style={{ fontSize: "20px" }}>
                     {" "}
-                    Revenue Recovery Services
+                    Revenue Recovery Services (RRS)
                   </strong>
                 </div>
               </div>
@@ -603,7 +628,7 @@ class Landing extends Component {
               }
             />
             <div className="inner-document-casing">
-              <h3>Abbreviations</h3>
+              <h4>Abbreviations</h4>
               <p>
                 Formal titles are those that denote a scope of authority,
                 professional rank or academic rank: professor, judge, mayor,
@@ -616,12 +641,14 @@ class Landing extends Component {
               </p>
             </div>
             <div className="inner-document-casing">
-              <h3>Courtesy Titles</h3>
+              <h4>Courtesy Titles</h4>
               <p>
                 Both men and women are introduced by their first and last names
                 — without a courtesy title — on the first reference. Subsequent
-                references use their last name only. Do not use courtesy titles
-                (Mr., Ms.) unless they appear in direct quotations.
+                references in press releases use their last name only;
+                subsequent references in any other content use their first name
+                only. Do not use courtesy titles (Mr., Ms.) unless they appear
+                in direct quotations.
               </p>
             </div>
 
@@ -641,8 +668,8 @@ class Landing extends Component {
                     airline distribution.
                   </li>
                   <li className="term-usage-li">
-                    Later references: Jones will moderate the panel on airline
-                    distribution.
+                    Later references (beyond press releases): Rachel will
+                    moderate the panel on airline distribution.
                   </li>
                 </ul>
               }
@@ -688,7 +715,8 @@ class Landing extends Component {
             <div className="inner-document-casing">
               <h3>U.S.</h3>
               <p>
-                Use the abbreviation U.S. when referring to the United States.
+                Follow AP Style and use the abbreviation U.S. when referring to
+                the United States. In headlines, it's US (no periods).
               </p>
             </div>
 
