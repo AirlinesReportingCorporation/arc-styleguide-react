@@ -137,6 +137,8 @@ class Landing extends Component {
                 <p>
                   <strong className="ariline-company-name">Air Canada</strong>
                   <p>Always written as “Air Canada.”</p>
+                  <strong className="ariline-company-name">Air France</strong>
+                  <p>Always written as “Air France.”</p>
                   <strong className="ariline-company-name">
                     Alaska Airlines
                   </strong>
@@ -177,7 +179,8 @@ class Landing extends Component {
                     May be written as “JetBlue” after first reference and when
                     space is limited.
                   </p>
-
+                  <strong className="ariline-company-name">Lufthansa</strong>
+                  <p>Always written as “Lufthansa.”</p>
                   <strong className="ariline-company-name">
                     Southwest Airlines
                   </strong>
