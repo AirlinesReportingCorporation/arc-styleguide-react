@@ -943,6 +943,25 @@ class Landing extends Component {
                 support), use ET to reflect Eastern Time.
               </p>
             </div>
+            <div className="inner-document-casing">
+              <h3>Airline Designator & Accounting Codes</h3>
+              <p>
+                IATA assigns unique two-character codes (Airline Designator
+                Codes) to airlines, consisting of two letters or a letter and a
+                number. Examples include AA for American Airlines and DL for
+                Delta Air Lines.
+              </p>
+              <p>
+                Accounting and prefix codes are three-digit numbers. Examples
+                include 001 for American and 006 for Delta.
+              </p>
+              <p>
+                When referenced together, the Airline Designator Code is written
+                first, followed by a forward slash (/) and the accounting code.
+                Examples include AA/001 for American Airlines and DL/006 for
+                Delta Air Lines.
+              </p>
+            </div>
 
             <h2 id="grammar-punctuation">Grammar & Punctuation</h2>
             <div className="inner-document-casing">
@@ -964,14 +983,72 @@ class Landing extends Component {
               </p>
             </div>
             <div className="inner-document-casing">
+              <h3>Capitalize Salutations & Closings</h3>
+              <strong className="ariline-company-name">Salutations</strong>
+              <p>
+                Capitalize the first word and all nouns in the greeting and
+                closing of a letter. Do not capitalize occupational
+                descriptions. If you don't know the recipient, capitalize every
+                word in the greeting.{" "}
+              </p>
+            </div>
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
+              incorrectCopy={
+                <ul>
+                  <li className="term-usage-li">
+                    Dear Colleagues Dear ARC Customers,
+                  </li>
+                  <li className="term-usage-li">To Whom it may Concern,</li>
+                </ul>
+              }
+              correctCopy={
+                <ul>
+                  <li className="term-usage-li">
+                    Dear colleagues, Dear ARC customers,
+                  </li>
+                  <li className="term-usage-li">To whom it may concern,</li>
+                </ul>
+              }
+            />
+            <div className="inner-document-casing">
+              <strong className="ariline-company-name">Closing</strong>
+              <p>
+                Capitalize only the first word of the closing. This guideline
+                applies to emails, letters and notes, etc.
+              </p>
+            </div>
+            <TermsUsage
+              className="term-usage-block term-usage-writing"
+              incorrectCopy={
+                <ul>
+                  <li className="term-usage-li">Best Regards,</li>
+                  <li className="term-usage-li">Thank You,</li>
+                </ul>
+              }
+              correctCopy={
+                <ul>
+                  <li className="term-usage-li">Best regards,</li>
+                  <li className="term-usage-li">Thank you, </li>
+                </ul>
+              }
+            />
+            <div className="inner-document-casing">
               <h3>Headlines & Titles</h3>
               <p>
-                Capitalize the first word of the title, the last word of the
-                title, and all “principal” words (nouns, pronouns, verbs,
-                adverbs, adjectives, subordinating conjunctions, prepositions
-                used adjectivally or adverbially) and all words longer than
-                three letters. This also applies to document, chart and
-                PowerPoint slide titles
+                Capitalize the first word of the title, the last word and all
+                “principal” words (nouns, pronouns, verbs, adverbs, adjectives,
+                subordinating conjunctions, prepositions used adjectivally or
+                adverbially) and all words longer than three letters. This also
+                applies to document, chart and PowerPoint slide titles.
+              </p>
+              <p>
+                Examples include:
+                <ul>
+                  <li>Articles: a, an, the </li>
+                  <li>Prepositions: for, of, on, up</li>
+                  <li>Conjunctions: and, but, for, not, or, so, yet </li>
+                </ul>
               </p>
             </div>
 
@@ -980,10 +1057,11 @@ class Landing extends Component {
               incorrectCopy={
                 <ul>
                   <li className="term-usage-li">
-                    Meet the customer of the future
+                    Meet the customer of the future/Meet The Customer Of The
+                    Future
                   </li>
                   <li className="term-usage-li">
-                    Meet The Customer Of The Future
+                    U.S. Travel Agency air Ticket Sales hit Record in March
                   </li>
                 </ul>
               }
@@ -991,6 +1069,9 @@ class Landing extends Component {
                 <ul>
                   <li className="term-usage-li">
                     Meet the Customer of the Future
+                  </li>
+                  <li className="term-usage-li">
+                    U.S. Travel Agency Air Ticket Sales Hit Record in March
                   </li>
                 </ul>
               }
@@ -1139,6 +1220,13 @@ class Landing extends Component {
                 </ul>
               }
             />
+            <div className="inner-document-casing">
+              <h3>Spacing After Punctuation </h3>
+              <p>
+                Use a single space after punctuation marks, including periods,
+                commas, colons and semicolons.
+              </p>
+            </div>
           </div>
         </div>
         <BottomPageNav
